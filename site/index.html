@@ -167,7 +167,7 @@ if(me){posthog.opt_out_capturing();}else{if(p==="0")posthog.opt_in_capturing();p
 
   <footer>
     <p>Where the lines come from. <b>Famous readers</b>: their own published words, public domain, each checked word for word against the Project Gutenberg text. <b>Borrowed from Sylvia Beach</b>: the lending cards of Shakespeare and Company, Paris, 1919&ndash;1941, from the <a href="https://shakespeareandco.princeton.edu/">Shakespeare and Company Project</a>, Princeton University, CC BY 4.0. <b>Aidan Jude</b>: his own Goodreads reviews, word for word. <b>Your staff</b>: your words, approved by you. Covers from <a href="https://openlibrary.org/">Open Library</a>.</p>
-    <p>Made by Aidan Jude at Brick &amp; Mortar. <a href="https://aidanjude.substack.com/">aidanjude.substack.com</a></p>
+    <p>Made by Aidan Jude (MS, Artificial Intelligence and Machine Learning, Columbia University) at Brick &amp; Mortar. <a href="https://randomaidan.substack.com/">randomaidan.substack.com</a></p>
   </footer>
 </div>
 
@@ -188,10 +188,10 @@ const MAXQ=300;
 const S={book:null,lines:[],front:0,back:0,owner:{},staff:{text:"",by:"",ok:false},store:"",city:"",full:null,token:null,forData:null};
 const track=(n,p)=>window.Paywall?Paywall.track(n,p):null;
 
-function cover(b){return b.cover_i?`https://covers.openlibrary.org/b/id/${b.cover_i}-L.jpg`:"";}
+function cover(b){return b.cover_url?b.cover_url:b.cover_i?`https://covers.openlibrary.org/b/id/${b.cover_i}-L.jpg`:"";}
 
 function lineText(l){
-  if(l.kind==="owner"){const sel=S.owner[l._i];if(sel&&l.sentences){const t=l.sentences.filter((_,i)=>sel.has(i)).join(" ");return t||l.sentences[0];}return l.text;}
+  if(l.sentences){const sel=S.owner[l._i];if(sel){const t=l.sentences.filter((_,i)=>sel.has(i)).join(" ");return t||l.sentences[0];}return l.text;}
   return l.text;
 }
 function attrib(l){
@@ -255,9 +255,9 @@ function renderBook(){
   $("#bookRow").innerHTML=`${cover(b)?`<img src="${esc(cover(b))}" alt="">`:`<img alt="">`}<div><b>${esc(b.title)}</b><span>${esc(b.author)}</span></div>`;
 }
 function optHTML(name,i,l,checked){
-  const isOwner=l.kind==="owner"&&l.sentences&&l.sentences.length>1;
+  const isOwner=l.sentences&&l.sentences.length>1;
   let sents="";
-  if(isOwner){const sel=S.owner[l._i]||new Set(l.sentences.map((_,j)=>j));S.owner[l._i]=sel;
+  if(isOwner){const sel=S.owner[l._i]||new Set(l.pick||l.sentences.map((_,j)=>j));S.owner[l._i]=sel;
     sents=`<div class="sents">${l.sentences.map((t,j)=>`<label><input type="checkbox" data-o="${l._i}" data-j="${j}" ${sel.has(j)?"checked":""}>${esc(t.length>38?t.slice(0,36)+"…":t)}</label>`).join("")}</div>`;}
   return `<label class="opt ${checked?"on":""}"><input type="radio" name="${name}" value="${i}" ${checked?"checked":""}><span class="k">${KIND[l.kind]}</span><span class="t">${esc(lineText(l))}</span><span class="w">— ${esc(attrib(l))}</span>${sents}</label>`;
 }
@@ -271,7 +271,7 @@ function renderOpts(){
 }
 function setLines(lines){
   S.lines=(lines||[]).map((l,i)=>Object.assign({},l,{_i:i}));
-  S.owner={};
+  S.owner={};S.lines.forEach(l=>{if(l.sentences&&l.sentences.length>1)S.owner[l._i]=new Set(l.pick||l.sentences.map((_,j)=>j));});
   const F=frontLines();
   const pref=["store","notable","owner","staff","borrow"];
   let best=0,bi=99;F.forEach((l,i)=>{const r=pref.indexOf(l.kind);if(r<bi){bi=r;best=i;}});
