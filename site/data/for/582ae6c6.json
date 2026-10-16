@@ -1,0 +1,52 @@
+{
+ "token": "582ae6c6",
+ "store": {
+  "name": "Phoenix Books",
+  "city": "Burlington VT"
+ },
+ "book": {
+  "title": "Throne in the Dark",
+  "author": "A. K. Caggiano",
+  "isbn": "9781464250620",
+  "cover_url": "",
+  "key": "throneinthedark|caggiano"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Sierra",
+   "text": "Slow burn done to perfection? Yes! Lovable characters? Yes! Perfect balance of plot and romance? Yes! Princess Bride adjacent? Yes! A trilogy of beautifully written characters in a rich fantasy world. My favorite books so far this year! Sierra's Picks",
+   "sentences": [
+    "Slow burn done to perfection?",
+    "Yes!",
+    "Lovable characters?",
+    "Yes!",
+    "Perfect balance of plot and romance?",
+    "Yes!",
+    "Princess Bride adjacent?",
+    "Yes!",
+    "A trilogy of beautifully written characters in a rich fantasy world.",
+    "My favorite books so far this year!",
+    "Sierra's Picks"
+   ],
+   "pick": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "cite": "Sierra, staff pick, Phoenix Books."
+  }
+ ],
+ "source": {
+  "url": "https://phoenixbooks.biz/book/9781464250620",
+  "seen": "2026-10-16"
+ }
+}

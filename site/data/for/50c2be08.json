@@ -1,0 +1,36 @@
+{
+ "token": "50c2be08",
+ "store": {
+  "name": "Village Square Booksellers",
+  "city": "Bellows Falls VT"
+ },
+ "book": {
+  "title": "Lark Rise to Candleford",
+  "author": "Flora Thompson",
+  "isbn": "9780198796695",
+  "cover_url": "https://covers.openlibrary.org/b/id/97882-L.jpg",
+  "key": "larkrisetocandleford|thompson"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Myles",
+   "text": "A charming look back on a country childhood of the 1880s as the last of England's agricultural communities shifted into the modern age - for better and for worse. Thompson does not write linearly, but takes you through her memories as they come to her with vivid descriptions of her neighbors, everyday life and the beauties of a small world. All of this is viewed through the knowledge that what she remembers is gone. It's beautiful, funny and worth the experience.",
+   "sentences": [
+    "A charming look back on a country childhood of the 1880s as the last of England's agricultural communities shifted into the modern age - for better and for worse.",
+    "Thompson does not write linearly, but takes you through her memories as they come to her with vivid descriptions of her neighbors, everyday life and the beauties of a small world.",
+    "All of this is viewed through the knowledge that what she remembers is gone.",
+    "It's beautiful, funny and worth the experience."
+   ],
+   "pick": [
+    1,
+    3
+   ],
+   "cite": "Myles, staff pick, Village Square Booksellers."
+  }
+ ],
+ "source": {
+  "url": "https://villagesquarebooks.com/book/9780198796695",
+  "seen": "2026-10-16"
+ }
+}

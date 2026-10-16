@@ -81,6 +81,7 @@ details summary{cursor:pointer;font-weight:600;font-size:14px;margin-top:6px}
 .bm .fa{font-family:Inter,sans-serif;font-size:7pt;text-align:center;color:#5d554a;margin-top:.08in}
 .bm .mid{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;overflow:hidden;padding:.1in 0}
 .bm .cite{font-family:Inter,sans-serif;font-size:5.2pt;line-height:1.3;color:#6d6457}
+.bm .stop{padding:0 .05in}.bm .sl{font-family:Inter,sans-serif;font-size:6.5pt;letter-spacing:.14em;text-transform:uppercase;color:#5d554a;text-align:center;margin-bottom:.12in}.bm .pg{font-size:9pt;color:#5d554a;border-bottom:.5pt solid #b9ad97;height:.36in;display:flex;align-items:flex-end;padding-bottom:.03in}
 .bm .orn{text-align:center;color:#7a2e1f;font-size:11pt;margin:.06in 0}
 
 #print{display:none}
@@ -219,10 +220,10 @@ function bmFront(){
 function bmBack(){
   const B=backLines(),F=frontLines(),fl=F[Math.min(S.front,F.length-1)];
   let l=S.backAuto?(B.find(x=>x!==fl)||null):(S.back>=0?B[S.back]:null); if(l&&fl===l)l=B.find(x=>x!==fl)||null;
-  const cites=[fl,l].filter(Boolean).filter(x=>x.cite).map(x=>x.cite);
+  const cites=[fl,l].filter(Boolean).filter(x=>x.cite&&!["store","staff"].includes(x.kind)).map(x=>x.cite);
   const store=S.store||"Your bookstore",city=S.city||"";
   return `<div class="bm back"><div><div class="sn">${esc(store)}</div>${city?`<div class="sc">${esc(city)}</div>`:""}</div>
-    <div class="mid">${l?`<div class="orn">❧</div><div class="fact">${esc(l.text)}</div><div class="fa">Recorded on her lending card</div>`:""}</div>
+    <div class="mid">${l?`<div class="orn">❧</div><div class="fact">${esc(l.text)}</div><div class="fa">Recorded on her lending card</div>`:`<div class="stop"><div class="sl">Where I stopped</div>${"<div class=\"pg\">p.</div>".repeat(4)}</div>`}</div>
     <div class="cite">${cites.map(esc).join("<br>")}</div></div>`;
 }
 function fit(root){

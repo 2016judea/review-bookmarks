@@ -1,0 +1,36 @@
+{
+ "token": "b1a9ff2d",
+ "store": {
+  "name": "Point Reyes Books",
+  "city": "Point Reyes Station CA"
+ },
+ "book": {
+  "title": "Light While There is Light",
+  "author": "Keith Waldrop",
+  "isbn": "9798896230366",
+  "cover_url": "https://covers.openlibrary.org/b/id/9326588-L.jpg",
+  "key": "lightwhilethereislight|waldrop"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Stephen",
+   "text": "I'm delighted that this big-hearted book is back in print. Poet Keith Waldrop's \"fictional memoir\" is a radiant book, a minor classic of such perfection that its last lines will leave you breathless. I love Light While There is Light and hope you do, too.",
+   "sentences": [
+    "I'm delighted that this big-hearted book is back in print.",
+    "Poet Keith Waldrop's \"fictional memoir\" is a radiant book, a minor classic of such perfection that its last lines will leave you breathless.",
+    "I love Light While There is Light and hope you do, too."
+   ],
+   "pick": [
+    0,
+    1,
+    2
+   ],
+   "cite": "Stephen, staff pick, Point Reyes Books."
+  }
+ ],
+ "source": {
+  "url": "https://ptreyesbooks.com/book/9798896230366#main-content",
+  "seen": "2026-10-16"
+ }
+}

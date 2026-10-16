@@ -1,0 +1,39 @@
+{
+ "token": "52efd5b2",
+ "store": {
+  "name": "Buffalo Street Books",
+  "city": "Ithaca NY"
+ },
+ "book": {
+  "title": "World of Wonders",
+  "author": "Aimee Nezhukumatathil",
+  "isbn": "9781639550562",
+  "cover_url": "https://covers.openlibrary.org/b/id/10227145-L.jpg",
+  "key": "worldofwonders|nezhukumatathil"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Alba",
+   "text": "Before reading this book a couple of years ago, I had not met a memoir I could get through. This book changed that. Nezhukumatathil's prose is lyrical-she's a poet, and you can tell. She doesn't shy away from hard topics, but every essay is filled with an undeniable warmth. Even if you don't like reading non-fiction- pick this up. Good if you like Poetic Prose Fireflies The Natural World Joy-Focused-Essays Alba Recommends",
+   "sentences": [
+    "Before reading this book a couple of years ago, I had not met a memoir I could get through.",
+    "This book changed that.",
+    "Nezhukumatathil's prose is lyrical-she's a poet, and you can tell.",
+    "She doesn't shy away from hard topics, but every essay is filled with an undeniable warmth.",
+    "Even if you don't like reading non-fiction- pick this up.",
+    "Good if you like Poetic Prose Fireflies The Natural World Joy-Focused-Essays Alba Recommends"
+   ],
+   "pick": [
+    0,
+    4,
+    5
+   ],
+   "cite": "Alba, staff pick, Buffalo Street Books."
+  }
+ ],
+ "source": {
+  "url": "https://buffalostreetbooks.com/book/9781639550562",
+  "seen": "2026-10-16"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "token": "57bf1067",
+ "store": {
+  "name": "Wellesley Books",
+  "city": "Wellesley MA"
+ },
+ "book": {
+  "title": "The Calamity Club",
+  "author": "Kathryn Stockett",
+  "isbn": "9781954118812",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781954118812-L.jpg",
+  "key": "calamityclub|stockett"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Shanna",
+   "text": "If you are looking for an immersive summer read that features strong women, look no further. Stockett delivered with The Help in 2011 and is back 15 years later with Calamity Club. Set in Oxford, Mississippi during the depression, two women work together to save their families and their home with a creative solution that could get them arrested. Despite the hard times depicted, you will giggle at the antics and root for this unlikely group of women. Don’t let the 650 pages keep you away, the story moves quickly and you’ll want to know how it all ends.",
+   "sentences": [
+    "If you are looking for an immersive summer read that features strong women, look no further.",
+    "Stockett delivered with The Help in 2011 and is back 15 years later with Calamity Club.",
+    "Set in Oxford, Mississippi during the depression, two women work together to save their families and their home with a creative solution that could get them arrested.",
+    "Despite the hard times depicted, you will giggle at the antics and root for this unlikely group of women.",
+    "Don’t let the 650 pages keep you away, the story moves quickly and you’ll want to know how it all ends."
+   ],
+   "pick": [
+    0,
+    4
+   ],
+   "cite": "Shanna, staff pick, Wellesley Books."
+  }
+ ],
+ "source": {
+  "url": "https://wellesleybooks.com/book/9781954118812#main-content",
+  "seen": "2026-10-16"
+ }
+}

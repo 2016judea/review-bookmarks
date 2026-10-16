@@ -1,0 +1,36 @@
+{
+ "token": "1416dc64",
+ "store": {
+  "name": "Brookline Booksmith",
+  "city": "Brookline MA"
+ },
+ "book": {
+  "title": "A Rogue of One's Own",
+  "author": "Evie Dunmore",
+  "isbn": "9781984805706",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781984805706-L.jpg",
+  "key": "rogueofonesown|dunmore"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Amy",
+   "text": "She's serious and clever. He's utterly smitten and knows how to push her buttons. What's not to love?",
+   "sentences": [
+    "She's serious and clever.",
+    "He's utterly smitten and knows how to push her buttons.",
+    "What's not to love?"
+   ],
+   "pick": [
+    0,
+    1,
+    2
+   ],
+   "cite": "Amy, staff pick, Brookline Booksmith."
+  }
+ ],
+ "source": {
+  "url": "https://brooklinebooksmith.com/book/9781984805706",
+  "seen": "2026-10-16"
+ }
+}

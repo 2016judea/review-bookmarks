@@ -1,0 +1,35 @@
+{
+ "token": "f5271f9c",
+ "store": {
+  "name": "Northshire Bookstore",
+  "city": "Manchester VT"
+ },
+ "book": {
+  "title": "The Acrobat",
+  "author": "Wislawa Szymborska",
+  "isbn": "9780063494916",
+  "cover_url": "",
+  "key": "acrobat|szymborska"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Mike Hare",
+   "text": "Szymborska's magnificent qualities on full display: imagination, humor, intelligence, and perception. Always direct and self-effacing, never pompous or pointless, these poems attest to the universal value of poetry. Staff Review - Mike Hare Adult Books Staff Review Poetry Poetry - Women Authors",
+   "sentences": [
+    "Szymborska's magnificent qualities on full display: imagination, humor, intelligence, and perception.",
+    "Always direct and self-effacing, never pompous or pointless, these poems attest to the universal value of poetry.",
+    "Staff Review - Mike Hare Adult Books Staff Review Poetry Poetry - Women Authors"
+   ],
+   "pick": [
+    1,
+    2
+   ],
+   "cite": "Mike Hare, staff pick, Northshire Bookstore."
+  }
+ ],
+ "source": {
+  "url": "https://northshire.com/book/9780063494916",
+  "seen": "2026-10-16"
+ }
+}

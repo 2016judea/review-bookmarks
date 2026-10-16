@@ -1,0 +1,39 @@
+{
+ "token": "6ca1b34a",
+ "store": {
+  "name": "Copperfield's Books",
+  "city": "Sebastopol CA"
+ },
+ "book": {
+  "title": "Home for the Homicides",
+  "author": "Elle Cosimano",
+  "isbn": "9781250413352",
+  "cover_url": "",
+  "key": "homeforthehomicides|cosimano"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Jamie Madsen",
+   "text": "Finally — a holiday book for us thriller girls!! Home for the Homicides is everything you want in a festive escape: sharp, twisty, romantic, and just the right amount of unhinged. Think charming leads, rapid-fire witty banter, a cast of delightfully despicable (and slightly ridiculous) suspects, and a whodunit that actually keeps you guessing. This book was pure joy from start to finish! It’s cozy without being predictable, funny without losing the plot, and packed with enough intrigue to keep you flipping pages all afternoon. The mystery is smart and satisfying, the romance adds a warm glow, and the holiday setting makes it feel like Christmas came early—just with more potential for homicide.",
+   "sentences": [
+    "Finally — a holiday book for us thriller girls!!",
+    "Home for the Homicides is everything you want in a festive escape: sharp, twisty, romantic, and just the right amount of unhinged.",
+    "Think charming leads, rapid-fire witty banter, a cast of delightfully despicable (and slightly ridiculous) suspects, and a whodunit that actually keeps you guessing.",
+    "This book was pure joy from start to finish!",
+    "It’s cozy without being predictable, funny without losing the plot, and packed with enough intrigue to keep you flipping pages all afternoon.",
+    "The mystery is smart and satisfying, the romance adds a warm glow, and the holiday setting makes it feel like Christmas came early—just with more potential for homicide."
+   ],
+   "pick": [
+    0,
+    3,
+    4
+   ],
+   "cite": "Jamie Madsen, staff pick, Copperfield's Books."
+  }
+ ],
+ "source": {
+  "url": "https://copperfieldsbooks.com/book/9781250413352",
+  "seen": "2026-10-16"
+ }
+}

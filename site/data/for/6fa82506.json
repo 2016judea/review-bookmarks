@@ -1,0 +1,37 @@
+{
+ "token": "6fa82506",
+ "store": {
+  "name": "Third Place Books",
+  "city": "Seattle WA"
+ },
+ "book": {
+  "title": "Little Dumplings",
+  "author": "Jekka Kuhlmann",
+  "isbn": "9781797216928",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781797216928-L.jpg",
+  "key": "littledumplings|kuhlmann"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Alex",
+   "text": "This sweet, rhyming book is the most delicious board book around. Inclusive of all the ways around the world that different countries and cultures make dumplings, it ends with a list of all the types of dumplings illustrated in the book, along with their country of origin. I dare you to read it and not immediately hunger for some delicious dumplings! Alex",
+   "sentences": [
+    "This sweet, rhyming book is the most delicious board book around.",
+    "Inclusive of all the ways around the world that different countries and cultures make dumplings, it ends with a list of all the types of dumplings illustrated in the book, along with their country of origin.",
+    "I dare you to read it and not immediately hunger for some delicious dumplings!",
+    "Alex"
+   ],
+   "pick": [
+    0,
+    2,
+    3
+   ],
+   "cite": "Alex, staff pick, Third Place Books."
+  }
+ ],
+ "source": {
+  "url": "https://thirdplacebooks.com/book/9781797216928",
+  "seen": "2026-10-16"
+ }
+}

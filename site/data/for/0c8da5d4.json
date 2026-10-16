@@ -1,0 +1,33 @@
+{
+ "token": "0c8da5d4",
+ "store": {
+  "name": "Wild Rumpus",
+  "city": "Minneapolis MN"
+ },
+ "book": {
+  "title": "Wonderful Halloween",
+  "author": "Emily Winfield Martin",
+  "isbn": "9798217233175",
+  "cover_url": "",
+  "key": "wonderfulhalloween|martin"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Tori",
+   "text": "Every book Emily Winfield Martin comes out with instantly feels like a classic and this is no exception! Simple, but sweet rhyming words on each page are accompanied with the most tender and dreamy illustrations that will make anyone, little or big, young or old, excited for a Wonderful Halloween.",
+   "sentences": [
+    "Every book Emily Winfield Martin comes out with instantly feels like a classic and this is no exception!",
+    "Simple, but sweet rhyming words on each page are accompanied with the most tender and dreamy illustrations that will make anyone, little or big, young or old, excited for a Wonderful Halloween."
+   ],
+   "pick": [
+    0
+   ],
+   "cite": "Tori, staff pick, Wild Rumpus."
+  }
+ ],
+ "source": {
+  "url": "https://wildrumpusbooks.com/book/9798217233175",
+  "seen": "2026-10-16"
+ }
+}

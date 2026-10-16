@@ -1,0 +1,36 @@
+{
+ "token": "1fa7bd66",
+ "store": {
+  "name": "Kepler's Books",
+  "city": "Menlo Park CA"
+ },
+ "book": {
+  "title": "Luna, Phoenix, Queen",
+  "author": "Julie Orringer",
+  "isbn": "9798217207886",
+  "cover_url": "",
+  "key": "lunaphoenixqueen|orringer"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Aggie",
+   "text": "Who are we if our creative work is stolen? What if we forget the greatest love of our lives? Amidst human secrets and betrayal, a badly burnt rescue dog provides a powerful connection, healing those around her through devotion, love, and atonement, even in the places of deep hurt. Aggie's Fiction Pick for October 2026",
+   "sentences": [
+    "Who are we if our creative work is stolen?",
+    "What if we forget the greatest love of our lives?",
+    "Amidst human secrets and betrayal, a badly burnt rescue dog provides a powerful connection, healing those around her through devotion, love, and atonement, even in the places of deep hurt.",
+    "Aggie's Fiction Pick for October 2026"
+   ],
+   "pick": [
+    1,
+    2
+   ],
+   "cite": "Aggie, staff pick, Kepler's Books."
+  }
+ ],
+ "source": {
+  "url": "https://keplers.com/book/9798217207886",
+  "seen": "2026-10-16"
+ }
+}

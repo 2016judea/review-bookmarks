@@ -1,0 +1,32 @@
+{
+ "token": "cfe5673a",
+ "store": {
+  "name": "Harvard Book Store",
+  "city": "Cambridge MA"
+ },
+ "book": {
+  "title": "The Rebel Empresses",
+  "author": "Nancy Goldstone",
+  "isbn": "9780316419420",
+  "cover_url": "",
+  "key": "rebelempresses|goldstone"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Alan H",
+   "text": "\"Elisabeth of Austria (the famous 'Sisi') and Eugenie of France --- notable beauties who refused to be confined by their roles as royal consorts, and who became good friends in later life.\" Browse all of Alan H.'s recommendations",
+   "sentences": [
+    "Elisabeth of Austria (the famous 'Sisi') and Eugenie of France --- notable beauties who refused to be confined by their roles as royal consorts, and who became good friends in later life.\" Browse all of Alan H.'s recommendations"
+   ],
+   "pick": [
+    0
+   ],
+   "cite": "Alan H, staff pick, Harvard Book Store."
+  }
+ ],
+ "source": {
+  "url": "https://www.harvard.com/book/9780316419420",
+  "seen": "2026-10-16"
+ }
+}

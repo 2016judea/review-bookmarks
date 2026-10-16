@@ -1,0 +1,37 @@
+{
+ "token": "b6676d62",
+ "store": {
+  "name": "Changing Hands Bookstore",
+  "city": "Tempe AZ"
+ },
+ "book": {
+  "title": "The Library of Amorlin",
+  "author": "Kalyn Josephson",
+  "isbn": "9781645662631",
+  "cover_url": "",
+  "key": "libraryofamorlin|josephson"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Amanda A.K",
+   "text": "“A Winter’s Promise” meets “The Scholomance Trilogy” with a snarky, stabby, scheming heroine who could give Kaz Brekker a run for his money. Lured in by the promise of fantastical beasts, I was swept away by the intricate world building and slow burn romance. If you like a long con, be prepared for twist after twist…and an absolute gut punch of an ending! Amanda A.K.'s Staff Picks",
+   "sentences": [
+    "A Winter’s Promise” meets “The Scholomance Trilogy” with a snarky, stabby, scheming heroine who could give Kaz Brekker a run for his money.",
+    "Lured in by the promise of fantastical beasts, I was swept away by the intricate world building and slow burn romance.",
+    "If you like a long con, be prepared for twist after twist…and an absolute gut punch of an ending!",
+    "Amanda A.K.'s Staff Picks"
+   ],
+   "pick": [
+    1,
+    2,
+    3
+   ],
+   "cite": "Amanda A.K, staff pick, Changing Hands Bookstore."
+  }
+ ],
+ "source": {
+  "url": "https://changinghands.com/book/9781645662631",
+  "seen": "2026-10-16"
+ }
+}

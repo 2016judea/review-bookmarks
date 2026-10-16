@@ -1,0 +1,42 @@
+{
+ "token": "61fadf34",
+ "store": {
+  "name": "Red Balloon Bookshop",
+  "city": "St. Paul MN"
+ },
+ "book": {
+  "title": "The Cow in the Dark at Night",
+  "author": "Jess Hannigan",
+  "isbn": "9780063437777",
+  "cover_url": "",
+  "key": "cowinthedarkatnight|hannigan"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Megan",
+   "text": "Jess Hannigan’s books all carry this wonderfully dry absurdity that feels entirely her own. Even when the stories shift in tone or structure, you can immediately recognize her humor. And honestly? This may be my favorite of hers yet. The humor builds perfectly, the cow is delightfully oblivious, and children will absolutely love realizing they’re smarter than the protagonist. Another excellent read-aloud contender. October 2026",
+   "sentences": [
+    "Jess Hannigan’s books all carry this wonderfully dry absurdity that feels entirely her own.",
+    "Even when the stories shift in tone or structure, you can immediately recognize her humor.",
+    "And honestly?",
+    "This may be my favorite of hers yet.",
+    "The humor builds perfectly, the cow is delightfully oblivious, and children will absolutely love realizing they’re smarter than the protagonist.",
+    "Another excellent read-aloud contender.",
+    "October 2026"
+   ],
+   "pick": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "cite": "Megan, staff pick, Red Balloon Bookshop."
+  }
+ ],
+ "source": {
+  "url": "https://redballoonbookshop.com/book/9780063437777",
+  "seen": "2026-10-16"
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "token": "a506e9ec",
+ "store": {
+  "name": "McIntyre's Books",
+  "city": "Pittsboro NC"
+ },
+ "book": {
+  "title": "The Eyes Are the Best Part",
+  "author": "Monika Kim",
+  "isbn": "9781645661245",
+  "cover_url": "https://covers.openlibrary.org/b/id/14645605-L.jpg",
+  "key": "eyesarethebestpart|kim"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Tyler",
+   "text": "A quick and satisfying read about getting revenge on those who really have it coming. Good for readers who enjoy murder, cannibalism, simple writing, family drama, and sweet, sweet revenge.",
+   "sentences": [
+    "A quick and satisfying read about getting revenge on those who really have it coming.",
+    "Good for readers who enjoy murder, cannibalism, simple writing, family drama, and sweet, sweet revenge."
+   ],
+   "pick": [
+    0,
+    1
+   ],
+   "cite": "Tyler, staff pick, McIntyre's Books."
+  }
+ ],
+ "source": {
+  "url": "https://mcintyresbooks.com/book/9781645661245#main-content",
+  "seen": "2026-10-16"
+ }
+}

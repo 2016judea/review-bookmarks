@@ -1,0 +1,37 @@
+{
+ "token": "a6c67fff",
+ "store": {
+  "name": "Unabridged Bookstore",
+  "city": "Chicago IL"
+ },
+ "book": {
+  "title": "A Manual for Nothing",
+  "author": "Jessica Anne",
+  "isbn": "9781934819647",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781934819647-L.jpg",
+  "key": "manualfornothing|anne"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Kate",
+   "text": "This incandescent first book from a lifelong Chicagoan and Neofuturist alum is easily the best thing I've read this year. \"A messy object of many genres\" reaching for a kind of truth, this singular book has a bit of everything, but not a word is out of place. Maybe you're looking for something that will make you excited again about the possibilities of language. This book is it.",
+   "sentences": [
+    "This incandescent first book from a lifelong Chicagoan and Neofuturist alum is easily the best thing I've read this year.",
+    "A messy object of many genres\" reaching for a kind of truth, this singular book has a bit of everything, but not a word is out of place.",
+    "Maybe you're looking for something that will make you excited again about the possibilities of language.",
+    "This book is it."
+   ],
+   "pick": [
+    0,
+    2,
+    3
+   ],
+   "cite": "Kate, staff pick, Unabridged Bookstore."
+  }
+ ],
+ "source": {
+  "url": "https://unabridgedbookstore.com/book/9781934819647",
+  "seen": "2026-10-16"
+ }
+}

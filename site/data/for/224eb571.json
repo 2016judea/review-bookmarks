@@ -1,0 +1,37 @@
+{
+ "token": "224eb571",
+ "store": {
+  "name": "Quail Ridge Books",
+  "city": "Raleigh NC"
+ },
+ "book": {
+  "title": "American Hagwon",
+  "author": "Min Jin Lee",
+  "isbn": "9781538752036",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781538752036-L.jpg",
+  "key": "americanhagwon|lee"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Mamie",
+   "text": "I haven’t gotten around to reading Pachinko, but it’s going on my list after reading Min Jin Lee’s newest, American Hagwon. Six hundred plus pages of great writing, compelling characters, and things that made me go “Hmmmm”! This story of Korean-Americans and their quest for the perfect schools and relationships is a page-turner. I predict some awards!",
+   "sentences": [
+    "I haven’t gotten around to reading Pachinko, but it’s going on my list after reading Min Jin Lee’s newest, American Hagwon.",
+    "Six hundred plus pages of great writing, compelling characters, and things that made me go “Hmmmm”!",
+    "This story of Korean-Americans and their quest for the perfect schools and relationships is a page-turner.",
+    "I predict some awards!"
+   ],
+   "pick": [
+    0,
+    1,
+    3
+   ],
+   "cite": "Mamie, staff pick, Quail Ridge Books."
+  }
+ ],
+ "source": {
+  "url": "https://quailridgebooks.com/book/9781538752036",
+  "seen": "2026-10-16"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "token": "58d21aaf",
+ "store": {
+  "name": "Sherman's Maine Coast Book Shops",
+  "city": "Bar Harbor ME"
+ },
+ "book": {
+  "title": "The Lioness of Boston",
+  "author": "Emily Franklin",
+  "isbn": "9781567928099",
+  "cover_url": "https://covers.openlibrary.org/b/id/14391439-L.jpg",
+  "key": "lionessofboston|franklin"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Kathleen",
+   "text": "Isabella Stewart Gardner was a force to be reckoned with. This is a story about a woman who was trying to find her purpose and place in the world. Against public norms and opinions, she found solace in collecting art and creating a legacy. Kathleen Boothbay Harbor",
+   "sentences": [
+    "Isabella Stewart Gardner was a force to be reckoned with.",
+    "This is a story about a woman who was trying to find her purpose and place in the world.",
+    "Against public norms and opinions, she found solace in collecting art and creating a legacy.",
+    "Kathleen Boothbay Harbor"
+   ],
+   "pick": [
+    1,
+    2,
+    3
+   ],
+   "cite": "Kathleen, staff pick, Sherman's Maine Coast Book Shops."
+  }
+ ],
+ "source": {
+  "url": "https://shermans.com/book/9781567928099",
+  "seen": "2026-10-16"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "token": "0f542b89",
+ "store": {
+  "name": "Porter Square Books",
+  "city": "Cambridge MA"
+ },
+ "book": {
+  "title": "The Radium Girls",
+  "author": "Kate Moore",
+  "isbn": "9781492650959",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781492650959-L.jpg",
+  "key": "radiumgirls|moore"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Vivi",
+   "text": "Having known little of the Radium Girls before I read this book, I was HORRIFIED at what these women went through. A must read for anyone who enjoys nonfiction history written in a narrative style. Vivi Cambridge Edition Adults 10/26 American History Womens Studies",
+   "sentences": [
+    "Having known little of the Radium Girls before I read this book, I was HORRIFIED at what these women went through.",
+    "A must read for anyone who enjoys nonfiction history written in a narrative style.",
+    "Vivi Cambridge Edition Adults 10/26 American History Womens Studies"
+   ],
+   "pick": [
+    0,
+    1
+   ],
+   "cite": "Vivi, staff pick, Porter Square Books."
+  }
+ ],
+ "source": {
+  "url": "https://portersquarebooks.com/book/9781492650959",
+  "seen": "2026-10-16"
+ }
+}

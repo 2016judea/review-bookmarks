@@ -1,0 +1,36 @@
+{
+ "token": "399d52d5",
+ "store": {
+  "name": "Interabang Books",
+  "city": "Dallas TX"
+ },
+ "book": {
+  "title": "Big Chief",
+  "author": "Jon Hickey",
+  "isbn": "9781668046463",
+  "cover_url": "",
+  "key": "bigchief|hickey"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Stuart",
+   "text": "Big Chief is a fantastic debut that delves into the political world of the Anishinaabe tribe of Wisconsin. Hickey's prose is straight-forward and it's a thrilling look at the struggle between tribal tradition and modern government. Stuart",
+   "sentences": [
+    "Big Chief is a fantastic debut that delves into the political world of the Anishinaabe tribe of Wisconsin.",
+    "Hickey's prose is straight-forward and it's a thrilling look at the struggle between tribal tradition and modern government.",
+    "Stuart"
+   ],
+   "pick": [
+    0,
+    1,
+    2
+   ],
+   "cite": "Stuart, staff pick, Interabang Books."
+  }
+ ],
+ "source": {
+  "url": "https://interabangbooks.com/book/9781668046463",
+  "seen": "2026-10-16"
+ }
+}

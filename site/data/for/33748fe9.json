@@ -1,0 +1,38 @@
+{
+ "token": "33748fe9",
+ "store": {
+  "name": "Next Chapter Booksellers",
+  "city": "St. Paul MN"
+ },
+ "book": {
+  "title": "Earthlings",
+  "author": "Sayaka Murata",
+  "isbn": "9780802157003",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780802157003-L.jpg",
+  "key": "earthlings|murata"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "David",
+   "text": "This book is one big trigger warning. It's a wild ride -- absolutely bonkers. Read it at your own risk. It's worth it!",
+   "sentences": [
+    "This book is one big trigger warning.",
+    "It's a wild ride -- absolutely bonkers.",
+    "Read it at your own risk.",
+    "It's worth it!"
+   ],
+   "pick": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "cite": "David, staff pick, Next Chapter Booksellers."
+  }
+ ],
+ "source": {
+  "url": "https://nextchapterbooksellers.com/book/9780802157003",
+  "seen": "2026-10-16"
+ }
+}

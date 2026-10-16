@@ -1,0 +1,35 @@
+{
+ "token": "a5dd00ba",
+ "store": {
+  "name": "Trident Booksellers",
+  "city": "Boston MA"
+ },
+ "book": {
+  "title": "A Court of Thorns and Roses",
+  "author": "Sarah J. Maas",
+  "isbn": "9781635575569",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781635575569-L.jpg",
+  "key": "courtofthornsandroses|maas"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Savannah G",
+   "text": "The book that gave women more of a voice in the fantasy genre, fall in love with the world of ACOTAR (and beyond if you’re brave enough). Feyre, a human huntress, is forced into the high fae world of war, deception, magic, and love where she grows as a warrior and into one of the most powerful women in modern fantasy. Empowering and a series you won’t be able to put down!",
+   "sentences": [
+    "The book that gave women more of a voice in the fantasy genre, fall in love with the world of ACOTAR (and beyond if you’re brave enough).",
+    "Feyre, a human huntress, is forced into the high fae world of war, deception, magic, and love where she grows as a warrior and into one of the most powerful women in modern fantasy.",
+    "Empowering and a series you won’t be able to put down!"
+   ],
+   "pick": [
+    0,
+    2
+   ],
+   "cite": "Savannah G, staff pick, Trident Booksellers."
+  }
+ ],
+ "source": {
+  "url": "https://tridentbookscafe.com/book/9781635575569",
+  "seen": "2026-10-16"
+ }
+}

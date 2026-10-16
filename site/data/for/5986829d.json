@@ -1,0 +1,39 @@
+{
+ "token": "5986829d",
+ "store": {
+  "name": "The Raven Book Store",
+  "city": "Lawrence KS"
+ },
+ "book": {
+  "title": "Every Heart a Doorway",
+  "author": "Seanan McGuire",
+  "isbn": "9780765385505",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780765385505-L.jpg",
+  "key": "everyheartadoorway|mcguire"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Samantha",
+   "text": "Every Heart a Doorway is the first book in the Wayward Children Series. It's filled with magical doorways into unusual worlds. Each book adds a new dimension and takes you on a journey that surprises you. This series is perfect for misfits and queer folk. Samantha's Reviews Staff Pick May 2026",
+   "sentences": [
+    "Every Heart a Doorway is the first book in the Wayward Children Series.",
+    "It's filled with magical doorways into unusual worlds.",
+    "Each book adds a new dimension and takes you on a journey that surprises you.",
+    "This series is perfect for misfits and queer folk.",
+    "Samantha's Reviews Staff Pick May 2026"
+   ],
+   "pick": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "cite": "Samantha, staff pick, The Raven Book Store."
+  }
+ ],
+ "source": {
+  "url": "https://ravenbookstore.com/book/9780765385505",
+  "seen": "2026-10-16"
+ }
+}

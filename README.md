@@ -61,3 +61,18 @@ Lost password: `python3 scripts/fulfil.py <session>`.
 reviews from `~/Desktop/writing-topology`.
 
 MIT for the code. The data keeps its own licences, above.
+
+## Outreach, round 1 (drafts only, nothing sent)
+
+`node scripts/find_picks.js` walks each store in `outreach/stores*.csv` with headless
+Chromium (IndieCommerce sites sit behind a Cloudflare check that refuses curl and
+challenges the second page of a browser session, so every page gets a fresh context).
+It records the store's own staff pick, the bookseller's exact words, and an email
+published on the store's own site. `python3 scripts/build_for.py` turns that into
+`site/data/for/<token>.json` (the page opens on their pick, their name on the back),
+`outreach/round1/ledger.csv` and `outreach/round1/drafts/` (both gitignored).
+
+2026-10-16: 226 stores read, 53 sendable (twin-cities 4, university-town 17,
+regional 31, used-antiquarian 1). The 173 held say why in the ledger; almost all
+publish no staff pick in a bookseller's own words. Used and antiquarian shops
+mostly don't publish staff picks at all.

@@ -1,0 +1,38 @@
+{
+ "token": "5f8c0305",
+ "store": {
+  "name": "McNally Jackson",
+  "city": "New York NY"
+ },
+ "book": {
+  "title": "Piranesi",
+  "author": "Susanna Clarke",
+  "isbn": "9781635577808",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781635577808-L.jpg",
+  "key": "piranesi|clarke"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Christine B",
+   "text": "I've started having labyrinthic dreams since reading Piranesi. Endless halls and high walls. I never truly know where I'm going but I enjoy walking and exploring. Perhaps you will also have similar dreams after reading Piranesi.",
+   "sentences": [
+    "I've started having labyrinthic dreams since reading Piranesi.",
+    "Endless halls and high walls.",
+    "I never truly know where I'm going but I enjoy walking and exploring.",
+    "Perhaps you will also have similar dreams after reading Piranesi."
+   ],
+   "pick": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "cite": "Christine B, staff pick, McNally Jackson."
+  }
+ ],
+ "source": {
+  "url": "https://mcnallyjackson.com/book/9781635577808",
+  "seen": "2026-10-16"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "token": "fd950703",
+ "store": {
+  "name": "Oblong Books",
+  "city": "Rhinebeck NY"
+ },
+ "book": {
+  "title": "Strange Cases",
+  "author": "Riotbones",
+  "isbn": "9798881602192",
+  "cover_url": "",
+  "key": "strangecases|riotbones"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Phoebe",
+   "text": "A gothic crime drama with a supernatural twist. I was enthralled all the way through. Phoebe Staff Pick",
+   "sentences": [
+    "A gothic crime drama with a supernatural twist.",
+    "I was enthralled all the way through.",
+    "Phoebe Staff Pick"
+   ],
+   "pick": [
+    0,
+    1,
+    2
+   ],
+   "cite": "Phoebe, staff pick, Oblong Books."
+  }
+ ],
+ "source": {
+  "url": "https://oblongbooks.com/book/9798881602192",
+  "seen": "2026-10-16"
+ }
+}

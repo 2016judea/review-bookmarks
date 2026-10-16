@@ -1,0 +1,36 @@
+{
+ "token": "26fcc650",
+ "store": {
+  "name": "Cream & Amber",
+  "city": "Hopkins MN"
+ },
+ "book": {
+  "title": "A Bone in His Teeth",
+  "author": "Kellen Graves",
+  "isbn": "9798988807728",
+  "cover_url": "",
+  "key": "boneinhisteeth|graves"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Kacey",
+   "text": "This ethereal, eerie romantasy will pull you in and never let you go. I was transfixed by the beautiful romance, the lighthouse-by-the-sea setting and Alba's grim determination and inner journey. Fantasy & Science Fiction",
+   "sentences": [
+    "This ethereal, eerie romantasy will pull you in and never let you go.",
+    "I was transfixed by the beautiful romance, the lighthouse-by-the-sea setting and Alba's grim determination and inner journey.",
+    "Fantasy & Science Fiction"
+   ],
+   "pick": [
+    0,
+    1,
+    2
+   ],
+   "cite": "Kacey, staff pick, Cream & Amber."
+  }
+ ],
+ "source": {
+  "url": "https://creamandamber.com/book/9798988807728",
+  "seen": "2026-10-16"
+ }
+}

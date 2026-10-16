@@ -1,0 +1,32 @@
+{
+ "token": "1dbbd92a",
+ "store": {
+  "name": "Parnassus Books",
+  "city": "Nashville TN"
+ },
+ "book": {
+  "title": "The Pirate Queen",
+  "author": "Ariel Lawhon",
+  "isbn": "9780385550345",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780385550345-L.jpg",
+  "key": "piratequeen|lawhon"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Rae Ann",
+   "text": "This sweeping historical novel of an unforgettable real-life heroine is cinematic in scope and layered with emotional details.",
+   "sentences": [
+    "This sweeping historical novel of an unforgettable real-life heroine is cinematic in scope and layered with emotional details."
+   ],
+   "pick": [
+    0
+   ],
+   "cite": "Rae Ann, staff pick, Parnassus Books."
+  }
+ ],
+ "source": {
+  "url": "https://parnassusbooks.net/book/9780385550345",
+  "seen": "2026-10-16"
+ }
+}

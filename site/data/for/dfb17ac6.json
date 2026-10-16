@@ -1,0 +1,36 @@
+{
+ "token": "dfb17ac6",
+ "store": {
+  "name": "Gibson's Bookstore",
+  "city": "Concord NH"
+ },
+ "book": {
+  "title": "Nine Goblins",
+  "author": "T. Kingfisher",
+  "isbn": "9781250400116",
+  "cover_url": "https://covers.openlibrary.org/b/id/15264625-L.jpg",
+  "key": "ninegoblins|kingfisher"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Sarah",
+   "text": "I fell in love with Nessilka and her misfit band of goblins immediately. Absolutely delightful, surprisingly heartfelt, and as offbeat as the title suggests, this is a wonderful little romp of a book. Sarah",
+   "sentences": [
+    "I fell in love with Nessilka and her misfit band of goblins immediately.",
+    "Absolutely delightful, surprisingly heartfelt, and as offbeat as the title suggests, this is a wonderful little romp of a book.",
+    "Sarah"
+   ],
+   "pick": [
+    0,
+    1,
+    2
+   ],
+   "cite": "Sarah, staff pick, Gibson's Bookstore."
+  }
+ ],
+ "source": {
+  "url": "https://gibsonsbookstore.com/book/9781250400116",
+  "seen": "2026-10-16"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "token": "d2b1b927",
+ "store": {
+  "name": "Greenlight Bookstore",
+  "city": "Brooklyn NY"
+ },
+ "book": {
+  "title": "Agnes Lives!",
+  "author": "Hallie Elizabeth Newton",
+  "isbn": "9781639738564",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781639738564-L.jpg",
+  "key": "agneslives|newton"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "AC",
+   "text": "Alexis says: Hyper specific. NY 2014. Soul Cycle. Millennial Psychosis. Mile-a-minute stream of consciousness. Clever. Funny. Self aware. Perfect beach read for Thought Daughters who love crazy white women and women who respond to depression with more than just crying. Alexis' Picks",
+   "sentences": [
+    "Alexis says: Hyper specific.",
+    "NY 2014.",
+    "Soul Cycle.",
+    "Millennial Psychosis.",
+    "Mile-a-minute stream of consciousness.",
+    "Clever.",
+    "Funny.",
+    "Self aware.",
+    "Perfect beach read for Thought Daughters who love crazy white women and women who respond to depression with more than just crying.",
+    "Alexis' Picks"
+   ],
+   "pick": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cite": "AC, staff pick, Greenlight Bookstore."
+  }
+ ],
+ "source": {
+  "url": "https://greenlightbookstore.com/book/9781639738564",
+  "seen": "2026-10-16"
+ }
+}

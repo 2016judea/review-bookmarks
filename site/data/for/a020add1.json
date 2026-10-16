@@ -1,0 +1,32 @@
+{
+ "token": "a020add1",
+ "store": {
+  "name": "A Room of One's Own",
+  "city": "Madison WI"
+ },
+ "book": {
+  "title": "Patricia Wants to Cuddle",
+  "author": "Samantha Allen",
+  "isbn": "9781638930518",
+  "cover_url": "https://covers.openlibrary.org/b/id/13008667-L.jpg",
+  "key": "patriciawantstocuddle|allen"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Jay & Wes",
+   "text": "Lesbian bigfoot meets reality TV and horror in this wild ride of a beach read!",
+   "sentences": [
+    "Lesbian bigfoot meets reality TV and horror in this wild ride of a beach read!"
+   ],
+   "pick": [
+    0
+   ],
+   "cite": "Jay & Wes, staff pick, A Room of One's Own."
+  }
+ ],
+ "source": {
+  "url": "https://roomofonesown.com/book/9781638930518",
+  "seen": "2026-10-16"
+ }
+}

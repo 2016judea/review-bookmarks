@@ -1,0 +1,36 @@
+{
+ "token": "2000958b",
+ "store": {
+  "name": "Carmichael's Bookstore",
+  "city": "Louisville KY"
+ },
+ "book": {
+  "title": "The Calamity Club",
+  "author": "Kathryn Stockett",
+  "isbn": "9781954118812",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781954118812-L.jpg",
+  "key": "calamityclub|stockett"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Jane",
+   "text": "Kathryn Stockett (who also wrote The Help) nailed it again! I loved cheering for the good girls, who have wonderful voices and stories, and rooting against the bad girls, who range from obnoxiously self-absorbed to just plain evil. Jane's Picks",
+   "sentences": [
+    "Kathryn Stockett (who also wrote The Help) nailed it again!",
+    "I loved cheering for the good girls, who have wonderful voices and stories, and rooting against the bad girls, who range from obnoxiously self-absorbed to just plain evil.",
+    "Jane's Picks"
+   ],
+   "pick": [
+    0,
+    1,
+    2
+   ],
+   "cite": "Jane, staff pick, Carmichael's Bookstore."
+  }
+ ],
+ "source": {
+  "url": "https://carmichaelsbookstore.com/book/9781954118812",
+  "seen": "2026-10-16"
+ }
+}

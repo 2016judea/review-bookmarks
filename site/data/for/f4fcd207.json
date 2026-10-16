@@ -1,0 +1,35 @@
+{
+ "token": "f4fcd207",
+ "store": {
+  "name": "R.J. Julia Booksellers",
+  "city": "Madison CT"
+ },
+ "book": {
+  "title": "The Radiance",
+  "author": "Ayad Akhtar",
+  "isbn": "9781668078631",
+  "cover_url": "",
+  "key": "radiance|akhtar"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Lori F",
+   "text": "What I thought was going to be a sophisticated campus drama ended up being so much more! It felt like watching from above and then suddenly zooming in so close that I could feel the tension, discomfort, and longing. Although it’s a slow build to get to know each character’s place in the story, it was well worth the page-turning all the way to the end!",
+   "sentences": [
+    "What I thought was going to be a sophisticated campus drama ended up being so much more!",
+    "It felt like watching from above and then suddenly zooming in so close that I could feel the tension, discomfort, and longing.",
+    "Although it’s a slow build to get to know each character’s place in the story, it was well worth the page-turning all the way to the end!"
+   ],
+   "pick": [
+    0,
+    2
+   ],
+   "cite": "Lori F, staff pick, R.J. Julia Booksellers."
+  }
+ ],
+ "source": {
+  "url": "https://rjjulia.com/book/9781668078631#main-content",
+  "seen": "2026-10-16"
+ }
+}

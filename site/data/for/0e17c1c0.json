@@ -1,0 +1,40 @@
+{
+ "token": "0e17c1c0",
+ "store": {
+  "name": "Skylight Books",
+  "city": "Los Angeles CA"
+ },
+ "book": {
+  "title": "Hurricane Season",
+  "author": "Fernanda Melchor",
+  "isbn": "9780811230735",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780811230735-L.jpg",
+  "key": "hurricaneseason|melchor"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Ace",
+   "text": "Ding dong, la bruja está muerta. But this isn't the Wizard of Oz. This is La Matosa. Fernanda Melchor takes a village whodunnit and sends it spiraling into a roller coaster of brutality that you won't be able to rip your eyes away from. Ace",
+   "sentences": [
+    "Ding dong, la bruja está muerta.",
+    "But this isn't the Wizard of Oz.",
+    "This is La Matosa.",
+    "Fernanda Melchor takes a village whodunnit and sends it spiraling into a roller coaster of brutality that you won't be able to rip your eyes away from.",
+    "Ace"
+   ],
+   "pick": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "cite": "Ace, staff pick, Skylight Books."
+  }
+ ],
+ "source": {
+  "url": "https://skylightbooks.com/book/9780811230735",
+  "seen": "2026-10-16"
+ }
+}

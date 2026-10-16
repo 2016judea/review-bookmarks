@@ -1,0 +1,40 @@
+{
+ "token": "a037b3c9",
+ "store": {
+  "name": "Annie Bloom's Books",
+  "city": "Portland OR"
+ },
+ "book": {
+  "title": "Annie Knows Everything",
+  "author": "Rachel Wood",
+  "isbn": "9780593979495",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780593979495-L.jpg",
+  "key": "annieknowseverything|wood"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Ruby",
+   "text": "What a whirlwind! This romance was filled with enough shenanigans and understandable (if BONKERS) mishaps to do justice to the original Emma (and I think this praise is hard to earn). Feet swept, etc. etc. go read it now.",
+   "sentences": [
+    "What a whirlwind!",
+    "This romance was filled with enough shenanigans and understandable (if BONKERS) mishaps to do justice to the original Emma (and I think this praise is hard to earn).",
+    "Feet swept, etc.",
+    "etc.",
+    "go read it now."
+   ],
+   "pick": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "cite": "Ruby, staff pick, Annie Bloom's Books."
+  }
+ ],
+ "source": {
+  "url": "https://annieblooms.com/book/9780593979495",
+  "seen": "2026-10-16"
+ }
+}

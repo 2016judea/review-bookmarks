@@ -1,0 +1,42 @@
+{
+ "token": "86432ffe",
+ "store": {
+  "name": "Prairie Lights",
+  "city": "Iowa City IA"
+ },
+ "book": {
+  "title": "On the Calculation of Volume",
+  "author": "Solvej Balle",
+  "isbn": "9780811237253",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780811237253-L.jpg",
+  "key": "onthecalculationofvolume|balle"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Chris",
+   "text": "I can't count how many times I have gushed about Solvej Balle's 2024 book On The Calculation of Volume. It's a short, unnerving but beautifully poetic tale about a woman named Tara Selter who has found herself trapped in a temporal loop (à la Groundhog Day), and who is trying to figure out what to make of her newly askew relationship to the universe. Time has been jostled out of joint. What makes this book feel unique among the dozens of other recursive narrative ourobori on offer (e.g., Edge of Tomorrow, Palm Springs, The 7½ Deaths of Evelyn Hardcastle, etc.) is just how gentle and meditative it is. Balle doesn't get bogged down with sci-fi jargon or frantic exposition, which is to say that the worldbuilding here is emotional rather than mechanical. The book begins a couple hundred days into Tara's cycle, when our heroine has long emerged out of panic, but has not quite settled into equanimity. Tara carries herself with a sense of resignation and fatigue. She finds ambivalent comfort in ritual and quiet observation, having made an uneasy truce with her new life, occasionally probing its edges and boundaries as her angst ebbs and flows. As we read on, Tara's plight feels less and less like an outlandish genre exercise and more and more like an intensely relatable reflection of the isolating and alienating aspects of our own often oddly suspended reality.",
+   "sentences": [
+    "I can't count how many times I have gushed about Solvej Balle's 2024 book On The Calculation of Volume.",
+    "It's a short, unnerving but beautifully poetic tale about a woman named Tara Selter who has found herself trapped in a temporal loop (à la Groundhog Day), and who is trying to figure out what to make of her newly askew relationship to the universe.",
+    "Time has been jostled out of joint.",
+    "What makes this book feel unique among the dozens of other recursive narrative ourobori on offer (e.g., Edge of Tomorrow, Palm Springs, The 7½ Deaths of Evelyn Hardcastle, etc.) is just how gentle and meditative it is.",
+    "Balle doesn't get bogged down with sci-fi jargon or frantic exposition, which is to say that the worldbuilding here is emotional rather than mechanical.",
+    "The book begins a couple hundred days into Tara's cycle, when our heroine has long emerged out of panic, but has not quite settled into equanimity.",
+    "Tara carries herself with a sense of resignation and fatigue.",
+    "She finds ambivalent comfort in ritual and quiet observation, having made an uneasy truce with her new life, occasionally probing its edges and boundaries as her angst ebbs and flows.",
+    "As we read on, Tara's plight feels less and less like an outlandish genre exercise and more and more like an intensely relatable reflection of the isolating and alienating aspects of our own often oddly suspended reality."
+   ],
+   "pick": [
+    0,
+    2,
+    6
+   ],
+   "cite": "Chris, staff pick, Prairie Lights."
+  }
+ ],
+ "source": {
+  "url": "https://prairielights.com/book/9780811237253",
+  "seen": "2026-10-16"
+ }
+}

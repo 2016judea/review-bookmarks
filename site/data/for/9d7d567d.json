@@ -1,0 +1,36 @@
+{
+ "token": "9d7d567d",
+ "store": {
+  "name": "Boulder Book Store",
+  "city": "Boulder CO"
+ },
+ "book": {
+  "title": "I Am You",
+  "author": "Victoria Redel",
+  "isbn": "9781638934745",
+  "cover_url": "https://covers.openlibrary.org/b/id/15128579-L.jpg",
+  "key": "iamyou|redel"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Lyla",
+   "text": "This book satiated my craving for raunchy and wheeling historical fiction. Based on a real story, apprentice Gerta recounts her decades-long relationship with Maria Oosterwyck, an up-and-coming painter in 1600s Amsterdam. I was caught up in the nuance and passion with which Redel writes; you’ll also find yourself hanging onto every page as both women lust after each other, in admiration and envy. Fiction",
+   "sentences": [
+    "This book satiated my craving for raunchy and wheeling historical fiction.",
+    "Based on a real story, apprentice Gerta recounts her decades-long relationship with Maria Oosterwyck, an up-and-coming painter in 1600s Amsterdam.",
+    "I was caught up in the nuance and passion with which Redel writes; you’ll also find yourself hanging onto every page as both women lust after each other, in admiration and envy.",
+    "Fiction"
+   ],
+   "pick": [
+    0,
+    2
+   ],
+   "cite": "Lyla, staff pick, Boulder Book Store."
+  }
+ ],
+ "source": {
+  "url": "https://boulderbookstore.net/book/9781638934745",
+  "seen": "2026-10-16"
+ }
+}

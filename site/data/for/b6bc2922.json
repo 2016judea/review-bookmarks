@@ -1,0 +1,36 @@
+{
+ "token": "b6bc2922",
+ "store": {
+  "name": "Bookhampton",
+  "city": "East Hampton NY"
+ },
+ "book": {
+  "title": "Sandwich",
+  "author": "Catherine Newman",
+  "isbn": "9780063345164",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780063345164-L.jpg",
+  "key": "sandwich|newman"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Holly",
+   "text": "I loved this beautifully flawed family. So much heart and heartache. Sandwich has just the right mix of characters and secrets to keep your attention.",
+   "sentences": [
+    "I loved this beautifully flawed family.",
+    "So much heart and heartache.",
+    "Sandwich has just the right mix of characters and secrets to keep your attention."
+   ],
+   "pick": [
+    0,
+    1,
+    2
+   ],
+   "cite": "Holly, staff pick, Bookhampton."
+  }
+ ],
+ "source": {
+  "url": "https://bookhampton.com/book/9780063345164",
+  "seen": "2026-10-16"
+ }
+}

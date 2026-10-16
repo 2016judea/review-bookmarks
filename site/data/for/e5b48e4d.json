@@ -1,0 +1,33 @@
+{
+ "token": "e5b48e4d",
+ "store": {
+  "name": "Hickory Stick Bookshop",
+  "city": "Washington Depot CT"
+ },
+ "book": {
+  "title": "Running with Sherman",
+  "author": "Christopher McDougall",
+  "isbn": "9780525433255",
+  "cover_url": "https://covers.openlibrary.org/b/id/8998310-L.jpg",
+  "key": "runningwithsherman|mcdougall"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Pat",
+   "text": "What an inspiring, funny, and informative story - I absolutely loved it! Take one part donkey rescue, one part caring community in Amish country, and one part animal lover, and one part burro racing and you have the make up of a read you will not be able to put down.",
+   "sentences": [
+    "What an inspiring, funny, and informative story - I absolutely loved it!",
+    "Take one part donkey rescue, one part caring community in Amish country, and one part animal lover, and one part burro racing and you have the make up of a read you will not be able to put down."
+   ],
+   "pick": [
+    1
+   ],
+   "cite": "Pat, staff pick, Hickory Stick Bookshop."
+  }
+ ],
+ "source": {
+  "url": "https://hickorystickbookshop.com/book/9780525433255",
+  "seen": "2026-10-16"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "token": "c835a9df",
+ "store": {
+  "name": "Square Books",
+  "city": "Oxford MS"
+ },
+ "book": {
+  "title": "All Fours",
+  "author": "Miranda July",
+  "isbn": "9780593190272",
+  "cover_url": "https://covers.openlibrary.org/b/id/14610346-L.jpg",
+  "key": "allfours|july"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Ariane",
+   "text": "All Fours explores our narrator's desires and identity in ways that feel really absurd and painfully true or real. It also pokes fun at daily routines that we often build our lives around, and asks us what happens when feeling starts becoming really true. Fiction #StaffPickSaturday Humor",
+   "sentences": [
+    "All Fours explores our narrator's desires and identity in ways that feel really absurd and painfully true or real.",
+    "It also pokes fun at daily routines that we often build our lives around, and asks us what happens when feeling starts becoming really true.",
+    "Fiction #StaffPickSaturday Humor"
+   ],
+   "pick": [
+    1,
+    2
+   ],
+   "cite": "Ariane, staff pick, Square Books."
+  }
+ ],
+ "source": {
+  "url": "https://squarebooks.com/book/9780593190272",
+  "seen": "2026-10-16"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "token": "f1525aca",
+ "store": {
+  "name": "Union Ave Books",
+  "city": "Knoxville TN"
+ },
+ "book": {
+  "title": "War and Peace",
+  "author": "Leo Tolstoy",
+  "isbn": "9780140447934",
+  "cover_url": "https://covers.openlibrary.org/b/id/12621906-L.jpg",
+  "key": "warandpeace|tolstoy"
+ },
+ "lines": [
+  {
+   "kind": "borrow",
+   "reader": "Catherine Yarrow",
+   "text": "Catherine Yarrow borrowed War and Peace from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+   "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+   "url": "https://shakespeareandco.princeton.edu/books/tolstoy-war-peace/",
+   "licence": "CC BY 4.0",
+   "fame": 1
+  }
+ ],
+ "source": {
+  "url": "https://unionavebooks.com/list/staff-favorites",
+  "seen": "2026-10-16"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "token": "93625196",
+ "store": {
+  "name": "Bookworm of Edwards",
+  "city": "Edwards CO"
+ },
+ "book": {
+  "title": "Wild Aster",
+  "author": "Anna Hogeland",
+  "isbn": "9781639739158",
+  "cover_url": "",
+  "key": "wildaster|hogeland"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Karin",
+   "text": "Mae is a survivor who rises to the challenges thrown at her. It is a complex portrait of a mid-century woman choosing the life she wants. It’s a look at motherhood and carrying unwanted burdens and a meditation on grief and family. Mae defines the words reinvention and perseverance. What Karin is Reading",
+   "sentences": [
+    "Mae is a survivor who rises to the challenges thrown at her.",
+    "It is a complex portrait of a mid-century woman choosing the life she wants.",
+    "It’s a look at motherhood and carrying unwanted burdens and a meditation on grief and family.",
+    "Mae defines the words reinvention and perseverance.",
+    "What Karin is Reading"
+   ],
+   "pick": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "cite": "Karin, staff pick, Bookworm of Edwards."
+  }
+ ],
+ "source": {
+  "url": "https://bookwormofedwards.com/book/9781639739158",
+  "seen": "2026-10-16"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "token": "55625225",
+ "store": {
+  "name": "Turnrow Book Co.",
+  "city": "Greenwood MS"
+ },
+ "book": {
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "isbn": "9798217042968",
+  "cover_url": "https://covers.openlibrary.org/b/id/14348537-L.jpg",
+  "key": "prideandprejudice|austen"
+ },
+ "lines": [
+  {
+   "kind": "notable",
+   "reader": "Virginia Woolf",
+   "text": "the most perfect artist among women, the writer whose books are immortal",
+   "about": "on Jane Austen",
+   "when": "1925",
+   "cite": "Virginia Woolf, The Common Reader (1925). Public domain; text via Project Gutenberg.",
+   "url": "https://www.gutenberg.org/ebooks/64457",
+   "licence": "Public domain"
+  },
+  {
+   "kind": "borrow",
+   "reader": "Leo Stein",
+   "text": "Leo Stein borrowed Pride and Prejudice from Sylvia Beach's Shakespeare and Company, Paris, in 1924.",
+   "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+   "url": "https://shakespeareandco.princeton.edu/books/austen-pride-prejudice/",
+   "licence": "CC BY 4.0",
+   "fame": 13
+  }
+ ],
+ "source": {
+  "url": "https://turnrowbooks.indiecommerce.com/staff-picks",
+  "seen": "2026-10-16"
+ }
+}

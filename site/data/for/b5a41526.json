@@ -1,0 +1,35 @@
+{
+ "token": "b5a41526",
+ "store": {
+  "name": "Bookends & Beginnings",
+  "city": "Evanston IL"
+ },
+ "book": {
+  "title": "She Didn't See It Coming",
+  "author": "Shari Lapena",
+  "isbn": "9780593832448",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780593832448-L.jpg",
+  "key": "shedidntseeitcoming|lapena"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Eli M",
+   "text": "Normally, I struggle to stay interested in a novel; however, this one had me entranced. This is my first experience reading Shari Lapena, and I am absolutely floored by this book's ability to keep me up at night theorizing about what will happen next. If you need a book that will not only grab your attention but will also fully absorb you into the pages, pre-order this captivating thriller!",
+   "sentences": [
+    "Normally, I struggle to stay interested in a novel; however, this one had me entranced.",
+    "This is my first experience reading Shari Lapena, and I am absolutely floored by this book's ability to keep me up at night theorizing about what will happen next.",
+    "If you need a book that will not only grab your attention but will also fully absorb you into the pages, pre-order this captivating thriller!"
+   ],
+   "pick": [
+    0,
+    2
+   ],
+   "cite": "Eli M, staff pick, Bookends & Beginnings."
+  }
+ ],
+ "source": {
+  "url": "https://bookendsandbeginnings.com/book/9780593832448",
+  "seen": "2026-10-16"
+ }
+}

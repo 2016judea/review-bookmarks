@@ -1,0 +1,35 @@
+{
+ "token": "1ce8e97f",
+ "store": {
+  "name": "Boswell Book Company",
+  "city": "Milwaukee WI"
+ },
+ "book": {
+  "title": "33 Place Brugmann",
+  "author": "Alice Austen",
+  "isbn": "9780802166982",
+  "cover_url": "",
+  "key": "33placebrugmann|austen"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Kathy Herbst",
+   "text": "Thought-provoking novel set in an apartment building in Brussels during WWII focusing on the entwined fates of the residents. Told by first person narrators, each with a distinctive voice, viewpoints, and responses to the Nazi regime and antisemitism. Austin explores with compassion, honesty, and a moving plot what people choose to do when faced with evil.",
+   "sentences": [
+    "Thought-provoking novel set in an apartment building in Brussels during WWII focusing on the entwined fates of the residents.",
+    "Told by first person narrators, each with a distinctive voice, viewpoints, and responses to the Nazi regime and antisemitism.",
+    "Austin explores with compassion, honesty, and a moving plot what people choose to do when faced with evil."
+   ],
+   "pick": [
+    1,
+    2
+   ],
+   "cite": "Kathy Herbst, staff pick, Boswell Book Company."
+  }
+ ],
+ "source": {
+  "url": "https://boswellbooks.com/book/9780802166982",
+  "seen": "2026-10-16"
+ }
+}

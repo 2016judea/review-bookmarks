@@ -1,0 +1,34 @@
+{
+ "token": "71994455",
+ "store": {
+  "name": "Avid Bookshop",
+  "city": "Athens GA"
+ },
+ "book": {
+  "title": "On the Small Hill Where the Girls Take Off Their Shoes",
+  "author": "Jairo Buitrago",
+  "isbn": "9781778400506",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781778400506-L.jpg",
+  "key": "onthesmallhillwherethegirlstakeofftheirshoes|buitrago"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Hannah",
+   "text": "This contemplative picture book beautifully explores deep time in the context of one small place. The quiet pace and spare illustrations give readers space to ponder and wonder about the history of the places they live.",
+   "sentences": [
+    "This contemplative picture book beautifully explores deep time in the context of one small place.",
+    "The quiet pace and spare illustrations give readers space to ponder and wonder about the history of the places they live."
+   ],
+   "pick": [
+    0,
+    1
+   ],
+   "cite": "Hannah, staff pick, Avid Bookshop."
+  }
+ ],
+ "source": {
+  "url": "https://live-avidbkshp1750059415.pantheonsite.io/book/9781778400506",
+  "seen": "2026-10-16"
+ }
+}

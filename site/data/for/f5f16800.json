@@ -1,0 +1,38 @@
+{
+ "token": "f5f16800",
+ "store": {
+  "name": "Green Apple Books",
+  "city": "San Francisco CA"
+ },
+ "book": {
+  "title": "Throne of Glass",
+  "author": "Sarah J. Maas",
+  "isbn": "9781639730957",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9781639730957-L.jpg",
+  "key": "throneofglass|maas"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Annika",
+   "text": "Literally obsessed. My favorite series of all time! It's got fantasy, romance, mystery, political drama, fae, magic, shadow daddies, wyverns, witches, badass female assassins, and the full ability to rip your heart out. Ask me about my tattoos!",
+   "sentences": [
+    "Literally obsessed.",
+    "My favorite series of all time!",
+    "It's got fantasy, romance, mystery, political drama, fae, magic, shadow daddies, wyverns, witches, badass female assassins, and the full ability to rip your heart out.",
+    "Ask me about my tattoos!"
+   ],
+   "pick": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "cite": "Annika, staff pick, Green Apple Books."
+  }
+ ],
+ "source": {
+  "url": "https://greenapplebooks.com/book/9781639730957",
+  "seen": "2026-10-16"
+ }
+}

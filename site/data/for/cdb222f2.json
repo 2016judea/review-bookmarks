@@ -1,0 +1,35 @@
+{
+ "token": "cdb222f2",
+ "store": {
+  "name": "Loyalty Bookstores",
+  "city": "Washington DC"
+ },
+ "book": {
+  "title": "Queerly Beloved",
+  "author": "Susie Dumond",
+  "isbn": "9780593243978",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780593243978-L.jpg",
+  "key": "queerlybeloved|dumond"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Amy",
+   "text": "In mid-2010s Oklahoma, Amy is outed and fired from the Christian bakery where she works, leading her to an unintentional new gig as a professional bridesmaid. Mix wedding hijinks, a charmingly grungy queer bar, Amy’s loving friend group, and the cute and intriguing new girl in town, and you have a recipe for a delicious romcom. This is a delightful debut from local author Dumond.",
+   "sentences": [
+    "In mid-2010s Oklahoma, Amy is outed and fired from the Christian bakery where she works, leading her to an unintentional new gig as a professional bridesmaid.",
+    "Mix wedding hijinks, a charmingly grungy queer bar, Amy’s loving friend group, and the cute and intriguing new girl in town, and you have a recipe for a delicious romcom.",
+    "This is a delightful debut from local author Dumond."
+   ],
+   "pick": [
+    1,
+    2
+   ],
+   "cite": "Amy, staff pick, Loyalty Bookstores."
+  }
+ ],
+ "source": {
+  "url": "https://loyaltybookstores.com/book/9780593243978#main-content",
+  "seen": "2026-10-16"
+ }
+}

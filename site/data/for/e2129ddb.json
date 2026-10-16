@@ -1,0 +1,36 @@
+{
+ "token": "e2129ddb",
+ "store": {
+  "name": "Antigone Books",
+  "city": "Tucson AZ"
+ },
+ "book": {
+  "title": "Radio Silence",
+  "author": "Alice Oseman",
+  "isbn": "9780062335722",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780062335722-L.jpg",
+  "key": "radiosilence|oseman"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Melissa",
+   "text": "Not a love story! Rather, a love letter to the oddballs among us, those creative and unconventional souls who too often face intolerance from family members and peers alike. Fabulous representation of LGBTQ teens.",
+   "sentences": [
+    "Not a love story!",
+    "Rather, a love letter to the oddballs among us, those creative and unconventional souls who too often face intolerance from family members and peers alike.",
+    "Fabulous representation of LGBTQ teens."
+   ],
+   "pick": [
+    0,
+    1,
+    2
+   ],
+   "cite": "Melissa, staff pick, Antigone Books."
+  }
+ ],
+ "source": {
+  "url": "https://antigonebooks.com/book/9780062335722",
+  "seen": "2026-10-16"
+ }
+}

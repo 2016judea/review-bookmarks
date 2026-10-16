@@ -1,0 +1,34 @@
+{
+ "token": "740f5eb2",
+ "store": {
+  "name": "Morgenstern Books",
+  "city": "Bloomington IN"
+ },
+ "book": {
+  "title": "Hangsaman",
+  "author": "Shirley Jackson",
+  "isbn": "9780143107040",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780143107040-L.jpg",
+  "key": "hangsaman|jackson"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Celia",
+   "text": "\"Hangsaman is a beautiful, terrifyingly haunting story about obsession and living on your own for the first time. Shirley Jackson paints the picture of transition in a captivating way.\" Staff Picks",
+   "sentences": [
+    "Hangsaman is a beautiful, terrifyingly haunting story about obsession and living on your own for the first time.",
+    "Shirley Jackson paints the picture of transition in a captivating way.\" Staff Picks"
+   ],
+   "pick": [
+    0,
+    1
+   ],
+   "cite": "Celia, staff pick, Morgenstern Books."
+  }
+ ],
+ "source": {
+  "url": "https://morgensternbooks.com/book/9780143107040",
+  "seen": "2026-10-16"
+ }
+}

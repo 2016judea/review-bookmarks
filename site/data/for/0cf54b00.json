@@ -1,0 +1,35 @@
+{
+ "token": "0cf54b00",
+ "store": {
+  "name": "Third Street Books",
+  "city": "McMinnville OR"
+ },
+ "book": {
+  "title": "London Station",
+  "author": "David McCloskey",
+  "isbn": "9781324123217",
+  "cover_url": "",
+  "key": "londonstation|mccloskey"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Sylla",
+   "text": "A very modern spy novel set in London, where the Americans are pitted against the Brits (and maybe other Americans?). Chief of Station Artemis Proctor is no political lackey. A rough talking (shocking the Brits) rule breaker, she gets stuff done in a way that might raise eyebrows, but is immensely effective.",
+   "sentences": [
+    "A very modern spy novel set in London, where the Americans are pitted against the Brits (and maybe other Americans?).",
+    "Chief of Station Artemis Proctor is no political lackey.",
+    "A rough talking (shocking the Brits) rule breaker, she gets stuff done in a way that might raise eyebrows, but is immensely effective."
+   ],
+   "pick": [
+    1,
+    2
+   ],
+   "cite": "Sylla, staff pick, Third Street Books."
+  }
+ ],
+ "source": {
+  "url": "https://thirdstreetbooks.com/book/9781324123217",
+  "seen": "2026-10-16"
+ }
+}

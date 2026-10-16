@@ -1,0 +1,33 @@
+{
+ "token": "c96115a2",
+ "store": {
+  "name": "The Book Loft",
+  "city": "Columbus OH"
+ },
+ "book": {
+  "title": "Cultish",
+  "author": "Amanda Montell",
+  "isbn": "9780062993151",
+  "cover_url": "https://covers.openlibrary.org/b/isbn/9780062993151-L.jpg",
+  "key": "cultish|montell"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Mattie",
+   "text": "From Scientology to SoulCycle, Amanda Montell takes you on a trip through different cults and cult-like organizations, and analyzes the way that language influences their members. For the linguist, the pop-culture fanatic, and the murder podcast fan alike, Cultish is a fun read to add to your shelf.",
+   "sentences": [
+    "From Scientology to SoulCycle, Amanda Montell takes you on a trip through different cults and cult-like organizations, and analyzes the way that language influences their members.",
+    "For the linguist, the pop-culture fanatic, and the murder podcast fan alike, Cultish is a fun read to add to your shelf."
+   ],
+   "pick": [
+    1
+   ],
+   "cite": "Mattie, staff pick, The Book Loft."
+  }
+ ],
+ "source": {
+  "url": "https://bookloft.com/book/9780062993151",
+  "seen": "2026-10-16"
+ }
+}

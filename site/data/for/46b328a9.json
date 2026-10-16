@@ -1,0 +1,37 @@
+{
+ "token": "46b328a9",
+ "store": {
+  "name": "King's Books",
+  "city": "Tacoma WA"
+ },
+ "book": {
+  "title": "The Eye of Goliath",
+  "author": "Diego Muzzio",
+  "isbn": "9781805680369",
+  "cover_url": "",
+  "key": "eyeofgoliath|muzzio"
+ },
+ "lines": [
+  {
+   "kind": "store",
+   "reader": "Adrienne",
+   "text": "Look, it's simple: I love a story involving a lighthouse, especially one that explores dark places where the boundaries of reality begin to blur. Diego Muzzio's English-language debut is a gothic triumph. For me, it has all the makings of a new classic. Adrienne's Reviews Staff Reviews",
+   "sentences": [
+    "Look, it's simple: I love a story involving a lighthouse, especially one that explores dark places where the boundaries of reality begin to blur.",
+    "Diego Muzzio's English-language debut is a gothic triumph.",
+    "For me, it has all the makings of a new classic.",
+    "Adrienne's Reviews Staff Reviews"
+   ],
+   "pick": [
+    0,
+    2,
+    3
+   ],
+   "cite": "Adrienne, staff pick, King's Books."
+  }
+ ],
+ "source": {
+  "url": "https://kingsbookstore.com/book/9781805680369",
+  "seen": "2026-10-16"
+ }
+}
