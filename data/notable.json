@@ -1,0 +1,35 @@
+{
+  "_doc": "Famous readers' own published words about a book. Public domain in the US. Every `text` must be a verbatim substring of the Gutenberg file named by `gutenberg` (scripts/build_index.py fails the build otherwise). Add a line by adding an entry; never type a quote from memory.",
+  "sources": {
+    "35698": {"work": "Letters of John Keats to His Family and Friends", "ed": "Sidney Colvin, 1891", "url": "https://www.gutenberg.org/ebooks/35698"},
+    "60547": {"work": "Studies in Classic American Literature", "ed": "1923", "url": "https://www.gutenberg.org/ebooks/60547"},
+    "64457": {"work": "The Common Reader", "ed": "1925", "url": "https://www.gutenberg.org/ebooks/64457"},
+    "76513": {"work": "Hawthorne and His Mosses (1850), in Billy Budd and Other Prose Pieces", "ed": "", "url": "https://www.gutenberg.org/ebooks/76513"}
+  },
+  "lines": [
+    {"title": "King Lear", "author": "William Shakespeare", "reader": "John Keats", "when": "letter to his brothers, January 1818", "gutenberg": "35698",
+     "text": "I sat down yesterday to read King Lear once again: the thing appeared to demand the prologue of a sonnet, I wrote it, and began to read"},
+    {"title": "Moby-Dick", "author": "Herman Melville", "reader": "D. H. Lawrence", "when": "1923", "gutenberg": "60547",
+     "text": "But it is a great book, a very great book, the greatest book of the sea ever written. It moves awe in the soul."},
+    {"title": "The Scarlet Letter", "author": "Nathaniel Hawthorne", "reader": "D. H. Lawrence", "when": "1923", "gutenberg": "60547",
+     "text": "The Scarlet Letter isn't a pleasant, pretty romance. It is a sort of parable, an earthly story with a hellish meaning."},
+    {"title": "Leaves of Grass", "author": "Walt Whitman", "reader": "D. H. Lawrence", "when": "1923", "gutenberg": "60547",
+     "text": "Whitman, the great poet, has meant so much to me. Whitman, the one man breaking a way ahead. Whitman, the one pioneer."},
+    {"title": "Mosses from an Old Manse", "author": "Nathaniel Hawthorne", "reader": "Herman Melville", "when": "1850", "gutenberg": "76513",
+     "text": "But already I feel that this Hawthorne has dropped germinous seeds into my soul."},
+    {"title": "Middlemarch", "author": "George Eliot", "reader": "Virginia Woolf", "when": "1925", "gutenberg": "64457",
+     "text": "the magnificent book which with all its imperfections is one of the few English novels written for grown-up people."},
+    {"title": "Wuthering Heights", "author": "Emily Brontë", "reader": "Virginia Woolf", "when": "1925", "gutenberg": "64457",
+     "text": "Wuthering Heights is a more difficult book to understand than Jane Eyre, because Emily was a greater poet than Charlotte."},
+    {"title": "Jane Eyre", "author": "Charlotte Brontë", "reader": "Virginia Woolf", "when": "1925", "gutenberg": "64457",
+     "text": "So we open Jane Eyre; and in two pages every doubt is swept clean from our minds."},
+    {"title": "Robinson Crusoe", "author": "Daniel Defoe", "reader": "Virginia Woolf", "when": "1925", "gutenberg": "64457",
+     "text": "The book resembles one of the anonymous productions of the race itself rather than the effort of a single mind"},
+    {"title": "Pride and Prejudice", "author": "Jane Austen", "reader": "Virginia Woolf", "about": "on Jane Austen", "when": "1925", "gutenberg": "64457",
+     "text": "the most perfect artist among women, the writer whose books are immortal"},
+    {"title": "Emma", "author": "Jane Austen", "reader": "Virginia Woolf", "about": "on Jane Austen", "when": "1925", "gutenberg": "64457",
+     "text": "the most perfect artist among women, the writer whose books are immortal"},
+    {"title": "Persuasion", "author": "Jane Austen", "reader": "Virginia Woolf", "about": "on Jane Austen", "when": "1925", "gutenberg": "64457",
+     "text": "the most perfect artist among women, the writer whose books are immortal"}
+  ]
+}

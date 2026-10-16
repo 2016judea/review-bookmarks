@@ -1,0 +1,70 @@
+{
+ "example": {
+  "key": "mobydick|melville",
+  "title": "Moby-Dick",
+  "author": "Herman Melville",
+  "lines": [
+   {
+    "kind": "notable",
+    "reader": "D. H. Lawrence",
+    "text": "But it is a great book, a very great book, the greatest book of the sea ever written. It moves awe in the soul.",
+    "about": "",
+    "when": "1923",
+    "cite": "D. H. Lawrence, Studies in Classic American Literature (1923). Public domain; text via Project Gutenberg.",
+    "url": "https://www.gutenberg.org/ebooks/60547",
+    "licence": "Public domain"
+   },
+   {
+    "kind": "borrow",
+    "reader": "Nathalie Sarraute",
+    "text": "Nathalie Sarraute borrowed Moby-Dick from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+    "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+    "url": "https://shakespeareandco.princeton.edu/books/melville-moby-dick-whale/",
+    "licence": "CC BY 4.0",
+    "fame": 52
+   },
+   {
+    "kind": "borrow",
+    "reader": "Margaret Wilson",
+    "text": "Margaret Wilson borrowed Moby-Dick from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+    "cite": "Sylvia Beach, Margaret Wilson Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+    "url": "https://shakespeareandco.princeton.edu/books/melville-moby-dick-whale/",
+    "licence": "CC BY 4.0",
+    "fame": 30
+   },
+   {
+    "kind": "borrow",
+    "reader": "Dolly Wilde",
+    "text": "Dolly Wilde borrowed Moby-Dick from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+    "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+    "url": "https://shakespeareandco.princeton.edu/books/melville-moby-dick-whale/",
+    "licence": "CC BY 4.0",
+    "fame": 15
+   },
+   {
+    "kind": "owner",
+    "reader": "Aidan Jude",
+    "text": "Incredible scope. Melville’s prose is both daunting and dazzling. My favorite chapters:\n\nThe Castaway\nThe Try-Works\nThe Blacksmith\nThe Chase — Third Day",
+    "sentences": [
+     "Incredible scope.",
+     "Melville’s prose is both daunting and dazzling.",
+     "My favorite chapters:",
+     "The Castaway",
+     "The Try-Works",
+     "The Blacksmith",
+     "The Chase — Third Day"
+    ],
+    "cite": "Aidan Jude, Goodreads review, 5 of 5 stars.",
+    "url": "https://www.goodreads.com/user/show/86865482",
+    "licence": "Aidan Jude's own words"
+   }
+  ],
+  "cover_i": 11510691
+ },
+ "counts": {
+  "notable": 12,
+  "borrow": 2323,
+  "owner": 70,
+  "titles": 2388
+ }
+}

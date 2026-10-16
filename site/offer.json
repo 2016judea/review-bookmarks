@@ -1,0 +1,11 @@
+{
+  "product": "review-bookmarks",
+  "site": "https://review-bookmarks.vercel.app",
+  "price_usd": 80,
+  "launch": 1792108800,
+  "name": "Review Bookmarks: any title, your store's name",
+  "short": "Review Bookmarks",
+  "thing": "full tool",
+  "description": "Print-ready review bookmarks for any title, with your store's name on the back. Every famous-reader line and every Shakespeare and Company borrow we hold. Unlimited sheets.",
+  "line": "Any title, with your store's name on the back, is $80, once."
+}

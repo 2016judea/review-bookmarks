@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Review Bookmarks</title>
+<meta name="description" content="Pick a book and a line. Print five bookmarks, with a review of that book and your store's name, for the copies you sell.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f6f1e7;--ink:#1d1a16;--soft:#5d554a;--line:#d9cfbd;--card:#fffdf8;--accent:#7a2e1f;
+  --pw-bg:#fffdf8;--pw-ink:#1d1a16;--pw-soft:#5d554a;--pw-line:#d9cfbd;--pw-card:#fffdf8;--pw-accent:#7a2e1f}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 Inter,-apple-system,Segoe UI,Helvetica,Arial,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:16px}
+header h1{font:600 30px/1.1 "EB Garamond",Georgia,serif;margin:4px 0 6px;letter-spacing:-.01em}
+header p{margin:0;color:var(--soft);font-size:15px;max-width:34em}
+.for{display:inline-block;margin:0 0 8px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.layout{display:grid;grid-template-columns:1fr;gap:18px;margin-top:14px}
+@media (min-width:900px){.layout{grid-template-columns:minmax(0,470px) minmax(0,1fr);gap:36px;align-items:start}.stage{position:sticky;top:16px}}
+.stage{background:#ece4d4;border-radius:16px;padding:14px 10px 12px;text-align:center}
+.pair{display:flex;justify-content:center;gap:12px}
+.scaler{position:relative;flex:none}
+.scaler>.bm{position:absolute;left:0;top:0;transform-origin:0 0;box-shadow:0 1px 2px rgba(0,0,0,.08),0 6px 18px rgba(60,40,10,.12)}
+.lbl{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-top:6px}
+.printbtn{display:block;width:100%;margin-top:12px;font:700 17px/1 Inter,sans-serif;padding:16px;border:0;border-radius:12px;background:var(--ink);color:var(--paper);cursor:pointer;min-height:52px}
+.hint{font-size:13px;color:var(--soft);margin:8px 2px 0}
+.panel h2{font:600 13px/1 Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin:22px 0 8px}
+.panel h2:first-child{margin-top:0}
+.bookrow{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px}
+.bookrow img{width:44px;height:66px;object-fit:cover;border-radius:3px;background:#ddd;flex:none}
+.bookrow b{display:block;font:600 19px/1.15 "EB Garamond",serif}
+.bookrow span{font-size:14px;color:var(--soft)}
+.search{display:flex;gap:8px;margin-top:8px}
+.search input,.field input,.field textarea{flex:1;min-width:0;font:16px Inter,sans-serif;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.field textarea{width:100%;min-height:84px;resize:vertical;line-height:1.4}
+.results{list-style:none;margin:6px 0 0;padding:0}
+.results li button{display:flex;gap:10px;align-items:center;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px;margin-top:6px;font:inherit;color:inherit;cursor:pointer;min-height:48px}
+.results img{width:30px;height:45px;object-fit:cover;background:#ddd;border-radius:2px;flex:none}
+.results small{color:var(--soft)}
+.opts{display:grid;gap:8px}
+.opt{display:block;position:relative;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:12px 12px 12px 40px;cursor:pointer}
+.opt>input{position:absolute;left:13px;top:15px;width:18px;height:18px;accent-color:var(--accent);margin:0}
+.opt.on{border-color:var(--accent)}
+.opt .k{display:block;font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--accent);margin-bottom:3px}
+.opt .t{font:17px/1.35 "EB Garamond",serif}
+.opt .w{display:block;font-size:13px;color:var(--soft);margin-top:4px}
+.sents{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.sents label{font-size:13px;background:#f1eadc;border:1px solid var(--line);border-radius:999px;padding:6px 10px;cursor:pointer;min-height:32px;display:inline-flex;align-items:center;gap:6px}
+.sents input{margin:0;accent-color:var(--accent)}
+.field{display:grid;gap:6px;margin-top:8px}
+.field label{font-size:13px;font-weight:600;color:var(--soft)}
+.row2{display:grid;grid-template-columns:1fr;gap:8px}
+@media (min-width:520px){.row2{grid-template-columns:1fr 1fr}}
+.small-btn{font:600 15px Inter,sans-serif;padding:11px 14px;border-radius:10px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;min-height:44px}
+.approve{display:flex;gap:8px;align-items:center;font-size:14px;margin-top:8px}
+.approve input{width:20px;height:20px;accent-color:var(--accent)}
+.note{font-size:13px;color:var(--soft);margin:6px 0 0}
+.warn{color:var(--accent);font-weight:600}
+footer{margin:36px 0 10px;font-size:12px;color:var(--soft);line-height:1.5}
+footer a{color:inherit}
+details summary{cursor:pointer;font-weight:600;font-size:14px;margin-top:6px}
+
+/* the bookmark, at real size */
+.bm{width:2in;height:7in;background:#fffdf8;color:#1d1a16;display:flex;flex-direction:column;overflow:hidden;font-family:"EB Garamond",Georgia,serif}
+.bm.front{padding:.22in .18in .2in}
+.bm .cov{height:2.05in;display:flex;justify-content:center;align-items:flex-start}
+.bm .cov img{max-width:1.45in;max-height:2.05in;box-shadow:0 0 0 .5pt rgba(0,0,0,.25)}
+.bm .cov .ph{width:1.3in;height:1.95in;border:.5pt solid #b9ad97;display:flex;align-items:center;justify-content:center;text-align:center;font-size:10pt;padding:.1in;color:#5d554a}
+.bm .bt{font-weight:600;font-size:12.5pt;line-height:1.08;text-align:center;margin-top:.14in}
+.bm .ba{font-size:9pt;text-align:center;color:#5d554a;margin-top:.03in;font-style:italic}
+.bm .rule{width:.4in;height:0;border-top:.6pt solid #7a2e1f;margin:.13in auto .12in}
+.bm .q{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;overflow:hidden;padding-bottom:.25in}
+.bm .qt{margin:0;font-size:12pt;line-height:1.28;text-align:left;hyphens:auto}
+.bm .qa{margin:.08in 0 0;font-size:8.5pt;line-height:1.25;color:#5d554a;font-family:Inter,sans-serif}
+.bm.back{padding:.3in .2in .18in;justify-content:space-between}
+.bm .sn{font-weight:600;font-size:17pt;line-height:1.05;text-align:center}
+.bm .sc{font-family:Inter,sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;text-align:center;color:#5d554a;margin-top:.06in}
+.bm .fact{font-size:11.5pt;line-height:1.3;text-align:center;font-style:italic}
+.bm .fa{font-family:Inter,sans-serif;font-size:7pt;text-align:center;color:#5d554a;margin-top:.08in}
+.bm .mid{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;overflow:hidden;padding:.1in 0}
+.bm .cite{font-family:Inter,sans-serif;font-size:5.2pt;line-height:1.3;color:#6d6457}
+.bm .orn{text-align:center;color:#7a2e1f;font-size:11pt;margin:.06in 0}
+
+#print{display:none}
+@media print{
+  @page{size:11in 8.5in;margin:0}
+  html,body{background:#fff}
+  .wrap,footer{display:none!important}
+  #print{display:block}
+  .sheet{width:11in;height:8.5in;position:relative;overflow:hidden;break-after:page;page-break-after:always}
+  .sheet:last-child{break-after:auto;page-break-after:auto}
+  .grid{position:absolute;left:.5in;top:.75in;display:flex}
+  .grid .bm{box-shadow:none;background:#fff}
+  .cm{position:absolute;background:#000}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script><script defer src="/_vercel/insights/script.js"></script>
+<!-- bm-posthog:begin v2 — shared across every Vercel prototype; source ~/.claude/skills/site-analytics/posthog_snippet.html. ?me=1 opts this browser out on this site (?me=0 undoes); ?me=1&next=host1,host2 walks the opt-out across sites; headless (navigator.webdriver) never loads it. -->
+<script>
+(function(w,d){var S="review-bookmarks",K="bm_me",me=false,u,p,n;
+try{u=new URLSearchParams(location.search);p=u.get("me");n=u.get("next");}catch(e){}
+try{if(p==="1"){localStorage.setItem(K,"1");}else if(p==="0"){localStorage.removeItem(K);}}catch(e){}
+if(p==="1"){d.cookie=K+"=1; path=/; max-age=63072000; SameSite=Lax";}else if(p==="0"){d.cookie=K+"=; path=/; max-age=0; SameSite=Lax";}
+try{me=localStorage.getItem(K)==="1";}catch(e){}
+if(!me&&/(?:^|; )bm_me=1/.test(d.cookie))me=true;
+if(p==="1"&&n){var h=n.split(","),f=h.shift();if(/^[a-z0-9.-]+$/.test(f)&&(f.slice(-11)===".vercel.app"||f==="brickandmortar.dev"||f==="readglean.com")){location.replace("https://"+f+"/?me=1"+(h.length?"&next="+h.join(","):""));}}
+if(navigator.webdriver===true)return;
+!function(t,e){var o,n,p,r;e.__SV||(w.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister identify setPersonProperties reset get_distinct_id get_session_id alias set_config startSessionRecording stopSessionRecording opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing captureException getFeatureFlag isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(d,w.posthog||[]);
+posthog.init("phc_yFgRGppL6H7DvhgZTQKbHdrY5oqnpLT482rrNYtLqnAx",{api_host:"https://us.i.posthog.com",person_profiles:"identified_only",persistence:"localStorage+cookie",opt_out_capturing_by_default:me});
+if(me){posthog.opt_out_capturing();}else{if(p==="0")posthog.opt_in_capturing();posthog.register({site:S});}
+})(window,document);
+</script>
+<!-- bm-posthog:end -->
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="for" id="forTag" hidden></div>
+    <h1>Bookmarks with reviews</h1>
+    <p id="lede">Pick a book and a line about it. Print five bookmarks with your store's name on the back, for the copies you sell.</p>
+  </header>
+
+  <div class="layout">
+    <section class="stage" aria-label="Preview">
+      <div class="pair">
+        <div><div class="scaler" id="sFront"></div><div class="lbl">Front</div></div>
+        <div><div class="scaler" id="sBack"></div><div class="lbl">Back</div></div>
+      </div>
+      <button class="printbtn" id="printBtn" type="button">Print 5 bookmarks</button>
+      <p class="hint">US Letter, landscape, two pages. Print double-sided, flip on short edge, at 100% scale. Cut on the marks. Cardstock if you have it.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Book</h2>
+      <div class="bookrow" id="bookRow"></div>
+      <div class="search"><input id="q" type="search" placeholder="Another title or author" autocomplete="off" aria-label="Search for a book"></div>
+      <ul class="results" id="results"></ul>
+
+      <h2>Front: the review</h2>
+      <div class="opts" id="frontOpts"></div>
+
+      <h2>Your staff's note</h2>
+      <div class="field"><label for="notes">Paste rough notes. We fit them to the bookmark; you approve the exact words.</label>
+        <textarea id="notes" placeholder="e.g. read it in two nights, the ending wrecked me, for anyone who loved Stoner"></textarea></div>
+      <div style="margin-top:8px"><button class="small-btn" id="fitBtn" type="button">Fit to bookmark</button></div>
+      <div class="field"><label for="staffText">Exact words to print</label><textarea id="staffText" placeholder="The fitted text appears here. Edit it freely."></textarea></div>
+      <div class="row2"><div class="field"><label for="staffBy">Whose note (printed under it)</label><input id="staffBy" placeholder="e.g. Jenna"></div></div>
+      <label class="approve"><input type="checkbox" id="approve"> I approve these exact words for print</label>
+      <p class="note" id="staffNote"></p>
+
+      <h2>Back: a dated fact</h2>
+      <div class="opts" id="backOpts"></div>
+
+      <h2>Your store</h2>
+      <div class="row2">
+        <div class="field"><label for="store">Store name</label><input id="store" placeholder="Your bookstore" autocomplete="organization"></div>
+        <div class="field"><label for="city">Town</label><input id="city" placeholder="Your town"></div>
+      </div>
+      <div id="storeLock"></div>
+
+      <div id="paySlot"></div>
+    </section>
+  </div>
+
+  <footer>
+    <p>Where the lines come from. <b>Famous readers</b>: their own published words, public domain, each checked word for word against the Project Gutenberg text. <b>Borrowed from Sylvia Beach</b>: the lending cards of Shakespeare and Company, Paris, 1919&ndash;1941, from the <a href="https://shakespeareandco.princeton.edu/">Shakespeare and Company Project</a>, Princeton University, CC BY 4.0. <b>Aidan Jude</b>: his own Goodreads reviews, word for word. <b>Your staff</b>: your words, approved by you. Covers from <a href="https://openlibrary.org/">Open Library</a>.</p>
+    <p>Made by Aidan Jude at Brick &amp; Mortar. <a href="https://aidanjude.substack.com/">aidanjude.substack.com</a></p>
+  </footer>
+</div>
+
+<div id="print" aria-hidden="true"></div>
+
+<script src="/paywall.js"></script>
+<script>
+(function(){
+const $=(s)=>document.querySelector(s);
+const esc=(s)=>String(s??"").replace(/[&<>"']/g,(c)=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fold=(s)=>String(s||"").normalize("NFKD").replace(/[^\x00-\x7f]/g,"");
+// mirrored from scripts/build_index.py norm_title / norm_author
+function normTitle(s){s=fold(s).toLowerCase().replace(/&/g,"and");s=s.split(/[;:(]|,? or, /)[0].trim();s=s.replace(/^(the|a|an) /,"");return s.replace(/[^a-z0-9]+/g,"");}
+function normAuthor(s){s=fold(s).toLowerCase().split(";")[0].split(" and ")[0];s=s.includes(",")?s.split(",")[0]:(s.trim().split(/\s+/).pop()||"");return s.replace(/[^a-z0-9]+/g,"");}
+const KIND={notable:"A famous reader",borrow:"Borrowed from Sylvia Beach",owner:"A reader's review",store:"Your staff pick",staff:"Your staff's note"};
+const MAXQ=300;
+
+const S={book:null,lines:[],front:0,back:0,owner:{},staff:{text:"",by:"",ok:false},store:"",city:"",full:null,token:null,forData:null};
+const track=(n,p)=>window.Paywall?Paywall.track(n,p):null;
+
+function cover(b){return b.cover_i?`https://covers.openlibrary.org/b/id/${b.cover_i}-L.jpg`:"";}
+
+function lineText(l){
+  if(l.kind==="owner"){const sel=S.owner[l._i];if(sel&&l.sentences){const t=l.sentences.filter((_,i)=>sel.has(i)).join(" ");return t||l.sentences[0];}return l.text;}
+  return l.text;
+}
+function attrib(l){
+  if(l.kind==="notable")return `${l.reader}${l.about?", "+l.about:""}${l.when?", "+l.when:""}`;
+  if(l.kind==="borrow")return "Sylvia Beach's lending card, Shakespeare and Company";
+  if(l.kind==="owner")return "Aidan Jude, reader";
+  if(l.kind==="store")return `${l.reader}, staff pick`;
+  if(l.kind==="staff")return `${S.staff.by||"Staff pick"}${S.store?", "+S.store:""}`;
+  return l.reader||"";
+}
+function frontLines(){
+  const L=S.lines.filter(l=>l.kind!=="borrow");
+  if(S.staff.ok&&S.staff.text.trim())L.push({kind:"staff",text:S.staff.text.trim(),_i:"staff"});
+  const b=S.lines.filter(l=>l.kind==="borrow").slice(0,1);
+  return L.concat(b);
+}
+function backLines(){return S.lines.filter(l=>l.kind==="borrow");}
+
+function bmFront(){
+  const b=S.book,F=frontLines(),l=F[Math.min(S.front,F.length-1)];
+  const img=cover(b)?`<img src="${esc(cover(b))}" alt="" crossorigin="anonymous">`:`<div class="ph">${esc(b.title)}</div>`;
+  const q=l?`<p class="qt">${l.kind==="borrow"?"":"“"}${esc(lineText(l))}${l.kind==="borrow"?"":"”"}</p><p class="qa">— ${esc(attrib(l))}</p>`:`<p class="qt" style="color:#8a8170">Write your staff's note to put a review here.</p>`;
+  return `<div class="bm front"><div class="cov">${img}</div><div class="bt">${esc(b.title)}</div><div class="ba">${esc(b.author)}</div><div class="rule"></div><div class="q">${q}</div></div>`;
+}
+function bmBack(){
+  const B=backLines(),F=frontLines(),fl=F[Math.min(S.front,F.length-1)];
+  let l=S.backAuto?(B.find(x=>x!==fl)||null):(S.back>=0?B[S.back]:null); if(l&&fl===l)l=B.find(x=>x!==fl)||null;
+  const cites=[fl,l].filter(Boolean).filter(x=>x.cite).map(x=>x.cite);
+  const store=S.store||"Your bookstore",city=S.city||"";
+  return `<div class="bm back"><div><div class="sn">${esc(store)}</div>${city?`<div class="sc">${esc(city)}</div>`:""}</div>
+    <div class="mid">${l?`<div class="orn">❧</div><div class="fact">${esc(l.text)}</div><div class="fa">Recorded on her lending card</div>`:""}</div>
+    <div class="cite">${cites.map(esc).join("<br>")}</div></div>`;
+}
+function fit(root){
+  root.querySelectorAll(".bm .q").forEach(q=>{const t=q.querySelector(".qt");if(!t)return;let s=16;t.style.fontSize=s+"pt";while(q.scrollHeight>q.clientHeight+1&&s>7.5){s-=.25;t.style.fontSize=s+"pt";}q.dataset.over=q.scrollHeight>q.clientHeight+1?"1":"";});
+  root.querySelectorAll(".bm .mid").forEach(m=>{const t=m.querySelector(".fact");if(!t)return;let s=11.5;t.style.fontSize=s+"pt";while(m.scrollHeight>m.clientHeight+1&&s>7){s-=.25;t.style.fontSize=s+"pt";}});
+  root.querySelectorAll(".bm .cite").forEach(c=>{let s=5.2;c.style.fontSize=s+"pt";const bm=c.closest(".bm");while(bm.scrollHeight>bm.clientHeight+1&&s>4){s-=.2;c.style.fontSize=s+"pt";}});
+}
+function scaleBox(el,html){
+  const w=el.closest(".pair").clientWidth;const tall=innerWidth<900?Math.max(110,(innerHeight-250)*192/672):999;const per=Math.min(240,(w-12)/2,tall);const k=per/192;
+  el.style.width=per+"px";el.style.height=(672*k)+"px";el.innerHTML=html;el.firstChild.style.transform=`scale(${k})`;fit(el);
+}
+function renderPreview(){
+  if(!S.book)return;
+  scaleBox($("#sFront"),bmFront());scaleBox($("#sBack"),bmBack());
+  const over=$("#sFront").querySelector(".q")?.dataset.over;
+  $("#staffNote").innerHTML=over?`<span class="warn">Too long to fit. Untick a sentence or shorten the note.</span>`:"";
+  $("#sFront img")?.addEventListener("load",()=>fit($("#sFront")),{once:true});
+}
+function renderPrint(){
+  const marks=[];const X=[.5,2.5,4.5,6.5,8.5,10.5],Y=[.75,7.75];
+  X.forEach(x=>{marks.push(`<div class="cm" style="left:${x}in;top:.3in;width:.25pt;height:.35in"></div>`,`<div class="cm" style="left:${x}in;top:7.85in;width:.25pt;height:.35in"></div>`);});
+  Y.forEach(y=>{marks.push(`<div class="cm" style="top:${y}in;left:.05in;height:.25pt;width:.35in"></div>`,`<div class="cm" style="top:${y}in;left:10.6in;height:.25pt;width:.35in"></div>`);});
+  const f=bmFront(),b=bmBack();
+  $("#print").innerHTML=`<div class="sheet"><div class="grid">${f.repeat(5)}</div>${marks.join("")}</div><div class="sheet"><div class="grid">${b.repeat(5)}</div>${marks.join("")}</div>`;
+  $("#print").style.display="block";fit($("#print"));$("#print").style.display="";
+}
+
+function renderBook(){
+  const b=S.book;
+  $("#bookRow").innerHTML=`${cover(b)?`<img src="${esc(cover(b))}" alt="">`:`<img alt="">`}<div><b>${esc(b.title)}</b><span>${esc(b.author)}</span></div>`;
+}
+function optHTML(name,i,l,checked){
+  const isOwner=l.kind==="owner"&&l.sentences&&l.sentences.length>1;
+  let sents="";
+  if(isOwner){const sel=S.owner[l._i]||new Set(l.sentences.map((_,j)=>j));S.owner[l._i]=sel;
+    sents=`<div class="sents">${l.sentences.map((t,j)=>`<label><input type="checkbox" data-o="${l._i}" data-j="${j}" ${sel.has(j)?"checked":""}>${esc(t.length>38?t.slice(0,36)+"…":t)}</label>`).join("")}</div>`;}
+  return `<label class="opt ${checked?"on":""}"><input type="radio" name="${name}" value="${i}" ${checked?"checked":""}><span class="k">${KIND[l.kind]}</span><span class="t">${esc(lineText(l))}</span><span class="w">— ${esc(attrib(l))}</span>${sents}</label>`;
+}
+function renderOpts(){
+  const F=frontLines();
+  $("#frontOpts").innerHTML=F.length?F.map((l,i)=>optHTML("front",i,l,i===S.front)).join(""):`<p class="note">No published line for this title yet. Write your staff's note below: it is the line for any book.</p>`;
+  const B=backLines();
+  const fl=F[Math.min(S.front,F.length-1)];const cur=S.backAuto?B.findIndex(x=>x!==fl):S.back;
+  $("#backOpts").innerHTML=B.length?B.map((l,i)=>optHTML("back",i,l,i===cur)).join("")+`<label class="opt ${cur<0?"on":""}"><input type="radio" name="back" value="-1" ${cur<0?"checked":""}><span class="t">No fact, just the store</span></label>`
+    :`<p class="note">Sylvia Beach's cards don't record this title. The back carries your store's name.</p>`;
+}
+function setLines(lines){
+  S.lines=(lines||[]).map((l,i)=>Object.assign({},l,{_i:i}));
+  S.owner={};
+  const F=frontLines();
+  const pref=["store","notable","owner","staff","borrow"];
+  let best=0,bi=99;F.forEach((l,i)=>{const r=pref.indexOf(l.kind);if(r<bi){bi=r;best=i;}});
+  S.front=best;S.backAuto=true;S.back=0;
+}
+function all(){renderBook();renderOpts();renderPreview();}
+
+// ---- events
+document.addEventListener("change",(e)=>{
+  const t=e.target;
+  if(t.name==="front"){S.front=+t.value;track("line_pick",{side:"front",kind:frontLines()[S.front]?.kind});all();}
+  else if(t.name==="back"){S.back=+t.value;S.backAuto=false;all();}
+  else if(t.dataset.o!=null){const sel=S.owner[t.dataset.o];t.checked?sel.add(+t.dataset.j):sel.delete(+t.dataset.j);renderOpts();renderPreview();}
+  else if(t.id==="approve"){S.staff.ok=t.checked;S.staff.text=$("#staffText").value;S.staff.by=$("#staffBy").value.trim();
+    if(t.checked&&S.staff.text.trim()){S.front=frontLines().findIndex(l=>l.kind==="staff");track("staff_approve",{len:S.staff.text.length});}else if(!t.checked){S.front=0;}
+    all();}
+});
+$("#staffText").addEventListener("input",()=>{if(S.staff.ok){$("#approve").checked=false;S.staff.ok=false;S.front=0;all();}});
+$("#staffBy").addEventListener("input",()=>{S.staff.by=$("#staffBy").value.trim();if(S.staff.ok){renderOpts();renderPreview();}});
+function sentenceTrim(t,max){const ss=t.replace(/\s+/g," ").trim().split(/(?<=[.!?])\s+/);let out="";for(const s of ss){if((out+" "+s).trim().length>max)break;out=(out+" "+s).trim();}return out||t.slice(0,max);}
+$("#fitBtn").addEventListener("click",async()=>{
+  const notes=$("#notes").value.trim();if(!notes){$("#notes").focus();return;}
+  const b=$("#fitBtn");b.disabled=true;b.textContent="Fitting…";let text="",how="";
+  try{
+    if(!Paywall.unlocked)throw 0;
+    const r=await fetch("/api/tighten",{method:"POST",headers:{"Content-Type":"application/json","x-password":Paywall.pw},body:JSON.stringify({notes,title:S.book.title,author:S.book.author,max:MAXQ-40})});
+    const j=await r.json();if(!r.ok||!j.text)throw 0;text=j.text;how="Fitted from your notes. Read it, edit it, then approve.";
+  }catch(x){text=sentenceTrim(notes,MAXQ-40);how="Trimmed to whole sentences that fit. Edit it, then approve.";}
+  $("#staffText").value=text;$("#approve").checked=false;S.staff.ok=false;$("#staffNote").textContent=how;
+  b.disabled=false;b.textContent="Fit to bookmark";track("staff_fit",{len:notes.length});
+});
+["store","city"].forEach(id=>$("#"+id).addEventListener("input",()=>{S[id]=$("#"+id).value.trim();renderPreview();}));
+$("#printBtn").addEventListener("click",()=>{renderPrint();track("print",{book:S.book.title,front:frontLines()[S.front]?.kind||"",unlocked:!!Paywall.unlocked});setTimeout(()=>window.print(),350);});
+window.addEventListener("resize",()=>renderPreview());
+
+// search (Open Library); picking a new title is the full tool
+let qt=null;
+$("#q").addEventListener("input",()=>{clearTimeout(qt);const v=$("#q").value.trim();if(v.length<3){$("#results").innerHTML="";return;}qt=setTimeout(()=>search(v),350);});
+async function search(v){
+  if(!Paywall.unlocked){$("#results").innerHTML=`<li>${Paywall.lockRow("Any title is part of the full tool")}</li>`;track("lock_view",{what:"search"});return;}
+  try{
+    const j=await fetch(`https://openlibrary.org/search.json?q=${encodeURIComponent(v)}&limit=8&fields=key,title,author_name,cover_i,first_publish_year`).then(r=>r.json());
+    const docs=(j.docs||[]).filter(d=>d.author_name);
+    window._docs=docs;
+    $("#results").innerHTML=docs.map((d,i)=>{const k=normTitle(d.title)+"|"+normAuthor(d.author_name[0]);const has=S.full&&S.full[k];
+      return `<li><button type="button" data-pick="${i}"><img src="${d.cover_i?`https://covers.openlibrary.org/b/id/${d.cover_i}-S.jpg`:""}" alt=""><span><b>${esc(d.title)}</b><br><small>${esc(d.author_name[0])}${d.first_publish_year?" · "+d.first_publish_year:""}${has?" · "+has.lines.length+" published line"+(has.lines.length>1?"s":""):""}</small></span></button></li>`;}).join("")||`<li class="note">Nothing found. Try the author's surname.</li>`;
+  }catch(e){$("#results").innerHTML=`<li class="note">Search is down for a moment. Try again.</li>`;}
+}
+$("#results").addEventListener("click",(e)=>{const b=e.target.closest("[data-pick]");if(!b)return;const d=window._docs[+b.dataset.pick];
+  const k=normTitle(d.title)+"|"+normAuthor(d.author_name[0]);const rec=S.full&&S.full[k];
+  S.book={title:d.title,author:d.author_name[0],cover_i:d.cover_i,key:k};setLines(rec?rec.lines:[]);
+  $("#results").innerHTML="";$("#q").value="";track("book_pick",{book:d.title,lines:rec?rec.lines.length:0});all();scrollTo({top:0,behavior:"smooth"});});
+
+function lockStore(){
+  const lock=!Paywall.unlocked&&!S.forData;
+  $("#store").disabled=lock;$("#city").disabled=lock;
+  $("#storeLock").innerHTML=lock?Paywall.lockRow("Your store's name on the back"):"";
+}
+
+async function boot(){
+  const m=location.pathname.match(/^\/for\/([a-z0-9]{6,16})\/?$/);
+  const free=await fetch("/data/free.json").then(r=>r.json());
+  if(m){
+    try{const d=await fetch(`/data/for/${m[1]}.json`).then(r=>{if(!r.ok)throw 0;return r.json();});S.forData=d;S.token=m[1];}catch(e){}
+  }
+  if(S.forData){
+    const d=S.forData;S.book=d.book;S.store=d.store.name;S.city=d.store.city||"";
+    $("#store").value=S.store;$("#city").value=S.city;
+    $("#forTag").hidden=false;$("#forTag").textContent=`For ${d.store.name}`;
+    $("#lede").textContent=`Your staff picked ${d.book.title}. Here it is as a bookmark, with your name on the back. Print five now.`;
+    setLines(d.lines);
+  }else{
+    S.book=free.example;setLines(free.example.lines);
+  }
+  all();
+  await Paywall.init({ctx:{token:S.token||"",book:S.book.title},slot:$("#paySlot"),onUnlock:(data)=>{S.full=data.books;lockStore();if(!S.forData){const k=S.book.key;if(S.full[k]){setLines(S.full[k].lines);all();}}}});
+  lockStore();
+  track("preview_open",{token:S.token||"",book:S.book.title});
+}
+document.fonts&&document.fonts.ready.then(()=>renderPreview());
+boot();
+})();
+</script>
+</body>
+</html>
