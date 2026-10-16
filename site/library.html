@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Writers' Library</title>
+<meta name="description" content="A bookstore table of the books famous writers borrowed from Sylvia Beach in Paris: the list, a 4 x 6 card for every book with the fact and its source, a sign for the table, and bookmarks.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f6f1e7;--ink:#1d1a16;--soft:#5d554a;--line:#d9cfbd;--card:#fffdf8;--accent:#7a2e1f;--ok:#2f5d3a;
+  --pw-bg:#fffdf8;--pw-ink:#1d1a16;--pw-soft:#5d554a;--pw-line:#d9cfbd;--pw-card:#fffdf8;--pw-accent:#7a2e1f}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 Inter,-apple-system,Segoe UI,Helvetica,Arial,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:16px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.top a{color:var(--soft);text-decoration:none;letter-spacing:.02em;text-transform:none;font-weight:600;font-size:13px}
+header h1{font:600 28px/1.1 "EB Garamond",Georgia,serif;margin:8px 0 6px;letter-spacing:-.01em}
+header p{margin:0;color:var(--soft);font-size:15px;max-width:36em}
+.layout{display:grid;grid-template-columns:1fr;gap:18px;margin-top:14px}
+@media (min-width:900px){.layout{grid-template-columns:minmax(0,500px) minmax(0,1fr);gap:36px;align-items:start}.stage{position:sticky;top:16px}header h1{font-size:34px}}
+.stage{background:#ece4d4;border-radius:16px;padding:14px 12px 12px;text-align:center}
+.pair{display:flex;justify-content:center;align-items:flex-end;gap:12px}
+.scaler{position:relative;flex:none;margin:0 auto}
+.scaler>.pc{position:absolute;left:0;top:0;transform-origin:0 0;box-shadow:0 1px 2px rgba(0,0,0,.08),0 6px 18px rgba(60,40,10,.12)}
+.lbl{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-top:6px}
+.nav{display:flex;justify-content:center;gap:8px;margin-top:6px}
+.nav button{font:600 14px Inter,sans-serif;min-width:44px;min-height:40px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.printbtn{display:block;width:100%;margin-top:12px;font:700 17px/1 Inter,sans-serif;padding:16px;border:0;border-radius:12px;background:var(--ink);color:var(--paper);cursor:pointer;min-height:52px}
+.hint{font-size:13px;color:var(--soft);margin:8px 2px 0}
+.linkbtn{background:none;border:0;padding:8px 2px;font:600 14px Inter,sans-serif;color:var(--accent);text-decoration:underline;cursor:pointer;min-height:40px}
+.panel h2{font:600 13px/1 Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin:22px 0 8px}
+.panel h2:first-child{margin-top:0}
+.sel{position:relative}
+.sel select{appearance:none;-webkit-appearance:none;width:100%;font:16px Inter,sans-serif;padding:12px 40px 12px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);min-height:48px}
+.sel:after{content:"";position:absolute;right:16px;top:50%;width:8px;height:8px;border-right:2px solid var(--soft);border-bottom:2px solid var(--soft);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.sum{font-size:14px;color:var(--soft);margin:8px 2px 0}
+.list{list-style:none;margin:0;padding:0;counter-reset:n}
+.list li{display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:start;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:10px;margin-top:8px;cursor:pointer}
+.list li.on{border-color:var(--accent)}
+.list img,.list .noc{width:34px;height:51px;object-fit:cover;border-radius:2px;background:#e6dccb}
+.list b{display:block;font:600 18px/1.15 "EB Garamond",serif}
+.list .au{font-size:14px;color:var(--soft)}
+.list .bw{font-size:13px;margin-top:3px}
+.list .ip{display:inline-block;font-size:12px;font-weight:600;margin-top:5px;padding:3px 8px;border-radius:7px}
+.ip.yes{background:#e3eedf;color:var(--ok)}
+.ip.no{background:#f6e3dc;color:var(--accent)}
+.list .row{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center}
+.list a.bmk{font-size:13px;font-weight:600;color:var(--accent);padding:6px 0;min-height:32px;display:inline-flex;align-items:center}
+.field{display:grid;gap:6px;margin-top:8px}
+.field label{font-size:13px;font-weight:600;color:var(--soft)}
+.field input{font:16px Inter,sans-serif;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);min-width:0}
+.row2{display:grid;grid-template-columns:1fr;gap:8px}
+@media (min-width:520px){.row2{grid-template-columns:1fr 1fr}}
+.note{font-size:13px;color:var(--soft);margin:6px 0 0}
+footer{margin:36px 0 10px;font-size:12px;color:var(--soft);line-height:1.5}
+footer a{color:inherit}
+
+/* printed pieces, at real size (in) */
+.pc{background:#fffdf8;color:#1d1a16;font-family:"EB Garamond",Georgia,serif;overflow:hidden}
+.card{width:4in;height:6in;padding:.32in .32in .24in;display:flex;flex-direction:column}
+.card .k{font-family:Inter,sans-serif;font-size:6.5pt;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#7a2e1f;text-align:center}
+.card .th{font-style:italic;font-size:9.5pt;text-align:center;color:#5d554a;margin-top:.04in;line-height:1.2}
+.card .rule{width:.5in;border-top:.6pt solid #7a2e1f;margin:.16in auto .14in}
+.card .t{font-weight:600;font-size:24pt;line-height:1.02;text-align:center}
+.card .s{font-size:10.5pt;line-height:1.15;text-align:center;color:#5d554a;margin-top:.05in}
+.card .a{font-style:italic;font-size:13pt;text-align:center;margin-top:.08in}
+.card .mid{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.card .orn{text-align:center;color:#7a2e1f;font-size:12pt}
+.card .f{font-size:14pt;line-height:1.3;text-align:center;margin:.06in 0 0}
+.card .al{font-family:Inter,sans-serif;font-size:7pt;line-height:1.35;text-align:center;color:#5d554a;margin-top:.1in}
+.card .st{font-weight:600;font-size:12pt;text-align:center;border-top:.5pt solid #d9cfbd;padding-top:.08in}
+.card .sc{font-family:Inter,sans-serif;font-size:6pt;letter-spacing:.12em;text-transform:uppercase;text-align:center;color:#5d554a;margin-top:.02in}
+.card .ci{font-family:Inter,sans-serif;font-size:5pt;line-height:1.3;color:#6d6457;margin-top:.07in}
+.sign{width:11in;height:8.5in;padding:.6in .8in .5in;display:flex;flex-direction:column;text-align:center}
+.sign .k{font-family:Inter,sans-serif;font-size:11pt;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#7a2e1f}
+.sign .rule{width:1in;border-top:1pt solid #7a2e1f;margin:.3in auto}
+.sign .mid{flex:1;display:flex;flex-direction:column;justify-content:center;min-height:0}
+.sign .h{font-weight:600;font-size:54pt;line-height:1.04;margin:0;letter-spacing:-.005em}
+.sign .d{font-style:italic;font-size:19pt;color:#5d554a;margin-top:.3in;line-height:1.3}
+.sign .st{font-weight:600;font-size:22pt}
+.sign .sc{font-family:Inter,sans-serif;font-size:9pt;letter-spacing:.14em;text-transform:uppercase;color:#5d554a;margin-top:.04in}
+.sign .ci{font-family:Inter,sans-serif;font-size:8pt;color:#6d6457;margin-top:.18in}
+.olist{width:11in;padding:.45in .6in;font-family:Inter,sans-serif;font-size:8pt}
+.olist h3{font:600 18pt "EB Garamond",serif;margin:0 0 .04in}
+.olist p{margin:0 0 .12in;color:#5d554a}
+.olist table{width:100%;border-collapse:collapse}
+.olist th,.olist td{text-align:left;padding:.03in .06in;border-bottom:.5pt solid #d9cfbd;vertical-align:top}
+.olist th{font-size:7.5pt;letter-spacing:.08em;text-transform:uppercase;color:#5d554a}
+
+#print{display:none}
+@media print{
+  @page{size:11in 8.5in;margin:0}
+  html,body{background:#fff}
+  .wrap{display:none!important}
+  #print{display:block}
+  .sheet{width:11in;height:8.5in;position:relative;overflow:hidden;break-after:page;page-break-after:always}
+  .sheet:last-child{break-after:auto;page-break-after:auto}
+  .sheet .pc{background:#fff}
+  .two{position:absolute;left:1.5in;top:1.25in;display:flex}
+  .cm{position:absolute;background:#000}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script><script defer src="/_vercel/insights/script.js"></script>
+<!-- bm-posthog:begin v2 — shared across every Vercel prototype; source ~/.claude/skills/site-analytics/posthog_snippet.html. ?me=1 opts this browser out on this site (?me=0 undoes); ?me=1&next=host1,host2 walks the opt-out across sites; headless (navigator.webdriver) never loads it. -->
+<script>
+(function(w,d){var S="review-bookmarks",K="bm_me",me=false,u,p,n;
+try{u=new URLSearchParams(location.search);p=u.get("me");n=u.get("next");}catch(e){}
+try{if(p==="1"){localStorage.setItem(K,"1");}else if(p==="0"){localStorage.removeItem(K);}}catch(e){}
+if(p==="1"){d.cookie=K+"=1; path=/; max-age=63072000; SameSite=Lax";}else if(p==="0"){d.cookie=K+"=; path=/; max-age=0; SameSite=Lax";}
+try{me=localStorage.getItem(K)==="1";}catch(e){}
+if(!me&&/(?:^|; )bm_me=1/.test(d.cookie))me=true;
+if(p==="1"&&n){var h=n.split(","),f=h.shift();if(/^[a-z0-9.-]+$/.test(f)&&(f.slice(-11)===".vercel.app"||f==="brickandmortar.dev"||f==="readglean.com")){location.replace("https://"+f+"/?me=1"+(h.length?"&next="+h.join(","):""));}}
+if(navigator.webdriver===true)return;
+!function(t,e){var o,n,p,r;e.__SV||(w.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister identify setPersonProperties reset get_distinct_id get_session_id alias set_config startSessionRecording stopSessionRecording opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing captureException getFeatureFlag isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(d,w.posthog||[]);
+posthog.init("phc_yFgRGppL6H7DvhgZTQKbHdrY5oqnpLT482rrNYtLqnAx",{api_host:"https://us.i.posthog.com",person_profiles:"identified_only",persistence:"localStorage+cookie",opt_out_capturing_by_default:me});
+if(me){posthog.opt_out_capturing();}else{if(p==="0")posthog.opt_in_capturing();posthog.register({site:S});}
+})(window,document);
+</script>
+<!-- bm-posthog:end -->
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="top"><span id="kick">The Writers' Library</span><a id="back" href="/">Bookmarks →</a></div>
+    <h1 id="h1">The Writers' Library</h1>
+    <p id="lede">A table of books a writer actually borrowed from Sylvia Beach in Paris. A card for each book, a sign for the table, bookmarks for every title. Every fact is from her lending cards.</p>
+  </header>
+
+  <div class="layout">
+    <section class="stage" aria-label="Preview">
+      <div class="pair">
+        <div><div class="scaler" id="sSign"></div><div class="lbl">Table sign</div></div>
+        <div><div class="scaler" id="sCard"></div><div class="lbl" id="cardLbl">Card 1</div></div>
+      </div>
+      <div class="nav"><button type="button" id="prev" aria-label="Previous card">‹</button><button type="button" id="next" aria-label="Next card">›</button></div>
+      <button class="printbtn" id="printBtn" type="button">Print the sign and cards</button>
+      <p class="hint" id="printHint">US Letter, landscape, 100% scale. The sign is page 1; the 4 × 6 cards print two to a page. Cut on the marks. Cardstock if you have it.</p>
+      <button class="linkbtn" id="listBtn" type="button">Print the order list</button>
+    </section>
+
+    <section class="panel">
+      <h2>Table</h2>
+      <div class="sel"><select id="theme" aria-label="Choose a table"></select></div>
+      <div id="themeLock"></div>
+      <p class="sum" id="sum"></p>
+
+      <h2>On the table</h2>
+      <ol class="list" id="list"></ol>
+
+      <h2>Your store</h2>
+      <div class="row2">
+        <div class="field"><label for="store">Store name</label><input id="store" placeholder="Your bookstore" autocomplete="organization"></div>
+        <div class="field"><label for="city">Town</label><input id="city" placeholder="Your town"></div>
+      </div>
+      <div id="storeLock"></div>
+      <div id="paySlot"></div>
+    </section>
+  </div>
+
+  <footer>
+    <p>Every fact on these cards is from Sylvia Beach's lending library cards, Shakespeare and Company, Paris, 1919&ndash;1941, published by the <a href="https://shakespeareandco.princeton.edu/">Shakespeare and Company Project</a>, Princeton University Library, CC BY 4.0. Each card names its lending card. On a writer's table we chose which books; on a subject table a model chose them from the list. Neither wrote a word of the facts.</p>
+    <p>"In print" means a new copy was listed at Powell's, or a print edition is listed by Penguin Random House, on the date shown. "Not confirmed" means we didn't find one, not that it's out of print; check your distributor. Covers from <a href="https://openlibrary.org/">Open Library</a>.</p>
+    <p>Made by Aidan Jude (MS, Artificial Intelligence and Machine Learning, Columbia University) at Brick &amp; Mortar. <a href="https://randomaidan.substack.com/">randomaidan.substack.com</a></p>
+  </footer>
+</div>
+
+<div id="print" aria-hidden="true"></div>
+
+<script src="/paywall.js"></script>
+<script>
+(function(){
+const $=(s)=>document.querySelector(s);
+const esc=(s)=>String(s??"").replace(/[&<>"']/g,(c)=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const S={theme:null,index:[],i:0,store:"",city:"",token:null,forData:null,full:null,unlocked:false};
+const track=(n,p)=>window.Paywall?Paywall.track(n,p):null;
+const cov=(t,sz)=>t.cover_i?`https://covers.openlibrary.org/b/id/${t.cover_i}-${sz}.jpg`:"";
+const PROJ="Shakespeare and Company Project, Princeton University Library, CC BY 4.0";
+
+function short(th){return th.kind==="writer"?`What ${th.reader} read`:th.name;}
+function cardHTML(th,t){
+  return `<div class="pc card"><div class="k">The Writers' Library</div><div class="th">${esc(th.header)}</div><div class="rule"></div>
+  <div class="t">${esc(t.title)}</div>${t.sub&&t.sub.length<70?`<div class="s">${esc(t.sub)}</div>`:""}<div class="a">${esc(t.author)}</div>
+  <div class="mid"><div class="orn">❧</div><p class="f">${esc(t.fact)}</p>${t.also.length?`<div class="al">Also on her cards: ${esc(t.also.join(" · "))}</div>`:""}</div>
+  <div><div class="st">${esc(S.store||"Your bookstore")}</div>${S.city?`<div class="sc">${esc(S.city)}</div>`:""}<div class="ci">${esc(t.cite)} ${esc(t.url)}</div></div></div>`;
+}
+function signHTML(th){
+  const n=th.titles.length;
+  const d=th.kind==="writer"?`${n} books from ${th.reader}'s own lending card at Shakespeare and Company. Each card on this table says when.`:`${n} books from the lending cards of Shakespeare and Company. Each card on this table says who borrowed it, and when.`;
+  return `<div class="pc sign"><div class="k">The Writers' Library</div><div class="rule"></div><div class="mid"><p class="h">${esc(th.header)}</p><p class="d">${esc(d)}</p></div>
+  <div><div class="st">${esc(S.store||"Your bookstore")}</div>${S.city?`<div class="sc">${esc(S.city)}</div>`:""}<div class="ci">Sylvia Beach's lending library cards. ${esc(PROJ)}.</div></div></div>`;
+}
+function fit(root){
+  root.querySelectorAll(".card").forEach(c=>{const f=c.querySelector(".f"),t=c.querySelector(".t");let s=14,u=24;
+    while(c.scrollHeight>c.clientHeight+1&&(s>9||u>15)){if(u>15){u-=1;t.style.fontSize=u+"pt";}if(s>9&&c.scrollHeight>c.clientHeight+1){s-=.5;f.style.fontSize=s+"pt";}}
+    const m=c.querySelector(".mid");let g=0;while(m&&m.scrollHeight>m.clientHeight+1&&g++<30&&s>8){s-=.25;f.style.fontSize=s+"pt";}});
+  root.querySelectorAll(".sign").forEach(c=>{const h=c.querySelector(".h"),m=c.querySelector(".mid");let s=54;while(m.scrollHeight>m.clientHeight+1&&s>28){s-=2;h.style.fontSize=s+"pt";}});
+}
+function scaleBox(el,html,wIn,hIn,maxW){
+  el.innerHTML=html;const k=maxW/(wIn*96);el.style.width=maxW+"px";el.style.height=(hIn*96*k)+"px";el.firstChild.style.transform=`scale(${k})`;fit(el);
+}
+function renderPreview(){
+  const th=S.theme;if(!th)return;
+  const W=$(".pair").clientWidth-12;
+  // sign is landscape 11x8.5, card portrait 4x6: same height on screen
+  const h=Math.min(260,W/(11/8.5+4/6));
+  scaleBox($("#sSign"),signHTML(th),11,8.5,h*11/8.5);
+  scaleBox($("#sCard"),cardHTML(th,th.titles[S.i]),4,6,h*4/6);
+  $("#cardLbl").textContent=`Card ${S.i+1} of ${th.titles.length}`;
+}
+function renderList(){
+  const th=S.theme,base=S.token?`/for/${S.token}/`:"/";
+  $("#list").innerHTML=th.titles.map((t,i)=>{
+    const ip=t.in_print.status==="in_print"?`<span class="ip yes">In print · ${esc(t.in_print.listing)}</span>`:`<span class="ip no">Not confirmed in print</span>`;
+    return `<li data-i="${i}" class="${i===S.i?"on":""}">${cov(t,"S")?`<img src="${esc(cov(t,"S"))}" alt="" loading="lazy">`:`<div class="noc"></div>`}<div><b>${esc(t.title)}</b><span class="au">${esc(t.author)}</span>
+      <div class="bw">${esc(t.reader)} ${esc(t.verb)} it, ${esc(t.when)}</div><div class="row">${ip}<a class="bmk" href="${base}?from=library#${encodeURIComponent(t.key)}" data-bm="${i}">Bookmarks →</a></div></div></li>`;}).join("");
+  const nc=th.titles.length-th.in_print;
+  $("#sum").textContent=`${th.titles.length} books, ${th.in_print} confirmed in print${nc?`, ${nc} not confirmed`:""}. ${th.picked_by==="model"?"A model picked these from the cards; every fact is the card's.":"Picked from the cards."}`;
+}
+function renderPicker(){
+  const lock=!S.unlocked;
+  const opt=(x)=>`<option value="${esc(x.id)}" ${x.id===S.theme.id?"selected":""} ${lock&&x.id!==S.theme.id?"disabled":""}>${esc(x.kind==="writer"?x.name:x.name)} (${x.n})</option>`;
+  const W=S.index.filter(x=>x.kind==="writer"),T=S.index.filter(x=>x.kind!=="writer");
+  $("#theme").innerHTML=`<optgroup label="A writer's borrowing">${W.map(opt).join("")}</optgroup><optgroup label="A subject">${T.map(opt).join("")}</optgroup>`;
+  $("#themeLock").innerHTML=lock&&Paywall.offer?Paywall.lockRow(`All ${S.index.length} tables: ${W.length} writers, ${T.length} subjects`):"";
+}
+function lockStore(){
+  const lock=!S.unlocked&&!S.forData;
+  $("#store").disabled=lock;$("#city").disabled=lock;
+  $("#storeLock").innerHTML=lock&&Paywall.offer?Paywall.lockRow("Your store's name on the sign and cards"):"";
+}
+function all(){
+  const th=S.theme;
+  $("#h1").textContent=th.header;
+  renderPicker();renderList();renderPreview();
+}
+function setTheme(th){S.theme=th;S.i=0;all();}
+
+function marks(xs,ys,x0,x1,y0,y1){const m=[];
+  xs.forEach(x=>{m.push(`<div class="cm" style="left:${x}in;top:${y0-.45}in;width:.25pt;height:.35in"></div>`,`<div class="cm" style="left:${x}in;top:${y1+.1}in;width:.25pt;height:.35in"></div>`);});
+  ys.forEach(y=>{m.push(`<div class="cm" style="top:${y}in;left:${x0-.45}in;height:.25pt;width:.35in"></div>`,`<div class="cm" style="top:${y}in;left:${x1+.1}in;height:.25pt;width:.35in"></div>`);});
+  return m.join("");}
+function renderPrint(what){
+  const th=S.theme;let h="";
+  if(what==="list"){
+    h=`<div class="flow"><div class="olist"><h3>${esc(th.header)}</h3><p>${esc(S.store||"Your bookstore")} · order list · ${th.titles.length} books, ${th.in_print} confirmed in print (a new copy at Powell's or a print edition listed by Penguin Random House on the date shown; "not confirmed" means check your distributor).</p>
+    <table><tr><th>#</th><th>Title</th><th>Author</th><th>On her cards</th><th>In print</th></tr>${th.titles.map((t,i)=>`<tr><td>${i+1}</td><td>${esc(t.title)}</td><td>${esc(t.author)}</td><td>${esc(t.reader)}, ${esc(t.when)}</td><td>${t.in_print.status==="in_print"?esc(t.in_print.listing+", "+t.in_print.checked):"Not confirmed"}</td></tr>`).join("")}</table></div></div>`;
+  }else{
+    h=`<div class="sheet">${signHTML(th)}</div>`;
+    const M=marks([1.5,5.5,9.5],[1.25,7.25],1.5,9.5,1.25,7.25);
+    for(let i=0;i<th.titles.length;i+=2){h+=`<div class="sheet"><div class="two">${cardHTML(th,th.titles[i])}${th.titles[i+1]?cardHTML(th,th.titles[i+1]):""}</div>${M}</div>`;}
+  }
+  $("#print").innerHTML=h;$("#print").style.display="block";fit($("#print"));$("#print").style.display="";
+}
+
+$("#printBtn").addEventListener("click",()=>{renderPrint("kit");track("library_print",{theme:S.theme.id,what:"kit",unlocked:!!S.unlocked});setTimeout(()=>window.print(),400);});
+$("#listBtn").addEventListener("click",()=>{renderPrint("list");track("library_print",{theme:S.theme.id,what:"list",unlocked:!!S.unlocked});setTimeout(()=>window.print(),400);});
+$("#prev").addEventListener("click",()=>{S.i=(S.i-1+S.theme.titles.length)%S.theme.titles.length;renderList();renderPreview();});
+$("#next").addEventListener("click",()=>{S.i=(S.i+1)%S.theme.titles.length;renderList();renderPreview();});
+$("#list").addEventListener("click",(e)=>{
+  const a=e.target.closest("[data-bm]");
+  if(a){const t=S.theme.titles[+a.dataset.bm];
+    const lines=t.lines||(S.full&&S.full.books[t.key]?S.full.books[t.key].lines:[]);
+    try{sessionStorage.setItem("rb_lib_book",JSON.stringify({title:t.title,author:t.author,cover_i:t.cover_i,key:t.key,lines}));}catch(x){}
+    track("library_bookmarks",{theme:S.theme.id,book:t.title});return;}
+  const li=e.target.closest("li[data-i]");if(!li)return;S.i=+li.dataset.i;renderList();renderPreview();
+  if(innerWidth<900)$(".stage").scrollIntoView({behavior:"smooth",block:"start"});
+});
+$("#theme").addEventListener("change",()=>{const id=$("#theme").value;const th=S.full&&S.full.library.themes[id];if(th){setTheme(th);track("library_theme",{theme:id});history.replaceState(null,"",(S.token?`/for/${S.token}/library/`:`/library/${id}/`));}});
+["store","city"].forEach(id=>$("#"+id).addEventListener("input",()=>{S[id]=$("#"+id).value.trim();renderPreview();}));
+window.addEventListener("resize",()=>renderPreview());
+
+async function boot(){
+  const fm=location.pathname.match(/^\/for\/([a-z0-9]{6,16})\/library\/?$/);
+  const tm=location.pathname.match(/^\/library\/([a-z0-9-]+)\/?$/);
+  const free=await fetch("/data/library/free.json").then(r=>r.json());
+  S.index=free.index;
+  if(fm){try{const d=await fetch(`/data/for/${fm[1]}.json`).then(r=>{if(!r.ok)throw 0;return r.json();});if(d.library){S.forData=d;S.token=fm[1];}}catch(e){}}
+  if(S.forData){
+    const d=S.forData;S.store=d.store.name;S.city=d.store.city||"";$("#store").value=S.store;$("#city").value=S.city;
+    $("#kick").textContent=`For ${d.store.name}`;$("#back").href=`/for/${S.token}/`;$("#back").textContent="Your bookmark →";
+    $("#lede").textContent=`${d.library.reason?d.library.reason+" ":""}A Writers' Library table to set beside your staff pick, ${d.book.title}: a card for each book, a sign, bookmarks for every title. Every fact is off Sylvia Beach's lending cards.`;
+    S.theme=d.library.theme;
+  }else{S.theme=free.default;}
+  S.wanted=tm&&tm[1]!==S.theme.id?tm[1]:null;
+  all();lockStore();
+  await Paywall.init({ctx:{token:S.token||"",theme:S.theme.id,page:"library"},slot:$("#paySlot"),onUnlock:(data)=>{S.full=data;S.unlocked=true;lockStore();
+    const want=S.wanted&&data.library.themes[S.wanted];if(want)setTheme(want);else all();}});
+  all();lockStore();
+  track("preview_open",{token:S.token||"",theme:S.theme.id,page:"library"});
+}
+document.fonts&&document.fonts.ready.then(()=>renderPreview());
+boot();
+})();
+</script>
+</body>
+</html>

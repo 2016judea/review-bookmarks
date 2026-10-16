@@ -33,5 +33,641 @@
  "source": {
   "url": "https://thirdplacebooks.com/book/9781797216928",
   "seen": "2026-10-16"
+ },
+ "library": {
+  "tier": "model",
+  "line": "A Writers' Library table to set beside it: “Far places: borrowed from Sylvia Beach, Paris 1921–1938.”",
+  "reason": "",
+  "theme": {
+   "id": "far-places",
+   "kind": "subject",
+   "name": "Far places",
+   "picked_by": "model",
+   "on_cards": 16,
+   "header": "Far places: borrowed from Sylvia Beach, Paris 1921–1938",
+   "years": "1921–1938",
+   "titles": [
+    {
+     "key": "travelswithadonkeyinthecvennes|stevenson",
+     "title": "Travels with a Donkey in the Cévennes",
+     "sub": "",
+     "author": "Robert Louis Stevenson",
+     "reader": "Jeanine (Delpech) Teissier",
+     "verb": "borrowed",
+     "when": "September 1938",
+     "year": 1938,
+     "date": "1938-09-20",
+     "fact": "Jeanine (Delpech) Teissier borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1938.",
+     "also": [
+      "Steele Savage (1923)"
+     ],
+     "cite": "Sylvia Beach, Teissier Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/stevenson-travels-donkey-vennes/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $8.50, at Powell's",
+      "as_listed": "Travels with a Donkey in the Cevennes"
+     },
+     "cover_i": 109032,
+     "lines": []
+    },
+    {
+     "key": "travelsinarabiadeserta|doughty",
+     "title": "Travels in Arabia Deserta",
+     "sub": "",
+     "author": "Charles Montagu Doughty",
+     "reader": "James Joyce",
+     "verb": "borrowed",
+     "when": "October 1923",
+     "year": 1923,
+     "date": "1923-10-18",
+     "fact": "James Joyce borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1923.",
+     "also": [
+      "Richard Le Gallienne (1929)"
+     ],
+     "cite": "James Joyce's lending library cards not represented here are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/doughty-travels-arabia-deserta/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $31.95, at Powell's",
+      "as_listed": "Travels in Arabia Deserta, Vol. I (in Two Volumes)"
+     },
+     "cover_i": 5944547,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "James Joyce",
+       "text": "James Joyce borrowed Travels in Arabia Deserta from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "James Joyce's lending library cards not represented here are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/doughty-travels-arabia-deserta/",
+       "licence": "CC BY 4.0",
+       "fame": 207
+      },
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed Travels in Arabia Deserta from Sylvia Beach's Shakespeare and Company, Paris, in 1929.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/doughty-travels-arabia-deserta/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "inmorocco|wharton",
+     "title": "In Morocco",
+     "sub": "",
+     "author": "Edith Wharton",
+     "reader": "Louise Crane",
+     "verb": "borrowed",
+     "when": "December 1935",
+     "year": 1935,
+     "date": "1935-12-26",
+     "fact": "Louise Crane borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1935.",
+     "also": [],
+     "cite": "Sylvia Beach, Louise Crane Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/wharton-morocco/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $11.50, at Powell's",
+      "as_listed": "In Morocco"
+     },
+     "cover_i": 9329029,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Louise Crane",
+       "text": "Louise Crane borrowed In Morocco from Sylvia Beach's Shakespeare and Company, Paris, in 1935.",
+       "cite": "Sylvia Beach, Louise Crane Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/wharton-morocco/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "revoltinthedesert|lawrence",
+     "title": "Revolt in the Desert",
+     "sub": "",
+     "author": "T. E. Lawrence",
+     "reader": "Pierre Citron",
+     "verb": "borrowed",
+     "when": "December 1937",
+     "year": 1937,
+     "date": "1937-12-20",
+     "fact": "Pierre Citron borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1937.",
+     "also": [
+      "Jean Schlumberger (1928)"
+     ],
+     "cite": "Sylvia Beach, Pierre Citron Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/lawrence-revolt-desert/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $19.95, at Powell's",
+      "as_listed": "Revolt In The Desert"
+     },
+     "cover_i": 4847382,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Pierre Citron",
+       "text": "Pierre Citron borrowed Revolt in the Desert from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+       "cite": "Sylvia Beach, Pierre Citron Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lawrence-revolt-desert/",
+       "licence": "CC BY 4.0",
+       "fame": 5
+      },
+      {
+       "kind": "borrow",
+       "reader": "Jean Schlumberger",
+       "text": "Jean Schlumberger borrowed Revolt in the Desert from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Jean Schlumberger Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lawrence-revolt-desert/",
+       "licence": "CC BY 4.0",
+       "fame": 4
+      }
+     ]
+    },
+    {
+     "key": "sailingalonearoundtheworld|slocum",
+     "title": "Sailing Alone Around the World",
+     "sub": "",
+     "author": "Joshua Slocum",
+     "reader": "Ernest Hemingway",
+     "verb": "borrowed",
+     "when": "October 1925",
+     "year": 1925,
+     "date": "1925-10-14",
+     "fact": "Ernest Hemingway borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1925.",
+     "also": [],
+     "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/slocum-sailing-alone-around/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $18.50, at Powell's",
+      "as_listed": "Sailing Alone Around the World A Personal Account of the First Solo Circumnavigation of the Globe by Sail"
+     },
+     "cover_i": 8247067,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Ernest Hemingway",
+       "text": "Ernest Hemingway borrowed Sailing Alone Around the World from Sylvia Beach's Shakespeare and Company, Paris, in 1925.",
+       "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/slocum-sailing-alone-around/",
+       "licence": "CC BY 4.0",
+       "fame": 208
+      }
+     ]
+    },
+    {
+     "key": "seaandsardinia|lawrence",
+     "title": "Sea and Sardinia",
+     "sub": "",
+     "author": "D. H. Lawrence",
+     "reader": "Robert W. Service",
+     "verb": "borrowed",
+     "when": "November 1923",
+     "year": 1923,
+     "date": "1923-11-20",
+     "fact": "Robert W. Service borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in November 1923.",
+     "also": [
+      "Stephen D. Tuttle (1934)"
+     ],
+     "cite": "Sylvia Beach, Robert Service Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/lawrence-sea-sardinia/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $19.50, at Powell's",
+      "as_listed": "Sea and Sardinia"
+     },
+     "cover_i": 5713792,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Robert W. Service",
+       "text": "Robert W. Service borrowed Sea and Sardinia from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Robert Service Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lawrence-sea-sardinia/",
+       "licence": "CC BY 4.0",
+       "fame": 18
+      },
+      {
+       "kind": "borrow",
+       "reader": "Stephen D. Tuttle",
+       "text": "Stephen D. Tuttle borrowed Sea and Sardinia from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Stephen D. Tuttle Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lawrence-sea-sardinia/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "oldcalabria|douglas",
+     "title": "Old Calabria",
+     "sub": "",
+     "author": "Norman Douglas",
+     "reader": "Robert W. Service",
+     "verb": "borrowed",
+     "when": "December 1923",
+     "year": 1923,
+     "date": "1923-12-22",
+     "fact": "Robert W. Service borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1923.",
+     "also": [
+      "Henry Church (1935)"
+     ],
+     "cite": "Sylvia Beach, Robert Service Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/douglas-old-calabria/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $22.99, at Powell's",
+      "as_listed": "Old Calabria"
+     },
+     "cover_i": 6807531,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Robert W. Service",
+       "text": "Robert W. Service borrowed Old Calabria from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Robert Service Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/douglas-old-calabria/",
+       "licence": "CC BY 4.0",
+       "fame": 18
+      },
+      {
+       "kind": "borrow",
+       "reader": "Henry Church",
+       "text": "Henry Church bought Old Calabria from Sylvia Beach's Shakespeare and Company, Paris, in 1935.",
+       "cite": "Sylvia Beach, Henry Church Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/douglas-old-calabria/",
+       "licence": "CC BY 4.0",
+       "fame": 2
+      }
+     ]
+    },
+    {
+     "key": "southwind|douglas",
+     "title": "South Wind",
+     "sub": "",
+     "author": "Norman Douglas",
+     "reader": "E. du Perron",
+     "verb": "borrowed",
+     "when": "May 1934",
+     "year": 1934,
+     "date": "1934-05-01",
+     "fact": "E. du Perron borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in May 1934.",
+     "also": [
+      "Fanie Eloff (1934)",
+      "Solita Solano (1923)",
+      "Elisabeth de Roos (1934)"
+     ],
+     "cite": "The lending library card of Charles Edgar “Eddy” du Perron and Elisabeth de Roos is part of the Carlton Lake Collection of Maurice Saillet, Sylvia Beach, and Shakespeare and Company at the Harry Ransom Humanities Research Center, the University of Texas at Austin. For more information, visit: https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00116. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/douglas-south-wind/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $17.50, at Powell's",
+      "as_listed": "South Wind"
+     },
+     "cover_i": 2981629,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "E. du Perron",
+       "text": "E. du Perron borrowed South Wind from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "The lending library card of Charles Edgar “Eddy” du Perron and Elisabeth de Roos is part of the Carlton Lake Collection of Maurice Saillet, Sylvia Beach, and Shakespeare and Company at the Harry Ransom Humanities Research Center, the University of Texas at Austin. For more information, visit: https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00116. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/douglas-south-wind/",
+       "licence": "CC BY 4.0",
+       "fame": 12
+      },
+      {
+       "kind": "borrow",
+       "reader": "Fanie Eloff",
+       "text": "Fanie Eloff borrowed South Wind from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Fanie Eloff Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/douglas-south-wind/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      },
+      {
+       "kind": "borrow",
+       "reader": "Solita Solano",
+       "text": "Solita Solano borrowed South Wind from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Solita Solano Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/douglas-south-wind/",
+       "licence": "CC BY 4.0",
+       "fame": 8
+      }
+     ]
+    },
+    {
+     "key": "seaandthejungle|tomlinson",
+     "title": "The Sea and the Jungle",
+     "sub": "",
+     "author": "H. M. Tomlinson",
+     "reader": "Ernest Hemingway",
+     "verb": "borrowed",
+     "when": "October 1925",
+     "year": 1925,
+     "date": "1925-10-14",
+     "fact": "Ernest Hemingway borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1925.",
+     "also": [],
+     "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/tomlinson-sea-jungle/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $20.50, at Powell's",
+      "as_listed": "The Sea and the Jungle"
+     },
+     "cover_i": 5926866,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Ernest Hemingway",
+       "text": "Ernest Hemingway borrowed The Sea and the Jungle from Sylvia Beach's Shakespeare and Company, Paris, in 1925.",
+       "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/tomlinson-sea-jungle/",
+       "licence": "CC BY 4.0",
+       "fame": 208
+      }
+     ]
+    },
+    {
+     "key": "acrosstheplains|stevenson",
+     "title": "Across the Plains",
+     "sub": "",
+     "author": "Robert Louis Stevenson",
+     "reader": "Madeleine Rolland",
+     "verb": "borrowed",
+     "when": "April 1921",
+     "year": 1921,
+     "date": "1921-04-04",
+     "fact": "Madeleine Rolland borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in April 1921.",
+     "also": [],
+     "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/stevenson-across-plains/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $12.95, at Powell's",
+      "as_listed": "Across the Plains"
+     },
+     "cover_i": 1930592,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Across the Plains from Sylvia Beach's Shakespeare and Company, Paris, in 1921.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/stevenson-across-plains/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "farawayandlongago|hudson",
+     "title": "Far Away and Long Ago",
+     "sub": "",
+     "author": "W. H. Hudson",
+     "reader": "Ernest Hemingway",
+     "verb": "borrowed",
+     "when": "May 1926",
+     "year": 1926,
+     "date": "1926-05-04",
+     "fact": "Ernest Hemingway borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in May 1926.",
+     "also": [
+      "Madeleine Rolland (1923)"
+     ],
+     "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/hudson-far-away-long/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $13.95, at Powell's",
+      "as_listed": "Far Away and Long Ago: A History of My Early Life"
+     },
+     "cover_i": 782468,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Ernest Hemingway",
+       "text": "Ernest Hemingway borrowed Far Away and Long Ago from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hudson-far-away-long/",
+       "licence": "CC BY 4.0",
+       "fame": 208
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Far Away and Long Ago from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hudson-far-away-long/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "greenmansions|hudson",
+     "title": "Green Mansions",
+     "sub": "A Romance of the Tropical Forest",
+     "author": "W. H. Hudson",
+     "reader": "Robert McAlmon",
+     "verb": "bought",
+     "when": "April 1927",
+     "year": 1927,
+     "date": "1927-04-09",
+     "fact": "Robert McAlmon bought this book from Sylvia Beach's Shakespeare and Company, Paris, in April 1927.",
+     "also": [
+      "Madeleine Rolland (1921)",
+      "Edmond Renoir (1927)",
+      "Gilbert Vieillard (1934)"
+     ],
+     "cite": "Sylvia Beach, Robert McAlmon Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/hudson-green-mansions-romance/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $13.95, at Powell's",
+      "as_listed": "Green Mansions: A Romance of the Tropical Forest"
+     },
+     "cover_i": 4969847,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Robert McAlmon",
+       "text": "Robert McAlmon bought Green Mansions: A Romance of the Tropical Forest from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+       "cite": "Sylvia Beach, Robert McAlmon Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hudson-green-mansions-romance/",
+       "licence": "CC BY 4.0",
+       "fame": 9
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Green Mansions: A Romance of the Tropical Forest from Sylvia Beach's Shakespeare and Company, Paris, in 1921.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hudson-green-mansions-romance/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Edmond Renoir",
+       "text": "Edmond Renoir borrowed Green Mansions: A Romance of the Tropical Forest from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+       "cite": "Sylvia Beach, Edmond Renoir Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hudson-green-mansions-romance/",
+       "licence": "CC BY 4.0",
+       "fame": 0
+      }
+     ]
+    },
+    {
+     "key": "she|haggard",
+     "title": "She",
+     "sub": "A History of Adventure",
+     "author": "H. Rider Haggard",
+     "reader": "Lucia Joyce",
+     "verb": "borrowed",
+     "when": "December 1922",
+     "year": 1922,
+     "date": "1922-12-20",
+     "fact": "Lucia Joyce borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1922.",
+     "also": [],
+     "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/haggard-history-adventure/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $12.95, at Powell's",
+      "as_listed": "SHE, The Ultimate Illustrated Edition"
+     },
+     "cover_i": 295537,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Lucia Joyce",
+       "text": "Lucia Joyce borrowed She: A History of Adventure from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/haggard-history-adventure/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      }
+     ]
+    },
+    {
+     "key": "junglebook|kipling",
+     "title": "The Jungle Book",
+     "sub": "",
+     "author": "Rudyard Kipling",
+     "reader": "Lucia Joyce",
+     "verb": "borrowed",
+     "when": "November 1922",
+     "year": 1922,
+     "date": "1922-11-28",
+     "fact": "Lucia Joyce borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in November 1922.",
+     "also": [],
+     "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/kipling-jungle-book/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $6.99, at Powell's",
+      "as_listed": "The Jungle Book"
+     },
+     "cover_i": 3344204,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Lucia Joyce",
+       "text": "Lucia Joyce borrowed The Jungle Book from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/kipling-jungle-book/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      }
+     ]
+    },
+    {
+     "key": "kim|kipling",
+     "title": "Kim",
+     "sub": "",
+     "author": "Rudyard Kipling",
+     "reader": "Guy de Pourtales",
+     "verb": "borrowed",
+     "when": "May 1937",
+     "year": 1937,
+     "date": "1937-05-21",
+     "fact": "Guy de Pourtales borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in May 1937.",
+     "also": [],
+     "cite": "Sylvia Beach, Guy de Pourtales Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/kipling-kim/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $12.60, at Powell's",
+      "as_listed": "Kim (Adventure Classic) - Illustrated Edition: A Novel from one of the most popular writers in England, known for The Jungle Book, Just So Stories, Ca"
+     },
+     "cover_i": 1053011,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Guy de Pourtales",
+       "text": "Guy de Pourtales borrowed Kim from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+       "cite": "Sylvia Beach, Guy de Pourtales Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/kipling-kim/",
+       "licence": "CC BY 4.0",
+       "fame": 8
+      }
+     ]
+    },
+    {
+     "key": "vailimaletters|stevenson",
+     "title": "Vailima Letters",
+     "sub": "Correspondence Addressed by Robert Louis Stevenson to Sidney Colvin",
+     "author": "Robert Louis Stevenson",
+     "reader": "Madeleine Rolland",
+     "verb": "borrowed",
+     "when": "January 1921",
+     "year": 1921,
+     "date": "1921-01-08",
+     "fact": "Madeleine Rolland borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1921.",
+     "also": [],
+     "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/stevenson-vailima-letters-correspondence/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $24.50, at Powell's",
+      "as_listed": "Vailima Letters; Being Correspondence Addressed by Robert Louis Stevenson to Sidney Colvin, November, 1890-October 1894. [Edited by Sidney Colvin]; Vo"
+     },
+     "cover_i": 8242376,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Vailima Letters: Correspondence Addressed by Robert Louis Stevenson to Sidney Colvin from Sylvia Beach's Shakespeare and Company, Paris, in 1921.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/stevenson-vailima-letters-correspondence/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    }
+   ],
+   "in_print": 16
+  }
  }
 }

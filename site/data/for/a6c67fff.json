@@ -33,5 +33,635 @@
  "source": {
   "url": "https://unabridgedbookstore.com/book/9781934819647",
   "seen": "2026-10-16"
+ },
+ "library": {
+  "tier": "model",
+  "line": "A Writers' Library table to set beside it: “Ghosts and the uncanny: borrowed from Sylvia Beach, Paris 1920–1941.”",
+  "reason": "",
+  "theme": {
+   "id": "the-uncanny",
+   "kind": "subject",
+   "name": "Ghosts and the uncanny",
+   "picked_by": "model",
+   "on_cards": 16,
+   "header": "Ghosts and the uncanny: borrowed from Sylvia Beach, Paris 1920–1941",
+   "years": "1920–1941",
+   "titles": [
+    {
+     "key": "houseofsouls|machen",
+     "title": "The House of Souls",
+     "sub": "",
+     "author": "Arthur Machen",
+     "reader": "Leo Stein",
+     "verb": "borrowed",
+     "when": "March 1924",
+     "year": 1924,
+     "date": "1924-03-01",
+     "fact": "Leo Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in March 1924.",
+     "also": [],
+     "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/machen-house-souls/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $12.95, at Powell's",
+      "as_listed": "The House Of Souls"
+     },
+     "cover_i": 879261,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed The House of Souls from Sylvia Beach's Shakespeare and Company, Paris, in 1924.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/machen-house-souls/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      }
+     ]
+    },
+    {
+     "key": "greatgodpan|machen",
+     "title": "The Great God Pan",
+     "sub": "",
+     "author": "Arthur Machen",
+     "reader": "Archibald MacLeish",
+     "verb": "borrowed",
+     "when": "April 1934",
+     "year": 1934,
+     "date": "1934-04-17",
+     "fact": "Archibald MacLeish borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in April 1934.",
+     "also": [],
+     "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/machen-great-god-pan/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $5.99, at Powell's",
+      "as_listed": "The Great God Pan"
+     },
+     "cover_i": 921610,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Archibald MacLeish",
+       "text": "Archibald MacLeish borrowed The Great God Pan from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/machen-great-god-pan/",
+       "licence": "CC BY 4.0",
+       "fame": 39
+      }
+     ]
+    },
+    {
+     "key": "uncannystories|sinclair",
+     "title": "Uncanny Stories",
+     "sub": "",
+     "author": "May Sinclair",
+     "reader": "Dolly Wilde",
+     "verb": "borrowed",
+     "when": "March 1925",
+     "year": 1925,
+     "date": "1925-03-04",
+     "fact": "Dolly Wilde borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in March 1925.",
+     "also": [],
+     "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/sinclair-uncanny-stories/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $21.28, at Powell's",
+      "as_listed": "Uncanny Stories"
+     },
+     "cover_i": 8511094,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Dolly Wilde",
+       "text": "Dolly Wilde borrowed Uncanny Stories from Sylvia Beach's Shakespeare and Company, Paris, in 1925.",
+       "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/sinclair-uncanny-stories/",
+       "licence": "CC BY 4.0",
+       "fame": 15
+      }
+     ]
+    },
+    {
+     "key": "cansuchthingsbe|bierce",
+     "title": "Can Such Things Be?",
+     "sub": "",
+     "author": "Ambrose Gwinnett Bierce",
+     "reader": "Archibald MacLeish",
+     "verb": "borrowed",
+     "when": "March 1926",
+     "year": 1926,
+     "date": "1926-03-23",
+     "fact": "Archibald MacLeish borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in March 1926.",
+     "also": [
+      "Daphne Woodward (1941)"
+     ],
+     "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/bierce-can-things/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $13.95, at Powell's",
+      "as_listed": "Can Such Things Be?"
+     },
+     "cover_i": 12856808,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Archibald MacLeish",
+       "text": "Archibald MacLeish borrowed Can Such Things Be? from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/bierce-can-things/",
+       "licence": "CC BY 4.0",
+       "fame": 39
+      },
+      {
+       "kind": "borrow",
+       "reader": "Daphne Woodward",
+       "text": "Daphne Woodward borrowed Can Such Things Be? from Sylvia Beach's Shakespeare and Company, Paris, in 1941.",
+       "cite": "Sylvia Beach, Miss Daphne Woodward Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/bierce-can-things/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "talesofmysteryandimagination|poe",
+     "title": "Tales of Mystery and Imagination",
+     "sub": "",
+     "author": "Edgar Allan Poe",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "January 1928",
+     "year": 1928,
+     "date": "1928-01-26",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1928.",
+     "also": [],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/poe-tales-mystery-imagination/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New hardcover, $12.99, at Powell's",
+      "as_listed": "Tales of Mystery & Imagination"
+     },
+     "cover_i": 11841090,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed Tales of Mystery and Imagination from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/poe-tales-mystery-imagination/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "strangecaseofdrjekyllandmrhyde|stevenson",
+     "title": "Strange Case of Dr. Jekyll and Mr. Hyde",
+     "sub": "",
+     "author": "Robert Louis Stevenson",
+     "reader": "Lucia Joyce",
+     "verb": "borrowed",
+     "when": "September 1923",
+     "year": 1923,
+     "date": "1923-09-22",
+     "fact": "Lucia Joyce borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1923.",
+     "also": [
+      "Catherine Yarrow (1939)"
+     ],
+     "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/stevenson-strange-case-dr/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $5.99, at Powell's",
+      "as_listed": "The Strange Case of Dr. Jekyll and Mr. Hyde"
+     },
+     "cover_i": 295773,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Lucia Joyce",
+       "text": "Lucia Joyce borrowed Strange Case of Dr. Jekyll and Mr. Hyde from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/stevenson-strange-case-dr/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      },
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed Strange Case of Dr. Jekyll and Mr. Hyde from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/stevenson-strange-case-dr/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "mysteriesofudolpho|radcliffe",
+     "title": "The Mysteries of Udolpho",
+     "sub": "",
+     "author": "Ann Radcliffe",
+     "reader": "Roger Caillois",
+     "verb": "borrowed",
+     "when": "January 1934",
+     "year": 1934,
+     "date": "1934-01-16",
+     "fact": "Roger Caillois borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1934.",
+     "also": [
+      "Catherine Yarrow (1939)",
+      "Armand Petitjean (1934)"
+     ],
+     "cite": "Sylvia Beach, Roger Caillois/ Armand Petitjean Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/radcliffe-mysteries-udolpho/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $27.95, at Powell's",
+      "as_listed": "The Mysteries of Udolpho, and 4; Volume 3"
+     },
+     "cover_i": 118207,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Roger Caillois",
+       "text": "Roger Caillois borrowed The Mysteries of Udolpho from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Roger Caillois/ Armand Petitjean Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/radcliffe-mysteries-udolpho/",
+       "licence": "CC BY 4.0",
+       "fame": 27
+      },
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed The Mysteries of Udolpho from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/radcliffe-mysteries-udolpho/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      },
+      {
+       "kind": "borrow",
+       "reader": "Armand Petitjean",
+       "text": "Armand Petitjean borrowed The Mysteries of Udolpho from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Roger Caillois/ Armand Petitjean Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/radcliffe-mysteries-udolpho/",
+       "licence": "CC BY 4.0",
+       "fame": 0
+      }
+     ]
+    },
+    {
+     "key": "houndofthebaskervilles|doyle",
+     "title": "The Hound of the Baskervilles",
+     "sub": "",
+     "author": "Arthur Conan Doyle",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "August 1930",
+     "year": 1930,
+     "date": "1930-08-13",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in August 1930.",
+     "also": [],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/doyle-hound-baskervilles/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $7.95, at Powell's",
+      "as_listed": "The Hound of the Baskervilles"
+     },
+     "cover_i": 8063264,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed The Hound of the Baskervilles from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/doyle-hound-baskervilles/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "mysteryofcloomber|doyle",
+     "title": "The Mystery of Cloomber",
+     "sub": "",
+     "author": "Arthur Conan Doyle",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "January 1929",
+     "year": 1929,
+     "date": "1929-01-12",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1929.",
+     "also": [],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/doyle-mystery-cloomber/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $17.50, at Powell's",
+      "as_listed": "The Mystery Of Cloomber"
+     },
+     "cover_i": 9923204,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed The Mystery of Cloomber from Sylvia Beach's Shakespeare and Company, Paris, in 1929.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/doyle-mystery-cloomber/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "confessionsofaghosthunter|odonnell",
+     "title": "The Confessions of a Ghost Hunter",
+     "sub": "",
+     "author": "Elliot O'Donnell",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "January 1929",
+     "year": 1929,
+     "date": "1929-01-12",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1929.",
+     "also": [],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/odonnell-confessions-ghost-hunter/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $25.95, at Powell's",
+      "as_listed": "Confessions of a Ghost Hunter"
+     },
+     "cover_i": null,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed The Confessions of a Ghost Hunter from Sylvia Beach's Shakespeare and Company, Paris, in 1929.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/odonnell-confessions-ghost-hunter/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "she|haggard",
+     "title": "She",
+     "sub": "A History of Adventure",
+     "author": "H. Rider Haggard",
+     "reader": "Lucia Joyce",
+     "verb": "borrowed",
+     "when": "December 1922",
+     "year": 1922,
+     "date": "1922-12-20",
+     "fact": "Lucia Joyce borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1922.",
+     "also": [],
+     "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/haggard-history-adventure/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $12.95, at Powell's",
+      "as_listed": "SHE, The Ultimate Illustrated Edition"
+     },
+     "cover_i": 295537,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Lucia Joyce",
+       "text": "Lucia Joyce borrowed She: A History of Adventure from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/haggard-history-adventure/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      }
+     ]
+    },
+    {
+     "key": "raymondorlifeanddeath|lodge",
+     "title": "Raymond or Life and Death",
+     "sub": "",
+     "author": "Oliver Lodge",
+     "reader": "Madeleine Rolland",
+     "verb": "borrowed",
+     "when": "March 1921",
+     "year": 1921,
+     "date": "1921-03-04",
+     "fact": "Madeleine Rolland borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in March 1921.",
+     "also": [],
+     "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/lodge-raymond-life-death/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $15.95, at Powell's",
+      "as_listed": "Raymond, or Life and Death: With Examples of the Evidence for Survival of Memory and Affection after Death"
+     },
+     "cover_i": 5597471,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Raymond or Life and Death from Sylvia Beach's Shakespeare and Company, Paris, in 1921.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lodge-raymond-life-death/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "survivalofman|lodge",
+     "title": "The Survival of Man",
+     "sub": "A Study in Unrecognized Human Faculty",
+     "author": "Oliver Lodge",
+     "reader": "James Joyce",
+     "verb": "borrowed",
+     "when": "December 1920",
+     "year": 1920,
+     "date": "1920-12-14",
+     "fact": "James Joyce borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1920.",
+     "also": [],
+     "cite": "James Joyce's lending library cards not represented here are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/lodge-survival-man-study/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $26.95, at Powell's",
+      "as_listed": "The Survival of Man"
+     },
+     "cover_i": 5908047,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "James Joyce",
+       "text": "James Joyce borrowed The Survival of Man: A Study in Unrecognized Human Faculty from Sylvia Beach's Shakespeare and Company, Paris, in 1920.",
+       "cite": "James Joyce's lending library cards not represented here are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lodge-survival-man-study/",
+       "licence": "CC BY 4.0",
+       "fame": 207
+      }
+     ]
+    },
+    {
+     "key": "experimentwithtime|dunne",
+     "title": "An Experiment with Time",
+     "sub": "",
+     "author": "J. W. Dunne",
+     "reader": "James Joyce",
+     "verb": "borrowed",
+     "when": "June 1934",
+     "year": 1934,
+     "date": "1934-06-04",
+     "fact": "James Joyce borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in June 1934.",
+     "also": [
+      "Roger Caillois (1934)",
+      "Armand Petitjean (1934)"
+     ],
+     "cite": "James Joyce's lending library cards not represented here are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dunne-experiment-time/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $13.95, at Powell's",
+      "as_listed": "An Experiment With Time"
+     },
+     "cover_i": 820667,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "James Joyce",
+       "text": "James Joyce borrowed An Experiment with Time from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "James Joyce's lending library cards not represented here are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dunne-experiment-time/",
+       "licence": "CC BY 4.0",
+       "fame": 207
+      },
+      {
+       "kind": "borrow",
+       "reader": "Roger Caillois",
+       "text": "Roger Caillois borrowed An Experiment with Time from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Roger Caillois/ Armand Petitjean Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dunne-experiment-time/",
+       "licence": "CC BY 4.0",
+       "fame": 27
+      },
+      {
+       "kind": "borrow",
+       "reader": "Armand Petitjean",
+       "text": "Armand Petitjean borrowed An Experiment with Time from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Roger Caillois/ Armand Petitjean Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dunne-experiment-time/",
+       "licence": "CC BY 4.0",
+       "fame": 0
+      }
+     ]
+    },
+    {
+     "key": "grimmsfairytales|grimm",
+     "title": "Grimms' Fairy Tales",
+     "sub": "",
+     "author": "Jacob Grimm and Wilhelm Grimm",
+     "reader": "Ernest Hemingway",
+     "verb": "bought",
+     "when": "November 1929",
+     "year": 1929,
+     "date": "1929-11-20",
+     "fact": "Ernest Hemingway bought this book from Sylvia Beach's Shakespeare and Company, Paris, in November 1929.",
+     "also": [
+      "Thelma Wood (1923)",
+      "Catherine Yarrow (1938)"
+     ],
+     "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/grimm-grimms-fairy-tales/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $8.99, at Powell's",
+      "as_listed": "Grimms Fairy Tales"
+     },
+     "cover_i": null,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Ernest Hemingway",
+       "text": "Ernest Hemingway bought Grimms' Fairy Tales from Sylvia Beach's Shakespeare and Company, Paris, in 1929.",
+       "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/grimm-grimms-fairy-tales/",
+       "licence": "CC BY 4.0",
+       "fame": 208
+      },
+      {
+       "kind": "borrow",
+       "reader": "Thelma Wood",
+       "text": "Thelma Wood borrowed Grimms' Fairy Tales from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Miss Thelma Wood Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/grimm-grimms-fairy-tales/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed Grimms' Fairy Tales from Sylvia Beach's Shakespeare and Company, Paris, in 1938.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/grimm-grimms-fairy-tales/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "castle|kafka",
+     "title": "The Castle",
+     "sub": "",
+     "author": "Franz Kafka",
+     "reader": "Tudor Wilkinson",
+     "verb": "borrowed",
+     "when": "September 1941",
+     "year": 1941,
+     "date": "1941-09-06",
+     "fact": "Tudor Wilkinson borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1941.",
+     "also": [],
+     "cite": "Sylvia Beach, Tudor Wilkinson Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/kafka-castle/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $8.50, at Powell's",
+      "as_listed": "The Castle"
+     },
+     "cover_i": null,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Tudor Wilkinson",
+       "text": "Tudor Wilkinson borrowed The Castle from Sylvia Beach's Shakespeare and Company, Paris, in 1941.",
+       "cite": "Sylvia Beach, Tudor Wilkinson Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/kafka-castle/",
+       "licence": "CC BY 4.0",
+       "fame": 3
+      }
+     ]
+    }
+   ],
+   "in_print": 16
+  }
  }
 }

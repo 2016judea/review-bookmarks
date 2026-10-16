@@ -35,5 +35,669 @@
  "source": {
   "url": "https://buffalostreetbooks.com/book/9781639550562",
   "seen": "2026-10-16"
+ },
+ "library": {
+  "tier": "model",
+  "line": "A Writers' Library table to set beside it: “Poets: borrowed from Sylvia Beach, Paris 1919–1939.”",
+  "reason": "",
+  "theme": {
+   "id": "poets",
+   "kind": "subject",
+   "name": "Poets",
+   "picked_by": "model",
+   "on_cards": 16,
+   "header": "Poets: borrowed from Sylvia Beach, Paris 1919–1939",
+   "years": "1919–1939",
+   "titles": [
+    {
+     "key": "wasteland|eliot",
+     "title": "The Waste Land",
+     "sub": "",
+     "author": "T. S. Eliot",
+     "reader": "Leo Stein",
+     "verb": "borrowed",
+     "when": "October 1923",
+     "year": 1923,
+     "date": "1923-10-15",
+     "fact": "Leo Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1923.",
+     "also": [],
+     "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/eliot-waste-land/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $4.99, at Powell's",
+      "as_listed": "The Waste Land"
+     },
+     "cover_i": 115288,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed The Waste Land from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/eliot-waste-land/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      }
+     ]
+    },
+    {
+     "key": "personae|pound",
+     "title": "Personae",
+     "sub": "",
+     "author": "Ezra Pound",
+     "reader": "Henry Church",
+     "verb": "borrowed",
+     "when": "January 1939",
+     "year": 1939,
+     "date": "1939-01-26",
+     "fact": "Henry Church borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1939.",
+     "also": [],
+     "cite": "Sylvia Beach, Henry Church Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/pound-personae/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $17.50, at Powell's",
+      "as_listed": "Personae"
+     },
+     "cover_i": 598099,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Henry Church",
+       "text": "Henry Church borrowed Personae from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Henry Church Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/pound-personae/",
+       "licence": "CC BY 4.0",
+       "fame": 2
+      }
+     ]
+    },
+    {
+     "key": "heliodoraandotherpoems|hd",
+     "title": "Heliodora and Other Poems",
+     "sub": "",
+     "author": "H. D.",
+     "reader": "Leo Stein",
+     "verb": "borrowed",
+     "when": "June 1924",
+     "year": 1924,
+     "date": "1924-06-25",
+     "fact": "Leo Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in June 1924.",
+     "also": [],
+     "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/h-d-heliodora-poems/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $19.50, at Powell's",
+      "as_listed": "Heliodora, and Other Poems"
+     },
+     "cover_i": null,
+     "lines": []
+    },
+    {
+     "key": "tulipsandchimneys|cummings",
+     "title": "Tulips and Chimneys",
+     "sub": "",
+     "author": "E. E. Cummings",
+     "reader": "Robert D. Sage",
+     "verb": "borrowed",
+     "when": "February 1926",
+     "year": 1926,
+     "date": "1926-02-19",
+     "fact": "Robert D. Sage borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in February 1926.",
+     "also": [
+      "Édouard Roditi (1928)",
+      "Henry Church (1939)"
+     ],
+     "cite": "Sylvia Beach, Robert Sage Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/cummings-tulips-chimneys/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $19.50, at Powell's",
+      "as_listed": "Tulips and Chimneys - Poetry by e.e. cummings"
+     },
+     "cover_i": null,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Robert D. Sage",
+       "text": "Robert D. Sage borrowed Tulips and Chimneys from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Robert Sage Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/cummings-tulips-chimneys/",
+       "licence": "CC BY 4.0",
+       "fame": 5
+      },
+      {
+       "kind": "borrow",
+       "reader": "Édouard Roditi",
+       "text": "Édouard Roditi borrowed Tulips and Chimneys from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Edouard Roditi Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/cummings-tulips-chimneys/",
+       "licence": "CC BY 4.0",
+       "fame": 4
+      },
+      {
+       "kind": "borrow",
+       "reader": "Henry Church",
+       "text": "Henry Church borrowed Tulips and Chimneys from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Henry Church Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/cummings-tulips-chimneys/",
+       "licence": "CC BY 4.0",
+       "fame": 2
+      }
+     ]
+    },
+    {
+     "key": "harmonium|stevens",
+     "title": "Harmonium",
+     "sub": "",
+     "author": "Wallace Stevens",
+     "reader": "David Gascoyne",
+     "verb": "borrowed",
+     "when": "November 1933",
+     "year": 1933,
+     "date": "1933-11-06",
+     "fact": "David Gascoyne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in November 1933.",
+     "also": [
+      "Pierre Leyris (1939)",
+      "Henry Church (1939)"
+     ],
+     "cite": "Sylvia Beach, David Gascoyne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/stevens-harmonium/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $12.99, at Powell's",
+      "as_listed": "Harmonium"
+     },
+     "cover_i": null,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "David Gascoyne",
+       "text": "David Gascoyne borrowed Harmonium from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, David Gascoyne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/stevens-harmonium/",
+       "licence": "CC BY 4.0",
+       "fame": 8
+      },
+      {
+       "kind": "borrow",
+       "reader": "Pierre Leyris",
+       "text": "Pierre Leyris borrowed Harmonium from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Pierre Leyris Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/stevens-harmonium/",
+       "licence": "CC BY 4.0",
+       "fame": 4
+      },
+      {
+       "kind": "borrow",
+       "reader": "Henry Church",
+       "text": "Henry Church borrowed Harmonium from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Henry Church Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/stevens-harmonium/",
+       "licence": "CC BY 4.0",
+       "fame": 2
+      }
+     ]
+    },
+    {
+     "key": "leavesofgrass|whitman",
+     "title": "Leaves of Grass",
+     "sub": "",
+     "author": "Walt Whitman",
+     "reader": "Maurice Sachs",
+     "verb": "borrowed",
+     "when": "December 1938",
+     "year": 1938,
+     "date": "1938-12-30",
+     "fact": "Maurice Sachs borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1938.",
+     "also": [],
+     "cite": "Sylvia Beach, Maurice Sachs Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/whitman-leaves-grass/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $6.95, at Powell's",
+      "as_listed": "Leaves of Grass, the Original 1855 Edition: Original Edition"
+     },
+     "cover_i": 9000447,
+     "lines": [
+      {
+       "kind": "notable",
+       "reader": "D. H. Lawrence",
+       "text": "Whitman, the great poet, has meant so much to me. Whitman, the one man breaking a way ahead. Whitman, the one pioneer.",
+       "about": "",
+       "when": "1923",
+       "cite": "D. H. Lawrence, Studies in Classic American Literature (1923). Public domain; text via Project Gutenberg.",
+       "url": "https://www.gutenberg.org/ebooks/60547",
+       "licence": "Public domain"
+      },
+      {
+       "kind": "borrow",
+       "reader": "Maurice Sachs",
+       "text": "Maurice Sachs borrowed Leaves of Grass from Sylvia Beach's Shakespeare and Company, Paris, in 1938.",
+       "cite": "Sylvia Beach, Maurice Sachs Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/whitman-leaves-grass/",
+       "licence": "CC BY 4.0",
+       "fame": 17
+      }
+     ]
+    },
+    {
+     "key": "shropshirelad|housman",
+     "title": "A Shropshire Lad",
+     "sub": "",
+     "author": "A. E. Housman",
+     "reader": "Leo Stein",
+     "verb": "borrowed",
+     "when": "May 1924",
+     "year": 1924,
+     "date": "1924-05-20",
+     "fact": "Leo Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in May 1924.",
+     "also": [],
+     "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/housman-shropshire-lad/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $4.99, at Powell's",
+      "as_listed": "A Shropshire Lad"
+     },
+     "cover_i": 8231549,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed A Shropshire Lad from Sylvia Beach's Shakespeare and Company, Paris, in 1924.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/housman-shropshire-lad/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      }
+     ]
+    },
+    {
+     "key": "spoonriveranthology|masters",
+     "title": "Spoon River Anthology",
+     "sub": "",
+     "author": "Edgar Lee Masters",
+     "reader": "Madeleine Rolland",
+     "verb": "borrowed",
+     "when": "December 1919",
+     "year": 1919,
+     "date": "1919-12-11",
+     "fact": "Madeleine Rolland borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1919.",
+     "also": [],
+     "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/masters-spoon-river-anthology/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New mass market paperback, $9.95, at Powell's",
+      "as_listed": "Spoon River Anthology"
+     },
+     "cover_i": 13100876,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Spoon River Anthology from Sylvia Beach's Shakespeare and Company, Paris, in 1919.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/masters-spoon-river-anthology/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "collectedpoemsofthomashardy|hardy",
+     "title": "Collected Poems of Thomas Hardy",
+     "sub": "",
+     "author": "Thomas Hardy",
+     "reader": "André Maurois",
+     "verb": "borrowed",
+     "when": "January 1920",
+     "year": 1920,
+     "date": "1920-01-23",
+     "fact": "André Maurois borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1920.",
+     "also": [
+      "Leo Stein (1924)",
+      "Guy de Pourtales (1922)",
+      "George Dillon (1933)"
+     ],
+     "cite": "Sylvia Beach, André Maurois Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/hardy-collected-poems-thomas/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $37.50, at Powell's",
+      "as_listed": "Collected Poems of Thomas Hardy"
+     },
+     "cover_i": 10741178,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "André Maurois",
+       "text": "André Maurois borrowed Collected Poems of Thomas Hardy from Sylvia Beach's Shakespeare and Company, Paris, in 1920.",
+       "cite": "Sylvia Beach, André Maurois Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hardy-collected-poems-thomas/",
+       "licence": "CC BY 4.0",
+       "fame": 76
+      },
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed Collected Poems of Thomas Hardy from Sylvia Beach's Shakespeare and Company, Paris, in 1924.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hardy-collected-poems-thomas/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      },
+      {
+       "kind": "borrow",
+       "reader": "Guy de Pourtales",
+       "text": "Guy de Pourtales borrowed Collected Poems of Thomas Hardy from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Sylvia Beach, Guy de Pourtales Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hardy-collected-poems-thomas/",
+       "licence": "CC BY 4.0",
+       "fame": 8
+      }
+     ]
+    },
+    {
+     "key": "responsibilitiesandotherpoems|yeats",
+     "title": "Responsibilities and Other Poems",
+     "sub": "",
+     "author": "William Butler Yeats",
+     "reader": "Archibald MacLeish",
+     "verb": "borrowed",
+     "when": "January 1924",
+     "year": 1924,
+     "date": "1924-01-22",
+     "fact": "Archibald MacLeish borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1924.",
+     "also": [
+      "Jacques Mercanton (1938)"
+     ],
+     "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/yeats-responsibilities-poems/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $19.00, at Powell's",
+      "as_listed": "Responsibilities and Other Poems"
+     },
+     "cover_i": 5596695,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Archibald MacLeish",
+       "text": "Archibald MacLeish borrowed Responsibilities and Other Poems from Sylvia Beach's Shakespeare and Company, Paris, in 1924.",
+       "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/yeats-responsibilities-poems/",
+       "licence": "CC BY 4.0",
+       "fame": 39
+      },
+      {
+       "kind": "borrow",
+       "reader": "Jacques Mercanton",
+       "text": "Jacques Mercanton borrowed Responsibilities and Other Poems from Sylvia Beach's Shakespeare and Company, Paris, in 1938.",
+       "cite": "Sylvia Beach, Jacques Mercanton Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/yeats-responsibilities-poems/",
+       "licence": "CC BY 4.0",
+       "fame": 0
+      }
+     ]
+    },
+    {
+     "key": "windingstair|yeats",
+     "title": "The Winding Stair",
+     "sub": "",
+     "author": "William Butler Yeats",
+     "reader": "Archibald MacLeish",
+     "verb": "borrowed",
+     "when": "January 1934",
+     "year": 1934,
+     "date": "1934-01-12",
+     "fact": "Archibald MacLeish borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1934.",
+     "also": [],
+     "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/yeats-winding-stair/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $16.99, at Powell's",
+      "as_listed": "Winding Stair & Other Poems A Facsimile Edition"
+     },
+     "cover_i": null,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Archibald MacLeish",
+       "text": "Archibald MacLeish borrowed The Winding Stair from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/yeats-winding-stair/",
+       "licence": "CC BY 4.0",
+       "fame": 39
+      }
+     ]
+    },
+    {
+     "key": "poemsofgerardmanleyhopkins|hopkins",
+     "title": "Poems of Gerard Manley Hopkins",
+     "sub": "",
+     "author": "Gerard Manley Hopkins",
+     "reader": "Roger Caillois",
+     "verb": "borrowed",
+     "when": "January 1934",
+     "year": 1934,
+     "date": "1934-01-23",
+     "fact": "Roger Caillois borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1934.",
+     "also": [
+      "Pierre Leyris (1938)",
+      "Armand Petitjean (1934)"
+     ],
+     "cite": "Sylvia Beach, Roger Caillois/ Armand Petitjean Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/hopkins-poems-gerard-manley/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $8.95, at Powell's",
+      "as_listed": "The Poems of Gerard Manley Hopkins"
+     },
+     "cover_i": 1801191,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Roger Caillois",
+       "text": "Roger Caillois borrowed Poems of Gerard Manley Hopkins from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Roger Caillois/ Armand Petitjean Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hopkins-poems-gerard-manley/",
+       "licence": "CC BY 4.0",
+       "fame": 27
+      },
+      {
+       "kind": "borrow",
+       "reader": "Pierre Leyris",
+       "text": "Pierre Leyris borrowed Poems of Gerard Manley Hopkins from Sylvia Beach's Shakespeare and Company, Paris, in 1938.",
+       "cite": "Sylvia Beach, Pierre Leyris Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hopkins-poems-gerard-manley/",
+       "licence": "CC BY 4.0",
+       "fame": 4
+      },
+      {
+       "kind": "borrow",
+       "reader": "Armand Petitjean",
+       "text": "Armand Petitjean borrowed Poems of Gerard Manley Hopkins from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Roger Caillois/ Armand Petitjean Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hopkins-poems-gerard-manley/",
+       "licence": "CC BY 4.0",
+       "fame": 0
+      }
+     ]
+    },
+    {
+     "key": "cornhuskers|sandburg",
+     "title": "Cornhuskers",
+     "sub": "",
+     "author": "Carl Sandburg",
+     "reader": "Leo Stein",
+     "verb": "borrowed",
+     "when": "August 1923",
+     "year": 1923,
+     "date": "1923-08-20",
+     "fact": "Leo Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in August 1923.",
+     "also": [],
+     "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/sandburg-cornhuskers/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $20.50, at Powell's",
+      "as_listed": "Cornhuskers"
+     },
+     "cover_i": 313078,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed Cornhuskers from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/sandburg-cornhuskers/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      }
+     ]
+    },
+    {
+     "key": "bridge|crane",
+     "title": "The Bridge",
+     "sub": "",
+     "author": "Hart Crane",
+     "reader": "Roger Caillois",
+     "verb": "borrowed",
+     "when": "January 1934",
+     "year": 1934,
+     "date": "1934-01-16",
+     "fact": "Roger Caillois borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1934.",
+     "also": [
+      "David Gascoyne (1933)",
+      "Henry Church (1939)",
+      "Armand Petitjean (1934)"
+     ],
+     "cite": "Sylvia Beach, Roger Caillois/ Armand Petitjean Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/crane-bridge/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $9.00, at Powell's",
+      "as_listed": "The Bridge and White Buildings"
+     },
+     "cover_i": 4502529,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Roger Caillois",
+       "text": "Roger Caillois borrowed The Bridge from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Roger Caillois/ Armand Petitjean Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/crane-bridge/",
+       "licence": "CC BY 4.0",
+       "fame": 27
+      },
+      {
+       "kind": "borrow",
+       "reader": "David Gascoyne",
+       "text": "David Gascoyne borrowed The Bridge from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, David Gascoyne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/crane-bridge/",
+       "licence": "CC BY 4.0",
+       "fame": 8
+      },
+      {
+       "kind": "borrow",
+       "reader": "Henry Church",
+       "text": "Henry Church borrowed The Bridge from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Henry Church Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/crane-bridge/",
+       "licence": "CC BY 4.0",
+       "fame": 2
+      }
+     ]
+    },
+    {
+     "key": "springandall|williams",
+     "title": "Spring and All",
+     "sub": "",
+     "author": "William Carlos Williams",
+     "reader": "George Oppen",
+     "verb": "borrowed",
+     "when": "January 1933",
+     "year": 1933,
+     "date": "1933-01-19",
+     "fact": "George Oppen borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1933.",
+     "also": [
+      "Robert D. Sage (1926)"
+     ],
+     "cite": "Sylvia Beach, George Oppen Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/williams-spring/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $5.00, at Powell's",
+      "as_listed": "Spring and All"
+     },
+     "cover_i": null,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "George Oppen",
+       "text": "George Oppen borrowed Spring and All from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, George Oppen Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/williams-spring/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      },
+      {
+       "kind": "borrow",
+       "reader": "Robert D. Sage",
+       "text": "Robert D. Sage borrowed Spring and All from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Robert Sage Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/williams-spring/",
+       "licence": "CC BY 4.0",
+       "fame": 5
+      }
+     ]
+    },
+    {
+     "key": "divinecomedy|dantealighieri",
+     "title": "The Divine Comedy",
+     "sub": "",
+     "author": "Dante Alighieri",
+     "reader": "Florence Meyer",
+     "verb": "borrowed",
+     "when": "January 1934",
+     "year": 1934,
+     "date": "1934-01-03",
+     "fact": "Florence Meyer borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1934.",
+     "also": [],
+     "cite": "Sylvia Beach, Florence Meyer Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dante-alighieri-divine-comedy/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $18.50, at Powell's",
+      "as_listed": "The Divine Comedy Of Dante Alighieri: The Inferno: A Translation With Notes And An Introductory Essay By James Romanes Sibbald"
+     },
+     "cover_i": 120732,
+     "lines": []
+    }
+   ],
+   "in_print": 16
+  }
  }
 }

@@ -9,6 +9,28 @@ It is a shelf-talker that goes home inside the book.
 The page opens on *Moby-Dick*, with D. H. Lawrence's line on the front and Sylvia
 Beach's lending card on the back, ready to print.
 
+## The Writers' Library (`/library/`)
+
+A display table of books famous writers actually borrowed from Sylvia Beach's
+Shakespeare and Company in Paris. A store picks a writer or a subject and gets:
+
+- the list of 12 to 20 books, in-print titles first, each one marked **in print** (a new
+  copy listed at Powell's, with format, price and date) or **not confirmed**;
+- a 4 x 6 card for each book: the fact ("Ernest Hemingway borrowed this book from Sylvia
+  Beach's lending library ... in October 1925"), who else borrowed it, the lending
+  card's citation, and the store's name;
+- one sign for the table ("What Ernest Hemingway borrowed from Sylvia Beach, Paris
+  1925–1929"), the years computed from the cards on the table;
+- the bookmarks for any of those books, one tap away.
+
+It opens on Hemingway's table. Every sentence on a card or sign is written by
+`scripts/build_library.py` from a lending-card event. A model only picks and orders
+title ids from a list it is given (which of a writer's in-print titles make the 16;
+which titles belong on a subject table); the build drops any id it was not given. A
+writer's table is every member whose Wikidata occupation is a writer's and who has
+12+ titles on her cards. `/for/<token>/library/` opens on the table that overlaps that
+store's own staff pick.
+
 ## Where the lines come from
 
 | lane | source | licence | coverage |
@@ -27,15 +49,25 @@ bookmarks with crop marks; print double-sided, flip on short edge, 100% scale.
 
 ## Price
 
-**$80, once.** Hypothesis, 2026-10-16. A custom run of 250 2 x 7 in bookmarks from
+**$80, once, now including every Writers' Library table.** Hypothesis, 2026-10-16. A custom run of 250 2 x 7 in bookmarks from
 a print shop is $68.99 (Helloprint, read 2026-10-16), before anyone designs it. A
 store that runs one staff pick a month spends about 12 x $69 = $828 a year on that,
 and $80 is about a tenth of it. Untested against a buyer; revise on checkouts vs
 payments, not on feel.
 
+The table kit is folded into the $80 rather than priced on its own (hypothesis,
+2026-10-16). Two prices on one page is a bundle, and the one number under test is
+still whether a store pays $80 at all; round 1 has not gone out, so there is no
+checkout-to-payment ratio yet to set a second price against. Folding it in raises
+what the $80 buys without asking twice: same arithmetic as above, one price.
+Revise on evidence: if `/library/` pages draw `checkout_open` events that the bookmark
+page doesn't, the kit earns its own price.
+
 Free: the preloaded book (or, on a `/for/<token>/` page, the store's own staff
 pick with its name on the back), printable. Paid: any title, your store's name, every
-line we hold, unlimited sheets.
+line we hold, unlimited sheets. Library: Hemingway's table is free to print (on a
+`/for/` page, the store's own overlapping table with its name); paid opens every
+table and puts the store's name on the cards and sign.
 
 ## The paywall
 
@@ -54,6 +86,9 @@ Lost password: `python3 scripts/fulfil.py <session>`.
     python3 scripts/build_borrows.py   # Beach's cards -> private/borrows.json
     python3 scripts/build_index.py     # all lanes -> private/bundle/full.json.gz + site/data/free.json
     python3 scripts/build_for.py       # outreach ledger -> site/data/for/<token>.json
+    node scripts/check_in_print.js 4   # Powell's new-copy listings -> cache/in_print.jsonl (resumable, ~40 min)
+    python3 scripts/reader_occupations.py   # Wikidata occupations -> cache/reader_occupations.json
+    python3 scripts/build_library.py   # tables -> bundle + site/data/library/ + "library" on each /for/ page
     VERCEL_TOKEN=... python3 scripts/deploy.py
 
 `build_borrows.py` reads the Shakespeare and Company CSVs from

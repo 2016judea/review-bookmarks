@@ -72,3 +72,71 @@ picks a line, approves the exact words, and prints.
 novel, and there never will be. That is not a fillable-subset compromise, because the
 `staff` lane is the store's own voice and covers every title; famous readers and Beach's
 cards are the extra a store gets for the classics and modernists it shelves.
+
+---
+
+# The Writers' Library: a table kit
+
+Written 2026-10-16, from the need alone, before touching the data; checked against
+reality below.
+
+## The need
+
+A bookstore wants a display table that tells a story a customer can check: *these are
+the books Hemingway actually borrowed in Paris*. The store picks a theme or a writer and
+gets everything to set the table: which 12 to 20 books to put out (ones it can order
+today), a card standing by each book with the fact and where it comes from, one sign
+for the head of the table, and bookmarks for the same books.
+
+## Entities
+
+### Theme
+| field | question it answers for the store |
+|---|---|
+| `id`, `kind` | `writer` (everything one reader borrowed) or `subject` (a topic across readers) |
+| `name` | what is this table called on the picker? |
+| `header` | the exact words on the table sign, e.g. "What Hemingway borrowed from Sylvia Beach, Paris 1925–1929" |
+| `years` | the date range on the sign: computed from the borrow dates of the titles on the table, never typed |
+| `titles` | which 12–20 books, in which order |
+| `picked_by` | `records` (a deterministic rule) or `model` (a model chose and ordered the titles, from ids it was given) |
+
+### TableTitle (one book on one table)
+| field | question it answers |
+|---|---|
+| `title`, `author` | what do I pull from the shelf / order? |
+| `fact` | the one sentence on the card: reader, verb (borrowed/bought), title, date, from the lending card |
+| `also` | who else on Beach's cards borrowed it, with years (records only) |
+| `citation` | which card, which archive, which licence; the book's Project URL |
+| `in_print` | can I order a new copy today? `in_print` with the listing that shows it, or `not_confirmed` |
+| `in_print_evidence`, `checked` | where we saw a new copy, its format and price, and when |
+
+### ShelfTalker (output, one per TableTitle)
+4 x 6 in portrait card: theme kicker, title, author, fact, `also`, store name, citation.
+
+### HeaderSign (output, one per Theme)
+US Letter landscape: the theme `header`, the store's name.
+
+### Bookmark (output)
+The existing BookmarkSheet (above) for any TableTitle.
+
+## Joins
+
+- TableTitle -> Book by the same normalised `(title, author surname)` key as the bookmarks.
+- Theme.writer -> Shakespeare and Company member URI; titles = that member's borrow events.
+- Store.own_record (their staff pick) -> Theme: same title on a table, else same author
+  on a table, else a model's pick of the nearest table (labelled as a pick, not a fact).
+
+## Rule
+
+Every fact on a card or sign comes from a lending-card event. A model only picks and
+orders title ids from a list it is given; the build rejects any id it was not given and
+writes every sentence itself from the record.
+
+## Reality check (2026-10-16)
+
+| field | source | can we fill it? |
+|---|---|---|
+| Theme `writer` titles | Shakespeare and Company Project events, CC BY 4.0 | **Yes.** 62 readers with a Wikipedia page have 12+ distinct borrowed titles (Hemingway 90, Joyce 97, Stein 43, de Beauvoir 19, Wilder 12). |
+| Theme `subject` titles | no subject field in the Project's books table | **Only by a model's pick**, from title + author. Allowed by the rule above (picking, not stating); the sign states the topic as the store's table name, and every card states only the record. |
+| `fact`, `also`, `citation`, `years` | lending-card events, with the card's citation and date | **Yes**, all of them. |
+| `in_print` | no open in-print register exists. Open Library's editions stop around 1994 for *Buddenbrooks*; Google Books' keyless quota is exhausted and our keys don't carry the Books API; Bookshop.org and IndieCommerce search are Cloudflare-walled to headless | **Partly: Powell's search, read headless,** shows New copies with format and price. A listed new copy confirms the title is orderable; no listing means **not confirmed**, never "out of print". Print-on-demand reprints of public-domain titles count as new copies, which is true but worth a store's glance. |

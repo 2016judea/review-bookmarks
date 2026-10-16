@@ -32,5 +32,755 @@
  "source": {
   "url": "https://bookhampton.com/book/9780063345164",
   "seen": "2026-10-16"
+ },
+ "library": {
+  "tier": "model",
+  "line": "A Writers' Library table to set beside it: “Novels by women: borrowed from Sylvia Beach, Paris 1922–1941.”",
+  "reason": "",
+  "theme": {
+   "id": "novels-by-women",
+   "kind": "subject",
+   "name": "Novels by women",
+   "picked_by": "model",
+   "on_cards": 16,
+   "header": "Novels by women: borrowed from Sylvia Beach, Paris 1922–1941",
+   "years": "1922–1941",
+   "titles": [
+    {
+     "key": "mrsdalloway|woolf",
+     "title": "Mrs. Dalloway",
+     "sub": "",
+     "author": "Virginia Woolf",
+     "reader": "Henri Maspero",
+     "verb": "borrowed",
+     "when": "December 1933",
+     "year": 1933,
+     "date": "1933-12-12",
+     "fact": "Henri Maspero borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1933.",
+     "also": [
+      "Pauline Pfeiffer (1926)",
+      "Janet Scudder (1925)",
+      "Louise Dyer (1929)"
+     ],
+     "cite": "Sylvia Beach, Maspero Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/woolf-mrs-dalloway/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $10.95, at Powell's",
+      "as_listed": "Mrs Dalloway: And 'Mrs Dalloway in Bond Street'"
+     },
+     "cover_i": 6397580,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Henri Maspero",
+       "text": "Henri Maspero borrowed Mrs. Dalloway from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, Maspero Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/woolf-mrs-dalloway/",
+       "licence": "CC BY 4.0",
+       "fame": 23
+      },
+      {
+       "kind": "borrow",
+       "reader": "Pauline Pfeiffer",
+       "text": "Pauline Pfeiffer borrowed Mrs. Dalloway from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Pauline Pfeiffer Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/woolf-mrs-dalloway/",
+       "licence": "CC BY 4.0",
+       "fame": 21
+      },
+      {
+       "kind": "borrow",
+       "reader": "Janet Scudder",
+       "text": "Janet Scudder borrowed Mrs. Dalloway from Sylvia Beach's Shakespeare and Company, Paris, in 1925.",
+       "cite": "Sylvia Beach, Janet Scudder Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/woolf-mrs-dalloway/",
+       "licence": "CC BY 4.0",
+       "fame": 10
+      }
+     ]
+    },
+    {
+     "key": "tothelighthouse|woolf",
+     "title": "To the Lighthouse",
+     "sub": "",
+     "author": "Virginia Woolf",
+     "reader": "Fanie Eloff",
+     "verb": "borrowed",
+     "when": "April 1934",
+     "year": 1934,
+     "date": "1934-04-18",
+     "fact": "Fanie Eloff borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in April 1934.",
+     "also": [
+      "Madeleine Rolland (1927)",
+      "Francisque Gay (1940)",
+      "Gordon Waterfield (1937)"
+     ],
+     "cite": "Sylvia Beach, Fanie Eloff Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/woolf-lighthouse/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $10.95, at Powell's",
+      "as_listed": "To the Lighthouse"
+     },
+     "cover_i": 8231846,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Fanie Eloff",
+       "text": "Fanie Eloff borrowed To the Lighthouse from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Fanie Eloff Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/woolf-lighthouse/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed To the Lighthouse from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/woolf-lighthouse/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Francisque Gay",
+       "text": "Francisque Gay borrowed To the Lighthouse from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Francisque Gay Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/woolf-lighthouse/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "owner",
+       "reader": "Aidan Jude",
+       "text": "Virginia Woolf gives me very faint glimmers of Faulkner and Joyce through her stream of consciousness — but somehow fails to execute.",
+       "sentences": [
+        "Virginia Woolf gives me very faint glimmers of Faulkner and Joyce through her stream of consciousness — but somehow fails to execute."
+       ],
+       "cite": "Aidan Jude, Goodreads review, 3 of 5 stars.",
+       "url": "https://www.goodreads.com/user/show/86865482",
+       "licence": "Aidan Jude's own words"
+      }
+     ]
+    },
+    {
+     "key": "prideandprejudice|austen",
+     "title": "Pride and Prejudice",
+     "sub": "",
+     "author": "Jane Austen",
+     "reader": "Leo Stein",
+     "verb": "borrowed",
+     "when": "March 1924",
+     "year": 1924,
+     "date": "1924-03-08",
+     "fact": "Leo Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in March 1924.",
+     "also": [],
+     "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/austen-pride-prejudice/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $6.95, at Powell's",
+      "as_listed": "Pride and Prejudice Wordoku: Jane Austen Themed Sudoku Puzzles"
+     },
+     "cover_i": 14348537,
+     "lines": [
+      {
+       "kind": "notable",
+       "reader": "Virginia Woolf",
+       "text": "the most perfect artist among women, the writer whose books are immortal",
+       "about": "on Jane Austen",
+       "when": "1925",
+       "cite": "Virginia Woolf, The Common Reader (1925). Public domain; text via Project Gutenberg.",
+       "url": "https://www.gutenberg.org/ebooks/64457",
+       "licence": "Public domain"
+      },
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed Pride and Prejudice from Sylvia Beach's Shakespeare and Company, Paris, in 1924.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/austen-pride-prejudice/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      }
+     ]
+    },
+    {
+     "key": "janeeyre|bront",
+     "title": "Jane Eyre",
+     "sub": "",
+     "author": "Charlotte Brontë",
+     "reader": "Dolly Wilde",
+     "verb": "borrowed",
+     "when": "February 1928",
+     "year": 1928,
+     "date": "1928-02-03",
+     "fact": "Dolly Wilde borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in February 1928.",
+     "also": [
+      "Bravig Imbs (1929)",
+      "Catherine Yarrow (1935)"
+     ],
+     "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/bronte-jane-eyre/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $19.99, at Powell's",
+      "as_listed": "Jane Eyre: Deluxe Painted Edition"
+     },
+     "cover_i": 8235363,
+     "lines": []
+    },
+    {
+     "key": "wutheringheights|bront",
+     "title": "Wuthering Heights",
+     "sub": "",
+     "author": "Emily Brontë",
+     "reader": "Nathalie Sarraute",
+     "verb": "bought",
+     "when": "July 1939",
+     "year": 1939,
+     "date": "1939-07-03",
+     "fact": "Nathalie Sarraute bought this book from Sylvia Beach's Shakespeare and Company, Paris, in July 1939.",
+     "also": [
+      "Janet Flanner (1925)",
+      "Bravig Imbs (1931)",
+      "Léon Gischia (1935)"
+     ],
+     "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/bronte-wuthering-heights/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New hardcover, $12.99, at Powell's",
+      "as_listed": "Wuthering Heights"
+     },
+     "cover_i": 12818862,
+     "lines": []
+    },
+    {
+     "key": "middlemarch|eliot",
+     "title": "Middlemarch",
+     "sub": "",
+     "author": "George Eliot",
+     "reader": "Dolly Wilde",
+     "verb": "bought",
+     "when": "January 1931",
+     "year": 1931,
+     "date": "1931-01-10",
+     "fact": "Dolly Wilde bought this book from Sylvia Beach's Shakespeare and Company, Paris, in January 1931.",
+     "also": [],
+     "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/eliot-middlemarch/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $12.00, at Powell's",
+      "as_listed": "Middlemarch"
+     },
+     "cover_i": 252882,
+     "lines": [
+      {
+       "kind": "notable",
+       "reader": "Virginia Woolf",
+       "text": "the magnificent book which with all its imperfections is one of the few English novels written for grown-up people.",
+       "about": "",
+       "when": "1925",
+       "cite": "Virginia Woolf, The Common Reader (1925). Public domain; text via Project Gutenberg.",
+       "url": "https://www.gutenberg.org/ebooks/64457",
+       "licence": "Public domain"
+      },
+      {
+       "kind": "borrow",
+       "reader": "Dolly Wilde",
+       "text": "Dolly Wilde bought Middlemarch from Sylvia Beach's Shakespeare and Company, Paris, in 1931.",
+       "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/eliot-middlemarch/",
+       "licence": "CC BY 4.0",
+       "fame": 15
+      }
+     ]
+    },
+    {
+     "key": "ageofinnocence|wharton",
+     "title": "The Age of Innocence",
+     "sub": "",
+     "author": "Edith Wharton",
+     "reader": "Francisque Gay",
+     "verb": "borrowed",
+     "when": "December 1940",
+     "year": 1940,
+     "date": "1940-12-30",
+     "fact": "Francisque Gay borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1940.",
+     "also": [
+      "Marian Willard (1937)"
+     ],
+     "cite": "Sylvia Beach, Francisque Gay Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/wharton-age-innocence/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New mass market paperback, $8.95, at Powell's",
+      "as_listed": "The Age of Innocence"
+     },
+     "cover_i": 11196262,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Francisque Gay",
+       "text": "Francisque Gay borrowed The Age of Innocence from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Francisque Gay Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/wharton-age-innocence/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Marian Willard",
+       "text": "Marian Willard borrowed The Age of Innocence from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+       "cite": "Sylvia Beach, Miss Marian Willard Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/wharton-age-innocence/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "myantonia|cather",
+     "title": "My Antonia",
+     "sub": "",
+     "author": "Willa Cather",
+     "reader": "Gertrude Stein",
+     "verb": "borrowed",
+     "when": "January 1922",
+     "year": 1922,
+     "date": "1922-01-04",
+     "fact": "Gertrude Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1922.",
+     "also": [
+      "Pierre Auger (1941)"
+     ],
+     "cite": "Sylvia Beach, Gertrude Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/cather-antonia/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $7.99, at Powell's",
+      "as_listed": "My Antonia"
+     },
+     "cover_i": 8369013,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Gertrude Stein",
+       "text": "Gertrude Stein borrowed My Antonia from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Sylvia Beach, Gertrude Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/cather-antonia/",
+       "licence": "CC BY 4.0",
+       "fame": 84
+      },
+      {
+       "kind": "borrow",
+       "reader": "Pierre Auger",
+       "text": "Pierre Auger borrowed My Antonia from Sylvia Beach's Shakespeare and Company, Paris, in 1941.",
+       "cite": "Sylvia Beach, Pierre Auger Lending Library Card, Box 43, Sylvia Beach Papers, Department of Rare Books and Special Collections, Princeton Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/cather-antonia/",
+       "licence": "CC BY 4.0",
+       "fame": 25
+      }
+     ]
+    },
+    {
+     "key": "gonewiththewind|mitchell",
+     "title": "Gone with the Wind",
+     "sub": "",
+     "author": "Margaret Mitchell",
+     "reader": "Pierre Auger",
+     "verb": "borrowed",
+     "when": "March 1941",
+     "year": 1941,
+     "date": "1941-03-12",
+     "fact": "Pierre Auger borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in March 1941.",
+     "also": [
+      "Jeanine (Delpech) Teissier (1937)",
+      "Catherine Yarrow (1939)"
+     ],
+     "cite": "Sylvia Beach, Pierre Auger Lending Library Card, Box 43, Sylvia Beach Papers, Department of Rare Books and Special Collections, Princeton Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/mitchell-gone-wind/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $58.95, at Powell's",
+      "as_listed": "Gone With the Wind"
+     },
+     "cover_i": 14817133,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Pierre Auger",
+       "text": "Pierre Auger borrowed Gone with the Wind from Sylvia Beach's Shakespeare and Company, Paris, in 1941.",
+       "cite": "Sylvia Beach, Pierre Auger Lending Library Card, Box 43, Sylvia Beach Papers, Department of Rare Books and Special Collections, Princeton Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/mitchell-gone-wind/",
+       "licence": "CC BY 4.0",
+       "fame": 25
+      },
+      {
+       "kind": "borrow",
+       "reader": "Jeanine (Delpech) Teissier",
+       "text": "Jeanine (Delpech) Teissier borrowed Gone with the Wind from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+       "cite": "Sylvia Beach, Teissier Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/mitchell-gone-wind/",
+       "licence": "CC BY 4.0",
+       "fame": 3
+      },
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed Gone with the Wind from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/mitchell-gone-wind/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "rebecca|dumaurier",
+     "title": "Rebecca",
+     "sub": "",
+     "author": "Daphne Du Maurier",
+     "reader": "Anne Desclos",
+     "verb": "borrowed",
+     "when": "March 1939",
+     "year": 1939,
+     "date": "1939-03-27",
+     "fact": "Anne Desclos borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in March 1939.",
+     "also": [
+      "Jeanine (Delpech) Teissier (1938)"
+     ],
+     "cite": "Sylvia Beach, Mme. Anne Desclos Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/du-maurier-rebecca/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $14.95, at Powell's",
+      "as_listed": "Rebecca de Daphne du Maurier (Analyse de l'oeuvre): R�sum� complet et analyse d�taill�e de l'oeuvre"
+     },
+     "cover_i": 8238729,
+     "lines": []
+    },
+    {
+     "key": "gardenpartyandotherstories|mansfield",
+     "title": "The Garden Party and Other Stories",
+     "sub": "",
+     "author": "Katherine Mansfield",
+     "reader": "Katherine Anne Porter",
+     "verb": "bought",
+     "when": "February 1932",
+     "year": 1932,
+     "date": "1932-02-08",
+     "fact": "Katherine Anne Porter bought this book from Sylvia Beach's Shakespeare and Company, Paris, in February 1932.",
+     "also": [
+      "Henri Maspero (1934)",
+      "Madeleine Rolland (1923)",
+      "Edmond Renoir (1923)"
+     ],
+     "cite": "Sylvia Beach, Katherine Anne Porter Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/mansfield-garden-party-stories/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $8.99, at Powell's",
+      "as_listed": "The Garden Party and Other Stories"
+     },
+     "cover_i": 897389,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Katherine Anne Porter",
+       "text": "Katherine Anne Porter bought The Garden Party and Other Stories from Sylvia Beach's Shakespeare and Company, Paris, in 1932.",
+       "cite": "Sylvia Beach, Katherine Anne Porter Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/mansfield-garden-party-stories/",
+       "licence": "CC BY 4.0",
+       "fame": 48
+      },
+      {
+       "kind": "borrow",
+       "reader": "Henri Maspero",
+       "text": "Henri Maspero borrowed The Garden Party and Other Stories from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Maspero Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/mansfield-garden-party-stories/",
+       "licence": "CC BY 4.0",
+       "fame": 23
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed The Garden Party and Other Stories from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/mansfield-garden-party-stories/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "emma|austen",
+     "title": "Emma",
+     "sub": "",
+     "author": "Jane Austen",
+     "reader": "Leo Stein",
+     "verb": "borrowed",
+     "when": "March 1924",
+     "year": 1924,
+     "date": "1924-03-03",
+     "fact": "Leo Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in March 1924.",
+     "also": [
+      "Bravig Imbs (1930)"
+     ],
+     "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/austen-emma/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $9.95, at Powell's",
+      "as_listed": "Emma Wordoku: Jane Austen Themed Wordoku Puzzles"
+     },
+     "cover_i": 9278312,
+     "lines": [
+      {
+       "kind": "notable",
+       "reader": "Virginia Woolf",
+       "text": "the most perfect artist among women, the writer whose books are immortal",
+       "about": "on Jane Austen",
+       "when": "1925",
+       "cite": "Virginia Woolf, The Common Reader (1925). Public domain; text via Project Gutenberg.",
+       "url": "https://www.gutenberg.org/ebooks/64457",
+       "licence": "Public domain"
+      },
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed Emma from Sylvia Beach's Shakespeare and Company, Paris, in 1924.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/austen-emma/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      },
+      {
+       "kind": "borrow",
+       "reader": "Bravig Imbs",
+       "text": "Bravig Imbs borrowed Emma from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+       "cite": "Sylvia Beach, Bravig Imbs Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/austen-emma/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "millonthefloss|eliot",
+     "title": "The Mill on the Floss",
+     "sub": "",
+     "author": "George Eliot",
+     "reader": "Nathalie Sarraute",
+     "verb": "borrowed",
+     "when": "November 1940",
+     "year": 1940,
+     "date": "1940-11-22",
+     "fact": "Nathalie Sarraute borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in November 1940.",
+     "also": [
+      "Guy de Pourtales (1923)",
+      "Bravig Imbs (1931)",
+      "Catherine Yarrow (1935)"
+     ],
+     "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/eliot-mill-floss/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $17.40, at Powell's",
+      "as_listed": "The Mill on the Floss: Victorian Romance Novel"
+     },
+     "cover_i": 8236884,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Nathalie Sarraute",
+       "text": "Nathalie Sarraute borrowed The Mill on the Floss from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/eliot-mill-floss/",
+       "licence": "CC BY 4.0",
+       "fame": 52
+      },
+      {
+       "kind": "borrow",
+       "reader": "Guy de Pourtales",
+       "text": "Guy de Pourtales borrowed The Mill on the Floss from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Guy de Pourtales Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/eliot-mill-floss/",
+       "licence": "CC BY 4.0",
+       "fame": 8
+      },
+      {
+       "kind": "borrow",
+       "reader": "Bravig Imbs",
+       "text": "Bravig Imbs borrowed The Mill on the Floss from Sylvia Beach's Shakespeare and Company, Paris, in 1931.",
+       "cite": "Sylvia Beach, Bravig Imbs Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/eliot-mill-floss/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "cranford|gaskell",
+     "title": "Cranford",
+     "sub": "",
+     "author": "Elizabeth Gaskell",
+     "reader": "Leo Stein",
+     "verb": "borrowed",
+     "when": "May 1924",
+     "year": 1924,
+     "date": "1924-05-30",
+     "fact": "Leo Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in May 1924.",
+     "also": [
+      "Lucia Joyce (1923)",
+      "Bravig Imbs (1929)"
+     ],
+     "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/gaskell-cranford/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $8.95, at Powell's",
+      "as_listed": "Cranford"
+     },
+     "cover_i": 5188445,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed Cranford from Sylvia Beach's Shakespeare and Company, Paris, in 1924.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/gaskell-cranford/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      },
+      {
+       "kind": "borrow",
+       "reader": "Lucia Joyce",
+       "text": "Lucia Joyce borrowed Cranford from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/gaskell-cranford/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      },
+      {
+       "kind": "borrow",
+       "reader": "Bravig Imbs",
+       "text": "Bravig Imbs borrowed Cranford from Sylvia Beach's Shakespeare and Company, Paris, in 1929.",
+       "cite": "Sylvia Beach, Bravig Imbs Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/gaskell-cranford/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "murderofrogerackroyd|christie",
+     "title": "The Murder of Roger Ackroyd",
+     "sub": "",
+     "author": "Agatha Christie",
+     "reader": "Archibald MacLeish",
+     "verb": "borrowed",
+     "when": "August 1926",
+     "year": 1926,
+     "date": "1926-08-24",
+     "fact": "Archibald MacLeish borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in August 1926.",
+     "also": [
+      "Jeanne Reynal (1931)",
+      "Francis Steegmuller (1938)",
+      "Daphne Woodward (1941)"
+     ],
+     "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/christie-murder-roger-ackroyd/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $10.80, at Powell's",
+      "as_listed": "The Murder of Roger Ackroyd: The Best Murder Mystery Novel of All Time"
+     },
+     "cover_i": 13151356,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Archibald MacLeish",
+       "text": "Archibald MacLeish borrowed The Murder of Roger Ackroyd from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/christie-murder-roger-ackroyd/",
+       "licence": "CC BY 4.0",
+       "fame": 39
+      },
+      {
+       "kind": "borrow",
+       "reader": "Jeanne Reynal",
+       "text": "Jeanne Reynal borrowed The Murder of Roger Ackroyd from Sylvia Beach's Shakespeare and Company, Paris, in 1931.",
+       "cite": "Sylvia Beach, Jeanne Reynal Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/christie-murder-roger-ackroyd/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      },
+      {
+       "kind": "borrow",
+       "reader": "Francis Steegmuller",
+       "text": "Francis Steegmuller borrowed The Murder of Roger Ackroyd from Sylvia Beach's Shakespeare and Company, Paris, in 1938.",
+       "cite": "Sylvia Beach, Francis Steegmuller Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/christie-murder-roger-ackroyd/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "goodearth|buck",
+     "title": "The Good Earth",
+     "sub": "",
+     "author": "Pearl S. Buck",
+     "reader": "Gilbert Vieillard",
+     "verb": "borrowed",
+     "when": "April 1934",
+     "year": 1934,
+     "date": "1934-04-26",
+     "fact": "Gilbert Vieillard borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in April 1934.",
+     "also": [],
+     "cite": "Sylvia Beach, Gilbert Vieillard Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/buck-good-earth/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $12.00, at Powell's",
+      "as_listed": "The Good Earth"
+     },
+     "cover_i": 2626823,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Gilbert Vieillard",
+       "text": "Gilbert Vieillard borrowed The Good Earth from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Gilbert Vieillard Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/buck-good-earth/",
+       "licence": "CC BY 4.0",
+       "fame": 0
+      }
+     ]
+    }
+   ],
+   "in_print": 16
+  }
  }
 }

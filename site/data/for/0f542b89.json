@@ -31,5 +31,844 @@
  "source": {
   "url": "https://portersquarebooks.com/book/9781492650959",
   "seen": "2026-10-16"
+ },
+ "library": {
+  "tier": "model",
+  "line": "A Writers' Library table to set beside it: “American novels: borrowed from Sylvia Beach, Paris 1921–1940.”",
+  "reason": "",
+  "theme": {
+   "id": "american-novels",
+   "kind": "subject",
+   "name": "American novels",
+   "picked_by": "model",
+   "on_cards": 16,
+   "header": "American novels: borrowed from Sylvia Beach, Paris 1921–1940",
+   "years": "1921–1940",
+   "titles": [
+    {
+     "key": "greatgatsby|fitzgerald",
+     "title": "The Great Gatsby",
+     "sub": "",
+     "author": "F. Scott Fitzgerald",
+     "reader": "Leo Stein",
+     "verb": "borrowed",
+     "when": "September 1926",
+     "year": 1926,
+     "date": "1926-09-01",
+     "fact": "Leo Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1926.",
+     "also": [],
+     "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/fitzgerald-great-gatsby/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $10.95, at Powell's",
+      "as_listed": "The Great Gatsby - F. Scott Fitzgerald Book #3 (Reader's Library Classics)"
+     },
+     "cover_i": 10590366,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed The Great Gatsby from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/fitzgerald-great-gatsby/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      }
+     ]
+    },
+    {
+     "key": "mobydick|melville",
+     "title": "Moby-Dick",
+     "sub": "",
+     "author": "Herman Melville",
+     "reader": "Nathalie Sarraute",
+     "verb": "borrowed",
+     "when": "December 1939",
+     "year": 1939,
+     "date": "1939-12-18",
+     "fact": "Nathalie Sarraute borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1939.",
+     "also": [
+      "Margaret Wilson (1927)",
+      "Dolly Wilde (1930)",
+      "Leo Stein (1928)"
+     ],
+     "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/melville-moby-dick-whale/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $15.50, at Powell's",
+      "as_listed": "Moby-Dick: Modern Readers' Edition"
+     },
+     "cover_i": 10544254,
+     "lines": [
+      {
+       "kind": "notable",
+       "reader": "D. H. Lawrence",
+       "text": "But it is a great book, a very great book, the greatest book of the sea ever written. It moves awe in the soul.",
+       "about": "",
+       "when": "1923",
+       "cite": "D. H. Lawrence, Studies in Classic American Literature (1923). Public domain; text via Project Gutenberg.",
+       "url": "https://www.gutenberg.org/ebooks/60547",
+       "licence": "Public domain"
+      },
+      {
+       "kind": "borrow",
+       "reader": "Nathalie Sarraute",
+       "text": "Nathalie Sarraute borrowed Moby-Dick from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/melville-moby-dick-whale/",
+       "licence": "CC BY 4.0",
+       "fame": 52
+      },
+      {
+       "kind": "borrow",
+       "reader": "Margaret Wilson",
+       "text": "Margaret Wilson borrowed Moby-Dick from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+       "cite": "Sylvia Beach, Margaret Wilson Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/melville-moby-dick-whale/",
+       "licence": "CC BY 4.0",
+       "fame": 30
+      },
+      {
+       "kind": "borrow",
+       "reader": "Dolly Wilde",
+       "text": "Dolly Wilde borrowed Moby-Dick from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+       "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/melville-moby-dick-whale/",
+       "licence": "CC BY 4.0",
+       "fame": 15
+      },
+      {
+       "kind": "owner",
+       "reader": "Aidan Jude",
+       "text": "Incredible scope. Melville’s prose is both daunting and dazzling. My favorite chapters:\n\nThe Castaway\nThe Try-Works\nThe Blacksmith\nThe Chase — Third Day",
+       "sentences": [
+        "Incredible scope.",
+        "Melville’s prose is both daunting and dazzling.",
+        "My favorite chapters:",
+        "The Castaway",
+        "The Try-Works",
+        "The Blacksmith",
+        "The Chase — Third Day"
+       ],
+       "cite": "Aidan Jude, Goodreads review, 5 of 5 stars.",
+       "url": "https://www.goodreads.com/user/show/86865482",
+       "licence": "Aidan Jude's own words"
+      }
+     ]
+    },
+    {
+     "key": "sunalsorises|hemingway",
+     "title": "The Sun Also Rises",
+     "sub": "",
+     "author": "Ernest Hemingway",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "July 1930",
+     "year": 1930,
+     "date": "1930-07-07",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in July 1930.",
+     "also": [
+      "Leo Stein (1927)",
+      "Madeleine Rolland (1927)"
+     ],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/hemingway-sun-also-rises/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $11.99, at Powell's",
+      "as_listed": "The Sun Also Rises"
+     },
+     "cover_i": 78741,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed The Sun Also Rises from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hemingway-sun-also-rises/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      },
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed The Sun Also Rises from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hemingway-sun-also-rises/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed The Sun Also Rises from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hemingway-sun-also-rises/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "farewelltoarms|hemingway",
+     "title": "A Farewell to Arms",
+     "sub": "",
+     "author": "Ernest Hemingway",
+     "reader": "Dolly Wilde",
+     "verb": "borrowed",
+     "when": "January 1930",
+     "year": 1930,
+     "date": "1930-01-22",
+     "fact": "Dolly Wilde borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1930.",
+     "also": [
+      "Richard Le Gallienne (1930)",
+      "Leo Stein (1930)",
+      "Anne Yeats (1947)"
+     ],
+     "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/hemingway-farewell-arms/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $7.99, at Powell's",
+      "as_listed": "A Farewell to Arms"
+     },
+     "cover_i": 7226599,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Dolly Wilde",
+       "text": "Dolly Wilde borrowed A Farewell to Arms from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+       "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hemingway-farewell-arms/",
+       "licence": "CC BY 4.0",
+       "fame": 15
+      },
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed A Farewell to Arms from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hemingway-farewell-arms/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      },
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed A Farewell to Arms from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hemingway-farewell-arms/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      }
+     ]
+    },
+    {
+     "key": "asilaydying|faulkner",
+     "title": "As I Lay Dying",
+     "sub": "",
+     "author": "William Faulkner",
+     "reader": "Nathalie Sarraute",
+     "verb": "borrowed",
+     "when": "February 1940",
+     "year": 1940,
+     "date": "1940-02-13",
+     "fact": "Nathalie Sarraute borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in February 1940.",
+     "also": [
+      "René Leibowitz (1940)",
+      "Anne Yeats (1947)",
+      "Florence Meyer (1933)"
+     ],
+     "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/faulkner-lay-dying/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $9.99, at Powell's",
+      "as_listed": "As I Lay Dying"
+     },
+     "cover_i": 9327716,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Nathalie Sarraute",
+       "text": "Nathalie Sarraute borrowed As I Lay Dying from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/faulkner-lay-dying/",
+       "licence": "CC BY 4.0",
+       "fame": 52
+      },
+      {
+       "kind": "borrow",
+       "reader": "René Leibowitz",
+       "text": "René Leibowitz borrowed As I Lay Dying from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, René Leibowitz Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/faulkner-lay-dying/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      },
+      {
+       "kind": "borrow",
+       "reader": "Anne Yeats",
+       "text": "Anne Yeats borrowed As I Lay Dying from Sylvia Beach's Shakespeare and Company, Paris, in 1947.",
+       "cite": "Sylvia Beach, Miss Anne Yeats Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/faulkner-lay-dying/",
+       "licence": "CC BY 4.0",
+       "fame": 7
+      },
+      {
+       "kind": "owner",
+       "reader": "Aidan Jude",
+       "text": "I've heard this novel described as a 'fever dream' and frankly that is probably the most accurate way to describe it. Like most of Faulkner's works, I wouldn't say this novel is easy to read - which is why most folks give up 20 pages in. But I think those who have read anything by Faulkner would agree that his works become more and more rewarding as the plot continues to unfold. Just brew that pot of coffee and settle in for a slow burn.\n\nSide Note: I'm continually amazed by the way Faulkner can turn a mundane conversation or description into something incredibly eloquent.",
+       "sentences": [
+        "I've heard this novel described as a 'fever dream' and frankly that is probably the most accurate way to describe it.",
+        "Like most of Faulkner's works, I wouldn't say this novel is easy to read - which is why most folks give up 20 pages in.",
+        "But I think those who have read anything by Faulkner would agree that his works become more and more rewarding as the plot continues to unfold.",
+        "Just brew that pot of coffee and settle in for a slow burn.",
+        "Side Note: I'm continually amazed by the way Faulkner can turn a mundane conversation or description into something incredibly eloquent."
+       ],
+       "cite": "Aidan Jude, Goodreads review, 4 of 5 stars.",
+       "url": "https://www.goodreads.com/user/show/86865482",
+       "licence": "Aidan Jude's own words"
+      }
+     ]
+    },
+    {
+     "key": "soundandthefury|faulkner",
+     "title": "The Sound and the Fury",
+     "sub": "",
+     "author": "William Faulkner",
+     "reader": "René Leibowitz",
+     "verb": "borrowed",
+     "when": "January 1940",
+     "year": 1940,
+     "date": "1940-01-06",
+     "fact": "René Leibowitz borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1940.",
+     "also": [
+      "Florence Meyer (1933)",
+      "Pierre Citron (1938)",
+      "Henry Church (1939)"
+     ],
+     "cite": "Sylvia Beach, René Leibowitz Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/faulkner-sound-fury/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $10.99, at Powell's",
+      "as_listed": "The Sound and the Fury"
+     },
+     "cover_i": 8292212,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "René Leibowitz",
+       "text": "René Leibowitz borrowed The Sound and the Fury from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, René Leibowitz Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/faulkner-sound-fury/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      },
+      {
+       "kind": "borrow",
+       "reader": "Florence Meyer",
+       "text": "Florence Meyer borrowed The Sound and the Fury from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, Florence Meyer Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/faulkner-sound-fury/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Pierre Citron",
+       "text": "Pierre Citron borrowed The Sound and the Fury from Sylvia Beach's Shakespeare and Company, Paris, in 1938.",
+       "cite": "Sylvia Beach, Pierre Citron Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/faulkner-sound-fury/",
+       "licence": "CC BY 4.0",
+       "fame": 5
+      }
+     ]
+    },
+    {
+     "key": "grapesofwrath|steinbeck",
+     "title": "The Grapes of Wrath",
+     "sub": "",
+     "author": "John Steinbeck",
+     "reader": "Anne Desclos",
+     "verb": "borrowed",
+     "when": "May 1940",
+     "year": 1940,
+     "date": "1940-05-01",
+     "fact": "Anne Desclos borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in May 1940.",
+     "also": [
+      "Pauline Alderman (1939)",
+      "Bianca (Bienenfeld) Lamblin (1941)",
+      "Jeanine (Delpech) Teissier (1939)"
+     ],
+     "cite": "Sylvia Beach, Mme. Anne Desclos Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/steinbeck-grapes-wrath/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $14.95, at Powell's",
+      "as_listed": "The Grapes of Wrath by John Steinbeck (Book Analysis): Detailed Summary, Analysis and Reading Guide"
+     },
+     "cover_i": 12715902,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Anne Desclos",
+       "text": "Anne Desclos borrowed The Grapes of Wrath from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Mme. Anne Desclos Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/steinbeck-grapes-wrath/",
+       "licence": "CC BY 4.0",
+       "fame": 34
+      },
+      {
+       "kind": "borrow",
+       "reader": "Pauline Alderman",
+       "text": "Pauline Alderman borrowed The Grapes of Wrath from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Pauline Alderman Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/steinbeck-grapes-wrath/",
+       "licence": "CC BY 4.0",
+       "fame": 7
+      },
+      {
+       "kind": "borrow",
+       "reader": "Bianca (Bienenfeld) Lamblin",
+       "text": "Bianca (Bienenfeld) Lamblin borrowed The Grapes of Wrath from Sylvia Beach's Shakespeare and Company, Paris, in 1941.",
+       "cite": "Sylvia Beach, Bianca Bienenfeld Lamblin Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/steinbeck-grapes-wrath/",
+       "licence": "CC BY 4.0",
+       "fame": 5
+      }
+     ]
+    },
+    {
+     "key": "myantonia|cather",
+     "title": "My Antonia",
+     "sub": "",
+     "author": "Willa Cather",
+     "reader": "Gertrude Stein",
+     "verb": "borrowed",
+     "when": "January 1922",
+     "year": 1922,
+     "date": "1922-01-04",
+     "fact": "Gertrude Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1922.",
+     "also": [
+      "Pierre Auger (1941)"
+     ],
+     "cite": "Sylvia Beach, Gertrude Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/cather-antonia/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $7.99, at Powell's",
+      "as_listed": "My Antonia"
+     },
+     "cover_i": 8369013,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Gertrude Stein",
+       "text": "Gertrude Stein borrowed My Antonia from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Sylvia Beach, Gertrude Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/cather-antonia/",
+       "licence": "CC BY 4.0",
+       "fame": 84
+      },
+      {
+       "kind": "borrow",
+       "reader": "Pierre Auger",
+       "text": "Pierre Auger borrowed My Antonia from Sylvia Beach's Shakespeare and Company, Paris, in 1941.",
+       "cite": "Sylvia Beach, Pierre Auger Lending Library Card, Box 43, Sylvia Beach Papers, Department of Rare Books and Special Collections, Princeton Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/cather-antonia/",
+       "licence": "CC BY 4.0",
+       "fame": 25
+      }
+     ]
+    },
+    {
+     "key": "sistercarrie|dreiser",
+     "title": "Sister Carrie",
+     "sub": "",
+     "author": "Theodore Dreiser",
+     "reader": "Archibald MacLeish",
+     "verb": "borrowed",
+     "when": "January 1926",
+     "year": 1926,
+     "date": "1926-01-13",
+     "fact": "Archibald MacLeish borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1926.",
+     "also": [
+      "Madeleine Rolland (1919)",
+      "Robert D. Sage (1926)",
+      "Bianca (Bienenfeld) Lamblin (1941)"
+     ],
+     "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dreiser-sister-carrie/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $15.80, at Powell's",
+      "as_listed": "Sister Carrie: Modern Classics Series"
+     },
+     "cover_i": 9330145,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Archibald MacLeish",
+       "text": "Archibald MacLeish borrowed Sister Carrie from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dreiser-sister-carrie/",
+       "licence": "CC BY 4.0",
+       "fame": 39
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Sister Carrie from Sylvia Beach's Shakespeare and Company, Paris, in 1919.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dreiser-sister-carrie/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Robert D. Sage",
+       "text": "Robert D. Sage borrowed Sister Carrie from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Robert Sage Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dreiser-sister-carrie/",
+       "licence": "CC BY 4.0",
+       "fame": 5
+      }
+     ]
+    },
+    {
+     "key": "americantragedy|dreiser",
+     "title": "An American Tragedy",
+     "sub": "",
+     "author": "Theodore Dreiser",
+     "reader": "Leo Stein",
+     "verb": "borrowed",
+     "when": "August 1926",
+     "year": 1926,
+     "date": "1926-08-25",
+     "fact": "Leo Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in August 1926.",
+     "also": [
+      "Anna Wickham (1928)",
+      "Robert D. Sage (1926)",
+      "Pierre Citron (1939)"
+     ],
+     "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dreiser-american-tragedy/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $11.95, at Powell's",
+      "as_listed": "An American Tragedy (Volume I)"
+     },
+     "cover_i": 12728401,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed An American Tragedy from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dreiser-american-tragedy/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      },
+      {
+       "kind": "borrow",
+       "reader": "Anna Wickham",
+       "text": "Anna Wickham borrowed An American Tragedy from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Mrs Anna Wickham Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dreiser-american-tragedy/",
+       "licence": "CC BY 4.0",
+       "fame": 7
+      },
+      {
+       "kind": "borrow",
+       "reader": "Robert D. Sage",
+       "text": "Robert D. Sage borrowed An American Tragedy from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Robert Sage Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dreiser-american-tragedy/",
+       "licence": "CC BY 4.0",
+       "fame": 5
+      }
+     ]
+    },
+    {
+     "key": "mainstreet|lewis",
+     "title": "Main Street",
+     "sub": "The Story of Carol Kennicott",
+     "author": "Sinclair Lewis",
+     "reader": "Cyril Connolly",
+     "verb": "borrowed",
+     "when": "November 1933",
+     "year": 1933,
+     "date": "1933-11-13",
+     "fact": "Cyril Connolly borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in November 1933.",
+     "also": [
+      "Guy de Pourtales (1922)",
+      "Madeleine Rolland (1921)",
+      "Pierre Citron (1938)"
+     ],
+     "cite": "Sylvia Beach, Cyril Connolly Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/lewis-main-street-story/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $18.99, at Powell's",
+      "as_listed": "Main Street"
+     },
+     "cover_i": 8244638,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Cyril Connolly",
+       "text": "Cyril Connolly borrowed Main Street: The Story of Carol Kennicott from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, Cyril Connolly Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lewis-main-street-story/",
+       "licence": "CC BY 4.0",
+       "fame": 28
+      },
+      {
+       "kind": "borrow",
+       "reader": "Guy de Pourtales",
+       "text": "Guy de Pourtales borrowed Main Street: The Story of Carol Kennicott from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Sylvia Beach, Guy de Pourtales Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lewis-main-street-story/",
+       "licence": "CC BY 4.0",
+       "fame": 8
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Main Street: The Story of Carol Kennicott from Sylvia Beach's Shakespeare and Company, Paris, in 1921.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lewis-main-street-story/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "babbitt|lewis",
+     "title": "Babbitt",
+     "sub": "",
+     "author": "Sinclair Lewis",
+     "reader": "Madeleine Rolland",
+     "verb": "borrowed",
+     "when": "October 1923",
+     "year": 1923,
+     "date": "1923-10-30",
+     "fact": "Madeleine Rolland borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1923.",
+     "also": [
+      "Robert D. Sage (1922)",
+      "Bianca (Bienenfeld) Lamblin (1940)"
+     ],
+     "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/lewis-babbitt/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $13.95, at Powell's",
+      "as_listed": "Babbitt: (with an Introduction by Hugh Walpole)"
+     },
+     "cover_i": 6376827,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Babbitt from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lewis-babbitt/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Robert D. Sage",
+       "text": "Robert D. Sage borrowed Babbitt from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Sylvia Beach, Robert Sage Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lewis-babbitt/",
+       "licence": "CC BY 4.0",
+       "fame": 5
+      },
+      {
+       "kind": "borrow",
+       "reader": "Bianca (Bienenfeld) Lamblin",
+       "text": "Bianca (Bienenfeld) Lamblin borrowed Babbitt from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Bianca Bienenfeld Lamblin Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lewis-babbitt/",
+       "licence": "CC BY 4.0",
+       "fame": 5
+      }
+     ]
+    },
+    {
+     "key": "nativeson|wright",
+     "title": "Native Son",
+     "sub": "",
+     "author": "Richard Wright",
+     "reader": "Simone de Beauvoir",
+     "verb": "borrowed",
+     "when": "August 1940",
+     "year": 1940,
+     "date": "1940-08-29",
+     "fact": "Simone de Beauvoir borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in August 1940.",
+     "also": [],
+     "cite": "Sylvia Beach, Simone de Beauvoir Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/wright-native/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $20.00, at Powell's",
+      "as_listed": "Native Son American Classics Edition"
+     },
+     "cover_i": 10830375,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Simone de Beauvoir",
+       "text": "Simone de Beauvoir borrowed Native Son from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Simone de Beauvoir Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/wright-native/",
+       "licence": "CC BY 4.0",
+       "fame": 187
+      }
+     ]
+    },
+    {
+     "key": "winesburgohio|anderson",
+     "title": "Winesburg Ohio",
+     "sub": "A Group of Tales of Ohio Small Town Life",
+     "author": "Sherwood Anderson",
+     "reader": "Katherine Mansfield",
+     "verb": "borrowed",
+     "when": "October 1922",
+     "year": 1922,
+     "date": "1922-10-06",
+     "fact": "Katherine Mansfield borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1922.",
+     "also": [
+      "Madeleine Rolland (1921)"
+     ],
+     "cite": "Sylvia Beach, Katherine Mansfield Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/anderson-winesburg-ohio-group/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $8.94, at Powell's",
+      "as_listed": "Winesburg, Ohio"
+     },
+     "cover_i": 8243077,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Katherine Mansfield",
+       "text": "Katherine Mansfield borrowed Winesburg Ohio: A Group of Tales of Ohio Small Town Life from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Sylvia Beach, Katherine Mansfield Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/anderson-winesburg-ohio-group/",
+       "licence": "CC BY 4.0",
+       "fame": 69
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Winesburg Ohio: A Group of Tales of Ohio Small Town Life from Sylvia Beach's Shakespeare and Company, Paris, in 1921.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/anderson-winesburg-ohio-group/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "manhattantransfer|dospassos",
+     "title": "Manhattan Transfer",
+     "sub": "",
+     "author": "John Dos Passos",
+     "reader": "Archibald MacLeish",
+     "verb": "borrowed",
+     "when": "January 1926",
+     "year": 1926,
+     "date": "1926-01-14",
+     "fact": "Archibald MacLeish borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1926.",
+     "also": [
+      "Robert D. Sage (1926)",
+      "Pierre Citron (1938)",
+      "Bianca (Bienenfeld) Lamblin (1941)"
+     ],
+     "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dos-passos-manhattan-transfer/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $14.95, at Powell's",
+      "as_listed": "Manhattan Transfer"
+     },
+     "cover_i": 394352,
+     "lines": []
+    },
+    {
+     "key": "thissideofparadise|fitzgerald",
+     "title": "This Side of Paradise",
+     "sub": "",
+     "author": "F. Scott Fitzgerald",
+     "reader": "Gertrude Stein",
+     "verb": "borrowed",
+     "when": "January 1921",
+     "year": 1921,
+     "date": "1921-01-05",
+     "fact": "Gertrude Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1921.",
+     "also": [],
+     "cite": "Sylvia Beach, Gertrude Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/fitzgerald-side-paradise/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $11.99, at Powell's",
+      "as_listed": "This Side of Paradise"
+     },
+     "cover_i": 8243609,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Gertrude Stein",
+       "text": "Gertrude Stein borrowed This Side of Paradise from Sylvia Beach's Shakespeare and Company, Paris, in 1921.",
+       "cite": "Sylvia Beach, Gertrude Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/fitzgerald-side-paradise/",
+       "licence": "CC BY 4.0",
+       "fame": 84
+      },
+      {
+       "kind": "owner",
+       "reader": "Aidan Jude",
+       "text": "I’ve struggled for years to find the words to review this book. I still remember picking up a copy in a Fargo, ND bookstore whilst interning for John Deere. Read it in a single weekend.\n\nThis Side of Paradise is smart. It’s poetic. Eloquent in the way only Fitzgerald can be.\n\nAnd it’s still, to date, the best book I’ve ever read.\n\nArmory Blaine is eternal - as well as F Scott.",
+       "sentences": [
+        "I’ve struggled for years to find the words to review this book.",
+        "I still remember picking up a copy in a Fargo, ND bookstore whilst interning for John Deere.",
+        "Read it in a single weekend.",
+        "This Side of Paradise is smart.",
+        "It’s poetic.",
+        "Eloquent in the way only Fitzgerald can be.",
+        "And it’s still, to date, the best book I’ve ever read.",
+        "Armory Blaine is eternal - as well as F Scott."
+       ],
+       "cite": "Aidan Jude, Goodreads review, 5 of 5 stars.",
+       "url": "https://www.goodreads.com/user/show/86865482",
+       "licence": "Aidan Jude's own words"
+      }
+     ]
+    }
+   ],
+   "in_print": 16
+  }
  }
 }

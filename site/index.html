@@ -16,6 +16,9 @@ body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 Inter,-app
 .wrap{max-width:1180px;margin:0 auto;padding:16px}
 header h1{font:600 30px/1.1 "EB Garamond",Georgia,serif;margin:4px 0 6px;letter-spacing:-.01em}
 header p{margin:0;color:var(--soft);font-size:15px;max-width:34em}
+.lib{display:block;margin:10px 0 0;padding:10px 12px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;font-size:14px;line-height:1.4;color:var(--ink);text-decoration:none;max-width:40em}
+.lib b{color:var(--accent);font-size:11px;letter-spacing:.07em;text-transform:uppercase;display:block;margin-bottom:2px}
+.lib u{color:var(--accent);font-weight:600;white-space:nowrap}
 .for{display:inline-block;margin:0 0 8px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
 .layout{display:grid;grid-template-columns:1fr;gap:18px;margin-top:14px}
 @media (min-width:900px){.layout{grid-template-columns:minmax(0,470px) minmax(0,1fr);gap:36px;align-items:start}.stage{position:sticky;top:16px}}
@@ -122,6 +125,7 @@ if(me){posthog.opt_out_capturing();}else{if(p==="0")posthog.opt_in_capturing();p
     <div class="for" id="forTag" hidden></div>
     <h1>Bookmarks with reviews</h1>
     <p id="lede">Pick a book and a line about it. Print five bookmarks with your store's name on the back, for the copies you sell.</p>
+    <a class="lib" id="libLine" href="/library/"><b>The Writers' Library</b>A display table of the books Hemingway borrowed from Sylvia Beach in Paris: a card for each, a sign, bookmarks. <u>Set the table →</u></a>
   </header>
 
   <div class="layout">
@@ -338,7 +342,17 @@ async function boot(){
   if(m){
     try{const d=await fetch(`/data/for/${m[1]}.json`).then(r=>{if(!r.ok)throw 0;return r.json();});S.forData=d;S.token=m[1];}catch(e){}
   }
-  if(S.forData){
+  let fromLib=null;
+  if(/[?&]from=library/.test(location.search)){try{fromLib=JSON.parse(sessionStorage.getItem("rb_lib_book")||"null");}catch(e){}}
+  if(S.forData&&S.forData.library){
+    const L=S.forData.library;$("#libLine").href=`/for/${S.token}/library/`;
+    $("#libLine").innerHTML=`<b>The Writers' Library</b>${esc(L.line)} <u>Set the table →</u>`;
+  }
+  if(fromLib&&fromLib.title){
+    S.book={title:fromLib.title,author:fromLib.author,cover_i:fromLib.cover_i,key:fromLib.key};setLines(fromLib.lines||[]);
+    if(S.forData){S.store=S.forData.store.name;S.city=S.forData.store.city||"";$("#store").value=S.store;$("#city").value=S.city;$("#forTag").hidden=false;$("#forTag").textContent=`For ${S.forData.store.name}`;}
+    $("#lede").textContent=`${fromLib.title}, from the Writers' Library table. Five bookmarks, ready to print.`;
+  }else if(S.forData){
     const d=S.forData;S.book=d.book;S.store=d.store.name;S.city=d.store.city||"";
     $("#store").value=S.store;$("#city").value=S.city;
     $("#forTag").hidden=false;$("#forTag").textContent=`For ${d.store.name}`;
@@ -348,7 +362,7 @@ async function boot(){
     S.book=free.example;setLines(free.example.lines);
   }
   all();
-  await Paywall.init({ctx:{token:S.token||"",book:S.book.title},slot:$("#paySlot"),onUnlock:(data)=>{S.full=data.books;lockStore();if(!S.forData){const k=S.book.key;if(S.full[k]){setLines(S.full[k].lines);all();}}}});
+  await Paywall.init({ctx:{token:S.token||"",book:S.book.title},slot:$("#paySlot"),onUnlock:(data)=>{S.full=data.books;lockStore();if(!S.forData&&!fromLib){const k=S.book.key;if(S.full[k]){setLines(S.full[k].lines);all();}}}});
   lockStore();
   track("preview_open",{token:S.token||"",book:S.book.title});
 }

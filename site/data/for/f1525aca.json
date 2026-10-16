@@ -25,5 +25,637 @@
  "source": {
   "url": "https://unionavebooks.com/list/staff-favorites",
   "seen": "2026-10-16"
+ },
+ "library": {
+  "tier": "title",
+  "line": "Catherine Yarrow borrowed War and Peace from Sylvia Beach in May 1937. It's on the Writers' Library table “The Russians: borrowed from Sylvia Beach, Paris 1923–1937.”",
+  "reason": "Catherine Yarrow borrowed War and Peace from Sylvia Beach in May 1937.",
+  "theme": {
+   "id": "the-russians",
+   "kind": "subject",
+   "name": "The Russians",
+   "picked_by": "model",
+   "on_cards": 16,
+   "header": "The Russians: borrowed from Sylvia Beach, Paris 1923–1937",
+   "years": "1923–1937",
+   "titles": [
+    {
+     "key": "brotherskaramazov|dostoyevsky",
+     "title": "The Brothers Karamazov",
+     "sub": "",
+     "author": "Fyodor Dostoyevsky",
+     "reader": "Geoffrey Potocki de Montalk",
+     "verb": "borrowed",
+     "when": "December 1928",
+     "year": 1928,
+     "date": "1928-12-17",
+     "fact": "Geoffrey Potocki de Montalk borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1928.",
+     "also": [],
+     "cite": "Sylvia Beach, Geoffrey Potocki de Montalk Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dostoyevsky-brothers-karamazov/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $5.99, at Powell's",
+      "as_listed": "The Brothers Karamazov"
+     },
+     "cover_i": 11263774,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Geoffrey Potocki de Montalk",
+       "text": "Geoffrey Potocki de Montalk borrowed The Brothers Karamazov from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Geoffrey Potocki de Montalk Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dostoyevsky-brothers-karamazov/",
+       "licence": "CC BY 4.0",
+       "fame": 2
+      }
+     ]
+    },
+    {
+     "key": "warandpeace|tolstoy",
+     "title": "War and Peace",
+     "sub": "",
+     "author": "Leo Tolstoy",
+     "reader": "Catherine Yarrow",
+     "verb": "borrowed",
+     "when": "May 1937",
+     "year": 1937,
+     "date": "1937-05-12",
+     "fact": "Catherine Yarrow borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in May 1937.",
+     "also": [],
+     "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/tolstoy-war-peace/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $7.99, at Powell's",
+      "as_listed": "War and Peace:: The Epilogues"
+     },
+     "cover_i": 12621906,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed War and Peace from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/tolstoy-war-peace/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "deadsouls|gogol",
+     "title": "Dead Souls",
+     "sub": "",
+     "author": "Nikolai Gogol",
+     "reader": "Robert McAlmon",
+     "verb": "borrowed",
+     "when": "May 1929",
+     "year": 1929,
+     "date": "1929-05-30",
+     "fact": "Robert McAlmon borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in May 1929.",
+     "also": [
+      "Thelma Wood (1923)"
+     ],
+     "cite": "Sylvia Beach, Robert McAlmon Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/gogol-dead-souls/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $13.95, at Powell's",
+      "as_listed": "Dead Souls (The Adventures Of Chichikov): A New Translation"
+     },
+     "cover_i": 7496125,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Robert McAlmon",
+       "text": "Robert McAlmon borrowed Dead Souls from Sylvia Beach's Shakespeare and Company, Paris, in 1929.",
+       "cite": "Sylvia Beach, Robert McAlmon Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/gogol-dead-souls/",
+       "licence": "CC BY 4.0",
+       "fame": 9
+      },
+      {
+       "kind": "borrow",
+       "reader": "Thelma Wood",
+       "text": "Thelma Wood borrowed Dead Souls from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Miss Thelma Wood Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/gogol-dead-souls/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "idiot|dostoyevsky",
+     "title": "The Idiot",
+     "sub": "",
+     "author": "Fyodor Dostoyevsky",
+     "reader": "Ernest Hemingway",
+     "verb": "borrowed",
+     "when": "September 1929",
+     "year": 1929,
+     "date": "1929-09-27",
+     "fact": "Ernest Hemingway borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1929.",
+     "also": [
+      "Catherine Yarrow (1937)"
+     ],
+     "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dostoyevsky-idiot/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New mass market paperback, $8.95, at Powell's",
+      "as_listed": "Idiot"
+     },
+     "cover_i": 10249475,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Ernest Hemingway",
+       "text": "Ernest Hemingway borrowed The Idiot from Sylvia Beach's Shakespeare and Company, Paris, in 1929.",
+       "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dostoyevsky-idiot/",
+       "licence": "CC BY 4.0",
+       "fame": 208
+      },
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed The Idiot from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dostoyevsky-idiot/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "fathersandchildren|turgenev",
+     "title": "Fathers and Children",
+     "sub": "",
+     "author": "Ivan Turgenev",
+     "reader": "Ernest Hemingway",
+     "verb": "borrowed",
+     "when": "December 1925",
+     "year": 1925,
+     "date": "1925-12-10",
+     "fact": "Ernest Hemingway borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1925.",
+     "also": [],
+     "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/turgenev-fathers-children/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $23.95, at Powell's",
+      "as_listed": "Fathers and Children"
+     },
+     "cover_i": null,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Ernest Hemingway",
+       "text": "Ernest Hemingway borrowed Fathers and Children from Sylvia Beach's Shakespeare and Company, Paris, in 1925.",
+       "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/turgenev-fathers-children/",
+       "licence": "CC BY 4.0",
+       "fame": 208
+      }
+     ]
+    },
+    {
+     "key": "andquietflowsthedon|sholokhov",
+     "title": "And Quiet Flows the Don",
+     "sub": "",
+     "author": "Mikhail Sholokhov",
+     "reader": "Leon Edel",
+     "verb": "borrowed",
+     "when": "January 1937",
+     "year": 1937,
+     "date": "1937-01-14",
+     "fact": "Leon Edel borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1937.",
+     "also": [],
+     "cite": "Sylvia Beach, Mr and Mrs Leon Edel Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/sholokhov-quiet-flows-don/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $18.95, at Powell's",
+      "as_listed": "& Quiet Flows the Don"
+     },
+     "cover_i": 298085,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Leon Edel",
+       "text": "Leon Edel borrowed And Quiet Flows the Don from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+       "cite": "Sylvia Beach, Mr and Mrs Leon Edel Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/sholokhov-quiet-flows-don/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "kreutzersonata|tolstoy",
+     "title": "The Kreutzer Sonata",
+     "sub": "",
+     "author": "Leo Tolstoy",
+     "reader": "Catherine Yarrow",
+     "verb": "borrowed",
+     "when": "November 1936",
+     "year": 1936,
+     "date": "1936-11-21",
+     "fact": "Catherine Yarrow borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in November 1936.",
+     "also": [],
+     "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/tolstoy-kreutzer-sonata/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $8.95, at Powell's",
+      "as_listed": "The Kreutzer Sonata and Other Short Stories"
+     },
+     "cover_i": 11725468,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed The Kreutzer Sonata from Sylvia Beach's Shakespeare and Company, Paris, in 1936.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/tolstoy-kreutzer-sonata/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "cherryorchard|chekhov",
+     "title": "The Cherry Orchard",
+     "sub": "",
+     "author": "Anton Chekhov",
+     "reader": "Leonard Merrick",
+     "verb": "borrowed",
+     "when": "April 1935",
+     "year": 1935,
+     "date": "1935-04-29",
+     "fact": "Leonard Merrick borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in April 1935.",
+     "also": [
+      "Catherine Yarrow (1934)"
+     ],
+     "cite": "Sylvia Beach, Leonard Merrick Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/chekhov-cherry-orchard/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $5.99, at Powell's",
+      "as_listed": "The Cherry Orchard"
+     },
+     "cover_i": 6978308,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Leonard Merrick",
+       "text": "Leonard Merrick borrowed The Cherry Orchard from Sylvia Beach's Shakespeare and Company, Paris, in 1935.",
+       "cite": "Sylvia Beach, Leonard Merrick Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/chekhov-cherry-orchard/",
+       "licence": "CC BY 4.0",
+       "fame": 4
+      },
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed The Cherry Orchard from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/chekhov-cherry-orchard/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "ladywiththedog|chekhov",
+     "title": "The Lady with the Dog",
+     "sub": "",
+     "author": "Anton Chekhov",
+     "reader": "Thelma Wood",
+     "verb": "borrowed",
+     "when": "September 1923",
+     "year": 1923,
+     "date": "1923-09-07",
+     "fact": "Thelma Wood borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1923.",
+     "also": [
+      "Catherine Yarrow (1934)"
+     ],
+     "cite": "Sylvia Beach, Miss Thelma Wood Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/chekhov-lady-dog/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $8.95, at Powell's",
+      "as_listed": "The Lady with the Dog"
+     },
+     "cover_i": 12749981,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Thelma Wood",
+       "text": "Thelma Wood borrowed The Lady with the Dog from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Miss Thelma Wood Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/chekhov-lady-dog/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed The Lady with the Dog from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/chekhov-lady-dog/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "sportsmanssketches|turgenev",
+     "title": "A Sportsman's Sketches",
+     "sub": "",
+     "author": "Ivan Turgenev",
+     "reader": "Ernest Hemingway",
+     "verb": "borrowed",
+     "when": "October 1925",
+     "year": 1925,
+     "date": "1925-10-22",
+     "fact": "Ernest Hemingway borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1925.",
+     "also": [],
+     "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/turgenev-sportsmans-sketches/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $16.50, at Powell's",
+      "as_listed": "A Sportsman's Sketches"
+     },
+     "cover_i": 14520402,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Ernest Hemingway",
+       "text": "Ernest Hemingway borrowed A Sportsman's Sketches from Sylvia Beach's Shakespeare and Company, Paris, in 1925.",
+       "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/turgenev-sportsmans-sketches/",
+       "licence": "CC BY 4.0",
+       "fame": 208
+      }
+     ]
+    },
+    {
+     "key": "gambler|dostoyevsky",
+     "title": "The Gambler",
+     "sub": "",
+     "author": "Fyodor Dostoyevsky",
+     "reader": "Ernest Hemingway",
+     "verb": "borrowed",
+     "when": "December 1927",
+     "year": 1927,
+     "date": "1927-12-07",
+     "fact": "Ernest Hemingway borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1927.",
+     "also": [],
+     "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dostoyevsky-gambler/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $8.50, at Powell's",
+      "as_listed": "The Gambler"
+     },
+     "cover_i": 9412633,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Ernest Hemingway",
+       "text": "Ernest Hemingway borrowed The Gambler from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+       "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dostoyevsky-gambler/",
+       "licence": "CC BY 4.0",
+       "fame": 208
+      }
+     ]
+    },
+    {
+     "key": "possessed|dostoyevsky",
+     "title": "The Possessed",
+     "sub": "",
+     "author": "Fyodor Dostoyevsky",
+     "reader": "Florence Meyer",
+     "verb": "borrowed",
+     "when": "December 1933",
+     "year": 1933,
+     "date": "1933-12-19",
+     "fact": "Florence Meyer borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1933.",
+     "also": [
+      "Catherine Yarrow (1938)"
+     ],
+     "cite": "Sylvia Beach, Florence Meyer Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dostoyevsky-possessed/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $20.50, at Powell's",
+      "as_listed": "The Possessed Or, The Devils Part III"
+     },
+     "cover_i": 9252585,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Florence Meyer",
+       "text": "Florence Meyer borrowed The Possessed from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, Florence Meyer Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dostoyevsky-possessed/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed The Possessed from Sylvia Beach's Shakespeare and Company, Paris, in 1938.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dostoyevsky-possessed/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "overcoatandotherstories|gogol",
+     "title": "The Overcoat and Other Stories",
+     "sub": "",
+     "author": "Nikolai Gogol",
+     "reader": "Thelma Wood",
+     "verb": "borrowed",
+     "when": "October 1923",
+     "year": 1923,
+     "date": "1923-10-11",
+     "fact": "Thelma Wood borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1923.",
+     "also": [],
+     "cite": "Sylvia Beach, Miss Thelma Wood Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/gogol-overcoat-stories/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $14.95, at Powell's",
+      "as_listed": "The Overcoat and Other Stories"
+     },
+     "cover_i": 311057,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Thelma Wood",
+       "text": "Thelma Wood borrowed The Overcoat and Other Stories from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Miss Thelma Wood Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/gogol-overcoat-stories/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "ontheeve|turgenev",
+     "title": "On the Eve",
+     "sub": "",
+     "author": "Ivan Turgenev",
+     "reader": "Ernest Hemingway",
+     "verb": "borrowed",
+     "when": "May 1926",
+     "year": 1926,
+     "date": "1926-05-10",
+     "fact": "Ernest Hemingway borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in May 1926.",
+     "also": [
+      "Geoffrey Potocki de Montalk (1928)"
+     ],
+     "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/turgenev-eve/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $9.50, at Powell's",
+      "as_listed": "On the Eve"
+     },
+     "cover_i": null,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Ernest Hemingway",
+       "text": "Ernest Hemingway borrowed On the Eve from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/turgenev-eve/",
+       "licence": "CC BY 4.0",
+       "fame": 208
+      },
+      {
+       "kind": "borrow",
+       "reader": "Geoffrey Potocki de Montalk",
+       "text": "Geoffrey Potocki de Montalk borrowed On the Eve from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Geoffrey Potocki de Montalk Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/turgenev-eve/",
+       "licence": "CC BY 4.0",
+       "fame": 2
+      }
+     ]
+    },
+    {
+     "key": "hewhogetsslapped|andreyev",
+     "title": "He Who Gets Slapped",
+     "sub": "A Play in Four Acts",
+     "author": "Leonid Andreyev",
+     "reader": "Lucia Joyce",
+     "verb": "borrowed",
+     "when": "November 1923",
+     "year": 1923,
+     "date": "1923-11-10",
+     "fact": "Lucia Joyce borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in November 1923.",
+     "also": [],
+     "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/andreyev-gets-slapped-play/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $8.95, at Powell's",
+      "as_listed": "He Who Gets Slapped: Tot, Kto Poluchaet Poshchechiny"
+     },
+     "cover_i": 5938019,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Lucia Joyce",
+       "text": "Lucia Joyce borrowed He Who Gets Slapped: A Play in Four Acts from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/andreyev-gets-slapped-play/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      }
+     ]
+    },
+    {
+     "key": "historyoftherussianrevolution|trotsky",
+     "title": "History of the Russian Revolution",
+     "sub": "",
+     "author": "Leon Trotsky",
+     "reader": "George Oppen",
+     "verb": "borrowed",
+     "when": "January 1933",
+     "year": 1933,
+     "date": "1933-01-19",
+     "fact": "George Oppen borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1933.",
+     "also": [
+      "Florence Meyer (1933)",
+      "Leon Edel (1936)"
+     ],
+     "cite": "Sylvia Beach, George Oppen Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/trotsky-history-russian-revolution/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $10.99, at Powell's",
+      "as_listed": "The History of the Russian Revolution to Brest-Litovsk"
+     },
+     "cover_i": null,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "George Oppen",
+       "text": "George Oppen borrowed History of the Russian Revolution from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, George Oppen Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/trotsky-history-russian-revolution/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      },
+      {
+       "kind": "borrow",
+       "reader": "Florence Meyer",
+       "text": "Florence Meyer borrowed History of the Russian Revolution from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, Florence Meyer Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/trotsky-history-russian-revolution/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Leon Edel",
+       "text": "Leon Edel borrowed History of the Russian Revolution from Sylvia Beach's Shakespeare and Company, Paris, in 1936.",
+       "cite": "Sylvia Beach, Mr and Mrs Leon Edel Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/trotsky-history-russian-revolution/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    }
+   ],
+   "in_print": 16
+  }
  }
 }

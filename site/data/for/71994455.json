@@ -30,5 +30,696 @@
  "source": {
   "url": "https://live-avidbkshp1750059415.pantheonsite.io/book/9781778400506",
   "seen": "2026-10-16"
+ },
+ "library": {
+  "tier": "model",
+  "line": "A Writers' Library table to set beside it: “The sea: borrowed from Sylvia Beach, Paris 1921–1940.”",
+  "reason": "",
+  "theme": {
+   "id": "the-sea",
+   "kind": "subject",
+   "name": "The sea",
+   "picked_by": "model",
+   "on_cards": 16,
+   "header": "The sea: borrowed from Sylvia Beach, Paris 1921–1940",
+   "years": "1921–1940",
+   "titles": [
+    {
+     "key": "mobydick|melville",
+     "title": "Moby-Dick",
+     "sub": "",
+     "author": "Herman Melville",
+     "reader": "Nathalie Sarraute",
+     "verb": "borrowed",
+     "when": "December 1939",
+     "year": 1939,
+     "date": "1939-12-18",
+     "fact": "Nathalie Sarraute borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1939.",
+     "also": [
+      "Margaret Wilson (1927)",
+      "Dolly Wilde (1930)",
+      "Leo Stein (1928)"
+     ],
+     "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/melville-moby-dick-whale/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $15.50, at Powell's",
+      "as_listed": "Moby-Dick: Modern Readers' Edition"
+     },
+     "cover_i": 10544254,
+     "lines": [
+      {
+       "kind": "notable",
+       "reader": "D. H. Lawrence",
+       "text": "But it is a great book, a very great book, the greatest book of the sea ever written. It moves awe in the soul.",
+       "about": "",
+       "when": "1923",
+       "cite": "D. H. Lawrence, Studies in Classic American Literature (1923). Public domain; text via Project Gutenberg.",
+       "url": "https://www.gutenberg.org/ebooks/60547",
+       "licence": "Public domain"
+      },
+      {
+       "kind": "borrow",
+       "reader": "Nathalie Sarraute",
+       "text": "Nathalie Sarraute borrowed Moby-Dick from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/melville-moby-dick-whale/",
+       "licence": "CC BY 4.0",
+       "fame": 52
+      },
+      {
+       "kind": "borrow",
+       "reader": "Margaret Wilson",
+       "text": "Margaret Wilson borrowed Moby-Dick from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+       "cite": "Sylvia Beach, Margaret Wilson Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/melville-moby-dick-whale/",
+       "licence": "CC BY 4.0",
+       "fame": 30
+      },
+      {
+       "kind": "borrow",
+       "reader": "Dolly Wilde",
+       "text": "Dolly Wilde borrowed Moby-Dick from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+       "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/melville-moby-dick-whale/",
+       "licence": "CC BY 4.0",
+       "fame": 15
+      },
+      {
+       "kind": "owner",
+       "reader": "Aidan Jude",
+       "text": "Incredible scope. Melville’s prose is both daunting and dazzling. My favorite chapters:\n\nThe Castaway\nThe Try-Works\nThe Blacksmith\nThe Chase — Third Day",
+       "sentences": [
+        "Incredible scope.",
+        "Melville’s prose is both daunting and dazzling.",
+        "My favorite chapters:",
+        "The Castaway",
+        "The Try-Works",
+        "The Blacksmith",
+        "The Chase — Third Day"
+       ],
+       "cite": "Aidan Jude, Goodreads review, 5 of 5 stars.",
+       "url": "https://www.goodreads.com/user/show/86865482",
+       "licence": "Aidan Jude's own words"
+      }
+     ]
+    },
+    {
+     "key": "sailingalonearoundtheworld|slocum",
+     "title": "Sailing Alone Around the World",
+     "sub": "",
+     "author": "Joshua Slocum",
+     "reader": "Ernest Hemingway",
+     "verb": "borrowed",
+     "when": "October 1925",
+     "year": 1925,
+     "date": "1925-10-14",
+     "fact": "Ernest Hemingway borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1925.",
+     "also": [],
+     "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/slocum-sailing-alone-around/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $18.50, at Powell's",
+      "as_listed": "Sailing Alone Around the World A Personal Account of the First Solo Circumnavigation of the Globe by Sail"
+     },
+     "cover_i": 8247067,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Ernest Hemingway",
+       "text": "Ernest Hemingway borrowed Sailing Alone Around the World from Sylvia Beach's Shakespeare and Company, Paris, in 1925.",
+       "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/slocum-sailing-alone-around/",
+       "licence": "CC BY 4.0",
+       "fame": 208
+      }
+     ]
+    },
+    {
+     "key": "lordjim|conrad",
+     "title": "Lord Jim",
+     "sub": "",
+     "author": "Joseph Conrad",
+     "reader": "Nathalie Sarraute",
+     "verb": "borrowed",
+     "when": "May 1926",
+     "year": 1926,
+     "date": "1926-05-01",
+     "fact": "Nathalie Sarraute borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in May 1926.",
+     "also": [
+      "Madeleine Rolland (1919)",
+      "Francisque Gay (1940)",
+      "Catherine Yarrow (1937)"
+     ],
+     "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/conrad-lord-jim/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $13.70, at Powell's",
+      "as_listed": "Lord Jim: Schande als Schatten"
+     },
+     "cover_i": 8236295,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Nathalie Sarraute",
+       "text": "Nathalie Sarraute borrowed Lord Jim from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/conrad-lord-jim/",
+       "licence": "CC BY 4.0",
+       "fame": 52
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Lord Jim from Sylvia Beach's Shakespeare and Company, Paris, in 1919.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/conrad-lord-jim/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Francisque Gay",
+       "text": "Francisque Gay borrowed Lord Jim from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Francisque Gay Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/conrad-lord-jim/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "niggerofthenarcissus|conrad",
+     "title": "The Nigger of the Narcissus",
+     "sub": "",
+     "author": "Joseph Conrad",
+     "reader": "Madeleine Milhaud",
+     "verb": "borrowed",
+     "when": "March 1921",
+     "year": 1921,
+     "date": "1921-03-19",
+     "fact": "Madeleine Milhaud borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in March 1921.",
+     "also": [],
+     "cite": "Sylvia Beach, Madeleine Milhaud Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/conrad-nigger-narcissus/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $15.99, at Powell's",
+      "as_listed": "The Nigger Of The Narcissus A Tale Of The Forecastle"
+     },
+     "cover_i": 8235355,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Milhaud",
+       "text": "Madeleine Milhaud borrowed The Nigger of the Narcissus from Sylvia Beach's Shakespeare and Company, Paris, in 1921.",
+       "cite": "Sylvia Beach, Madeleine Milhaud Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/conrad-nigger-narcissus/",
+       "licence": "CC BY 4.0",
+       "fame": 9
+      }
+     ]
+    },
+    {
+     "key": "shadowline|conrad",
+     "title": "The Shadow Line",
+     "sub": "A Confession",
+     "author": "Joseph Conrad",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "July 1927",
+     "year": 1927,
+     "date": "1927-07-15",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in July 1927.",
+     "also": [
+      "Leo Stein (1924)",
+      "Madeleine Rolland (1920)",
+      "Blanche Reverchon (1919)"
+     ],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/conrad-shadow-line-confession/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $6.99, at Powell's",
+      "as_listed": "The Shadow-Line"
+     },
+     "cover_i": 8242332,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed The Shadow Line: A Confession from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/conrad-shadow-line-confession/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      },
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed The Shadow Line: A Confession from Sylvia Beach's Shakespeare and Company, Paris, in 1924.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/conrad-shadow-line-confession/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed The Shadow Line: A Confession from Sylvia Beach's Shakespeare and Company, Paris, in 1920.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/conrad-shadow-line-confession/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "typhoon|conrad",
+     "title": "Typhoon",
+     "sub": "",
+     "author": "Joseph Conrad",
+     "reader": "Étienne Coche de la Ferté",
+     "verb": "bought",
+     "when": "January 1940",
+     "year": 1940,
+     "date": "1940-01-22",
+     "fact": "Étienne Coche de la Ferté bought this book from Sylvia Beach's Shakespeare and Company, Paris, in January 1940.",
+     "also": [],
+     "cite": "Sylvia Beach, Etienne Coche de la Fierté Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/conrad-typhoon/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $7.99, at Powell's",
+      "as_listed": "Typhoon"
+     },
+     "cover_i": 1979349,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Étienne Coche de la Ferté",
+       "text": "Étienne Coche de la Ferté bought Typhoon from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Etienne Coche de la Fierté Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/conrad-typhoon/",
+       "licence": "CC BY 4.0",
+       "fame": 0
+      }
+     ]
+    },
+    {
+     "key": "rescue|conrad",
+     "title": "The Rescue",
+     "sub": "A Romance of the Shallows",
+     "author": "Joseph Conrad",
+     "reader": "Thornton Wilder",
+     "verb": "borrowed",
+     "when": "August 1921",
+     "year": 1921,
+     "date": "1921-08-16",
+     "fact": "Thornton Wilder borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in August 1921.",
+     "also": [
+      "Madeleine Rolland (1920)",
+      "Edmond Renoir (1926)"
+     ],
+     "cite": "Sylvia Beach, Miss Charlotte Wilder Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/conrad-rescue-romance-shallows/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $24.50, at Powell's",
+      "as_listed": "The Rescue"
+     },
+     "cover_i": 8243926,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Thornton Wilder",
+       "text": "Thornton Wilder borrowed The Rescue: A Romance of the Shallows from Sylvia Beach's Shakespeare and Company, Paris, in 1921.",
+       "cite": "Sylvia Beach, Miss Charlotte Wilder Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/conrad-rescue-romance-shallows/",
+       "licence": "CC BY 4.0",
+       "fame": 68
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed The Rescue: A Romance of the Shallows from Sylvia Beach's Shakespeare and Company, Paris, in 1920.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/conrad-rescue-romance-shallows/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Edmond Renoir",
+       "text": "Edmond Renoir borrowed The Rescue: A Romance of the Shallows from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Edmond Renoir Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/conrad-rescue-romance-shallows/",
+       "licence": "CC BY 4.0",
+       "fame": 0
+      }
+     ]
+    },
+    {
+     "key": "whitejacket|melville",
+     "title": "White-Jacket",
+     "sub": "",
+     "author": "Herman Melville",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "June 1927",
+     "year": 1927,
+     "date": "1927-06-13",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in June 1927.",
+     "also": [],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/melville-white-jacket/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $13.50, at Powell's",
+      "as_listed": "White-Jacket"
+     },
+     "cover_i": 9337669,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed White-Jacket from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/melville-white-jacket/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "seaandthejungle|tomlinson",
+     "title": "The Sea and the Jungle",
+     "sub": "",
+     "author": "H. M. Tomlinson",
+     "reader": "Ernest Hemingway",
+     "verb": "borrowed",
+     "when": "October 1925",
+     "year": 1925,
+     "date": "1925-10-14",
+     "fact": "Ernest Hemingway borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1925.",
+     "also": [],
+     "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/tomlinson-sea-jungle/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $20.50, at Powell's",
+      "as_listed": "The Sea and the Jungle"
+     },
+     "cover_i": 5926866,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Ernest Hemingway",
+       "text": "Ernest Hemingway borrowed The Sea and the Jungle from Sylvia Beach's Shakespeare and Company, Paris, in 1925.",
+       "cite": "Sylvia Beach, Ernest Hemingway Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/tomlinson-sea-jungle/",
+       "licence": "CC BY 4.0",
+       "fame": 208
+      }
+     ]
+    },
+    {
+     "key": "treasureisland|stevenson",
+     "title": "Treasure Island",
+     "sub": "",
+     "author": "Robert Louis Stevenson",
+     "reader": "Nathalie Sarraute",
+     "verb": "borrowed",
+     "when": "September 1940",
+     "year": 1940,
+     "date": "1940-09-25",
+     "fact": "Nathalie Sarraute borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1940.",
+     "also": [],
+     "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/stevenson-treasure-island/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $10.50, at Powell's",
+      "as_listed": "Treasure Island: By Robert Louis Stevenson Adapted for the Stage By Vernon Morris In Collaboration With B H Barry"
+     },
+     "cover_i": 13859660,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Nathalie Sarraute",
+       "text": "Nathalie Sarraute borrowed Treasure Island from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/stevenson-treasure-island/",
+       "licence": "CC BY 4.0",
+       "fame": 52
+      }
+     ]
+    },
+    {
+     "key": "kidnapped|stevenson",
+     "title": "Kidnapped",
+     "sub": "",
+     "author": "Robert Louis Stevenson",
+     "reader": "Lucia Joyce",
+     "verb": "borrowed",
+     "when": "October 1922",
+     "year": 1922,
+     "date": "1922-10-09",
+     "fact": "Lucia Joyce borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1922.",
+     "also": [],
+     "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/stevenson-kidnapped/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $7.50, at Powell's",
+      "as_listed": "Kidnapped by Robert Louis Stevenson"
+     },
+     "cover_i": 8267822,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Lucia Joyce",
+       "text": "Lucia Joyce borrowed Kidnapped from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/stevenson-kidnapped/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      }
+     ]
+    },
+    {
+     "key": "generalhistoryoftherobberiesandmurdersofthemostnotoriouspirates|johnson",
+     "title": "A General History of the Robberies and Murders of the Most Notorious Pirates",
+     "sub": "",
+     "author": "Captain Charles Johnson",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "December 1927",
+     "year": 1927,
+     "date": "1927-12-10",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1927.",
+     "also": [],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/johnson-general-history-robberies/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $24.95, at Powell's",
+      "as_listed": "General History of the Robberies & Murders of the Most Notorious Pirates"
+     },
+     "cover_i": 6622015,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed A General History of the Robberies and Murders of the Most Notorious Pirates from Sylvia Beach's Shakespeare and Company, Paris, in 1927.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/johnson-general-history-robberies/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "wreckofthegrosvenor|russell",
+     "title": "The Wreck of the Grosvenor",
+     "sub": "",
+     "author": "William Clark Russell",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "June 1928",
+     "year": 1928,
+     "date": "1928-06-25",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in June 1928.",
+     "also": [],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/russell-wreck-grosvenor/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $13.95, at Powell's",
+      "as_listed": "The Wreck of the Grosvenor"
+     },
+     "cover_i": 714041,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed The Wreck of the Grosvenor from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/russell-wreck-grosvenor/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "robinsoncrusoe|defoe",
+     "title": "Robinson Crusoe",
+     "sub": "",
+     "author": "Daniel Defoe",
+     "reader": "Maurice Sachs",
+     "verb": "borrowed",
+     "when": "December 1938",
+     "year": 1938,
+     "date": "1938-12-17",
+     "fact": "Maurice Sachs borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1938.",
+     "also": [
+      "Richard Le Gallienne (1928)"
+     ],
+     "cite": "Sylvia Beach, Maurice Sachs Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/defoe-robinson-crusoe/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $14.95, at Powell's",
+      "as_listed": "Robinson Crusoe de Daniel Defoe (Gu�a de lectura): Resumen y an�lisis completo"
+     },
+     "cover_i": 368541,
+     "lines": [
+      {
+       "kind": "notable",
+       "reader": "Virginia Woolf",
+       "text": "The book resembles one of the anonymous productions of the race itself rather than the effort of a single mind",
+       "about": "",
+       "when": "1925",
+       "cite": "Virginia Woolf, The Common Reader (1925). Public domain; text via Project Gutenberg.",
+       "url": "https://www.gutenberg.org/ebooks/64457",
+       "licence": "Public domain"
+      },
+      {
+       "kind": "borrow",
+       "reader": "Maurice Sachs",
+       "text": "Maurice Sachs borrowed Robinson Crusoe from Sylvia Beach's Shakespeare and Company, Paris, in 1938.",
+       "cite": "Sylvia Beach, Maurice Sachs Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/defoe-robinson-crusoe/",
+       "licence": "CC BY 4.0",
+       "fame": 17
+      },
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed Robinson Crusoe from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/defoe-robinson-crusoe/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "gulliverstravels|swift",
+     "title": "Gulliver's Travels",
+     "sub": "",
+     "author": "Jonathan Swift",
+     "reader": "Bravig Imbs",
+     "verb": "borrowed",
+     "when": "January 1929",
+     "year": 1929,
+     "date": "1929-01-29",
+     "fact": "Bravig Imbs borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1929.",
+     "also": [
+      "Catherine Yarrow (1939)"
+     ],
+     "cite": "Sylvia Beach, Bravig Imbs Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/swift-gullivers-travels/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New hardcover, $24.99, at Powell's",
+      "as_listed": "Gullivers Travels A Robert Ingpen Illustrated Classic"
+     },
+     "cover_i": 12717083,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Bravig Imbs",
+       "text": "Bravig Imbs borrowed Gulliver's Travels from Sylvia Beach's Shakespeare and Company, Paris, in 1929.",
+       "cite": "Sylvia Beach, Bravig Imbs Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/swift-gullivers-travels/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      },
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed Gulliver's Travels from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/swift-gullivers-travels/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "mainsailhaul|masefield",
+     "title": "A Mainsail Haul",
+     "sub": "",
+     "author": "John Masefield",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "February 1928",
+     "year": 1928,
+     "date": "1928-02-18",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in February 1928.",
+     "also": [],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/masefield-mainsail-haul/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $19.50, at Powell's",
+      "as_listed": "A Mainsail Haul"
+     },
+     "cover_i": 6044948,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed A Mainsail Haul from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/masefield-mainsail-haul/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    }
+   ],
+   "in_print": 16
+  }
  }
 }

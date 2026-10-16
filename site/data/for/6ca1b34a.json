@@ -35,5 +35,638 @@
  "source": {
   "url": "https://copperfieldsbooks.com/book/9781250413352",
   "seen": "2026-10-16"
+ },
+ "library": {
+  "tier": "model",
+  "line": "A Writers' Library table to set beside it: “Crime and detection: borrowed from Sylvia Beach, Paris 1926–1941.”",
+  "reason": "",
+  "theme": {
+   "id": "crime",
+   "kind": "subject",
+   "name": "Crime and detection",
+   "picked_by": "model",
+   "on_cards": 16,
+   "header": "Crime and detection: borrowed from Sylvia Beach, Paris 1926–1941",
+   "years": "1926–1941",
+   "titles": [
+    {
+     "key": "murderofrogerackroyd|christie",
+     "title": "The Murder of Roger Ackroyd",
+     "sub": "",
+     "author": "Agatha Christie",
+     "reader": "Archibald MacLeish",
+     "verb": "borrowed",
+     "when": "August 1926",
+     "year": 1926,
+     "date": "1926-08-24",
+     "fact": "Archibald MacLeish borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in August 1926.",
+     "also": [
+      "Jeanne Reynal (1931)",
+      "Francis Steegmuller (1938)",
+      "Daphne Woodward (1941)"
+     ],
+     "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/christie-murder-roger-ackroyd/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $10.80, at Powell's",
+      "as_listed": "The Murder of Roger Ackroyd: The Best Murder Mystery Novel of All Time"
+     },
+     "cover_i": 13151356,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Archibald MacLeish",
+       "text": "Archibald MacLeish borrowed The Murder of Roger Ackroyd from Sylvia Beach's Shakespeare and Company, Paris, in 1926.",
+       "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/christie-murder-roger-ackroyd/",
+       "licence": "CC BY 4.0",
+       "fame": 39
+      },
+      {
+       "kind": "borrow",
+       "reader": "Jeanne Reynal",
+       "text": "Jeanne Reynal borrowed The Murder of Roger Ackroyd from Sylvia Beach's Shakespeare and Company, Paris, in 1931.",
+       "cite": "Sylvia Beach, Jeanne Reynal Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/christie-murder-roger-ackroyd/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      },
+      {
+       "kind": "borrow",
+       "reader": "Francis Steegmuller",
+       "text": "Francis Steegmuller borrowed The Murder of Roger Ackroyd from Sylvia Beach's Shakespeare and Company, Paris, in 1938.",
+       "cite": "Sylvia Beach, Francis Steegmuller Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/christie-murder-roger-ackroyd/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "houndofthebaskervilles|doyle",
+     "title": "The Hound of the Baskervilles",
+     "sub": "",
+     "author": "Arthur Conan Doyle",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "August 1930",
+     "year": 1930,
+     "date": "1930-08-13",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in August 1930.",
+     "also": [],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/doyle-hound-baskervilles/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $7.95, at Powell's",
+      "as_listed": "The Hound of the Baskervilles"
+     },
+     "cover_i": 8063264,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed The Hound of the Baskervilles from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/doyle-hound-baskervilles/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "maltesefalcon|hammett",
+     "title": "The Maltese Falcon",
+     "sub": "",
+     "author": "Dashiell Hammett",
+     "reader": "Daphne Woodward",
+     "verb": "borrowed",
+     "when": "September 1941",
+     "year": 1941,
+     "date": "1941-09-15",
+     "fact": "Daphne Woodward borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1941.",
+     "also": [
+      "Léon Gischia (1936)"
+     ],
+     "cite": "Sylvia Beach, Miss Daphne Woodward Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/hammett-maltese-falcon/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $9.00, at Powell's",
+      "as_listed": "The Maltese Falcon"
+     },
+     "cover_i": 998587,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Daphne Woodward",
+       "text": "Daphne Woodward borrowed The Maltese Falcon from Sylvia Beach's Shakespeare and Company, Paris, in 1941.",
+       "cite": "Sylvia Beach, Miss Daphne Woodward Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hammett-maltese-falcon/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      },
+      {
+       "kind": "borrow",
+       "reader": "Léon Gischia",
+       "text": "Léon Gischia borrowed The Maltese Falcon from Sylvia Beach's Shakespeare and Company, Paris, in 1936.",
+       "cite": "Sylvia Beach, Léon Gischia/Colly Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/hammett-maltese-falcon/",
+       "licence": "CC BY 4.0",
+       "fame": 0
+      }
+     ]
+    },
+    {
+     "key": "abcmurders|christie",
+     "title": "The ABC Murders",
+     "sub": "",
+     "author": "Agatha Christie",
+     "reader": "Catherine Yarrow",
+     "verb": "borrowed",
+     "when": "September 1936",
+     "year": 1936,
+     "date": "1936-09-19",
+     "fact": "Catherine Yarrow borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1936.",
+     "also": [],
+     "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/christie-abc-murders/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $22.99, at Powell's",
+      "as_listed": "The ABC Murders: A Hercule Poirot Mystery"
+     },
+     "cover_i": 14573514,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Catherine Yarrow",
+       "text": "Catherine Yarrow borrowed The ABC Murders from Sylvia Beach's Shakespeare and Company, Paris, in 1936.",
+       "cite": "Sylvia Beach, Catherine Yarrow Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/christie-abc-murders/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "moonstone|collins",
+     "title": "The Moonstone",
+     "sub": "",
+     "author": "Wilkie Collins",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "October 1928",
+     "year": 1928,
+     "date": "1928-10-12",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1928.",
+     "also": [
+      "Henry Church (1936)"
+     ],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/collins-moonstone/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $5.99, at Powell's",
+      "as_listed": "The Moonstone"
+     },
+     "cover_i": 8237041,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed The Moonstone from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/collins-moonstone/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      },
+      {
+       "kind": "borrow",
+       "reader": "Henry Church",
+       "text": "Henry Church borrowed The Moonstone from Sylvia Beach's Shakespeare and Company, Paris, in 1936.",
+       "cite": "Sylvia Beach, Henry Church Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/collins-moonstone/",
+       "licence": "CC BY 4.0",
+       "fame": 2
+      }
+     ]
+    },
+    {
+     "key": "postmanalwaysringstwice|cain",
+     "title": "The Postman Always Rings Twice",
+     "sub": "",
+     "author": "James M. Cain",
+     "reader": "Jeanine (Delpech) Teissier",
+     "verb": "bought",
+     "when": "April 1938",
+     "year": 1938,
+     "date": "1938-04-29",
+     "fact": "Jeanine (Delpech) Teissier bought this book from Sylvia Beach's Shakespeare and Company, Paris, in April 1938.",
+     "also": [],
+     "cite": "Sylvia Beach, Teissier Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/cain-postman-always-rings/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "Paperback, listed by Penguin Random House",
+      "as_listed": "The Postman Always Rings Twice"
+     },
+     "cover_i": 3344546,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Jeanine (Delpech) Teissier",
+       "text": "Jeanine (Delpech) Teissier bought The Postman Always Rings Twice from Sylvia Beach's Shakespeare and Company, Paris, in 1938.",
+       "cite": "Sylvia Beach, Teissier Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/cain-postman-always-rings/",
+       "licence": "CC BY 4.0",
+       "fame": 3
+      }
+     ]
+    },
+    {
+     "key": "mysteryoftheyellowroom|leroux",
+     "title": "The Mystery of the Yellow Room",
+     "sub": "",
+     "author": "Gaston Leroux",
+     "reader": "Jeanne Reynal",
+     "verb": "borrowed",
+     "when": "January 1931",
+     "year": 1931,
+     "date": "1931-01-23",
+     "fact": "Jeanne Reynal borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1931.",
+     "also": [
+      "Daphne Woodward (1941)"
+     ],
+     "cite": "Sylvia Beach, Jeanne Reynal Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/leroux-mystery-yellow-room/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $15.95, at Powell's",
+      "as_listed": "The Mystery Of The Yellow Room"
+     },
+     "cover_i": 14691513,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Jeanne Reynal",
+       "text": "Jeanne Reynal borrowed The Mystery of the Yellow Room from Sylvia Beach's Shakespeare and Company, Paris, in 1931.",
+       "cite": "Sylvia Beach, Jeanne Reynal Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/leroux-mystery-yellow-room/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      },
+      {
+       "kind": "borrow",
+       "reader": "Daphne Woodward",
+       "text": "Daphne Woodward borrowed The Mystery of the Yellow Room from Sylvia Beach's Shakespeare and Company, Paris, in 1941.",
+       "cite": "Sylvia Beach, Miss Daphne Woodward Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/leroux-mystery-yellow-room/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "talesofmysteryandimagination|poe",
+     "title": "Tales of Mystery and Imagination",
+     "sub": "",
+     "author": "Edgar Allan Poe",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "January 1928",
+     "year": 1928,
+     "date": "1928-01-26",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1928.",
+     "also": [],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/poe-tales-mystery-imagination/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New hardcover, $12.99, at Powell's",
+      "as_listed": "Tales of Mystery & Imagination"
+     },
+     "cover_i": 11841090,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed Tales of Mystery and Imagination from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/poe-tales-mystery-imagination/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "innocenceoffatherbrown|chesterton",
+     "title": "The Innocence of Father Brown",
+     "sub": "",
+     "author": "G. K. Chesterton",
+     "reader": "Pierre Citron",
+     "verb": "borrowed",
+     "when": "October 1937",
+     "year": 1937,
+     "date": "1937-10-26",
+     "fact": "Pierre Citron borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1937.",
+     "also": [],
+     "cite": "Sylvia Beach, Pierre Citron Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/chesterton-innocence-father-brown/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $11.95, at Powell's",
+      "as_listed": "The Innocence of Father Brown (Warbler Classics)"
+     },
+     "cover_i": 94081,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Pierre Citron",
+       "text": "Pierre Citron borrowed The Innocence of Father Brown from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+       "cite": "Sylvia Beach, Pierre Citron Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/chesterton-innocence-father-brown/",
+       "licence": "CC BY 4.0",
+       "fame": 5
+      }
+     ]
+    },
+    {
+     "key": "lordpeterviewsthebody|sayers",
+     "title": "Lord Peter Views the Body",
+     "sub": "",
+     "author": "Dorothy L. Sayers",
+     "reader": "Jeanine (Delpech) Teissier",
+     "verb": "borrowed",
+     "when": "April 1939",
+     "year": 1939,
+     "date": "1939-04-18",
+     "fact": "Jeanine (Delpech) Teissier borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in April 1939.",
+     "also": [
+      "Gordon Waterfield (1937)"
+     ],
+     "cite": "Sylvia Beach, Teissier Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/sayers-lord-peter-views/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $12.95, at Powell's",
+      "as_listed": "Lord Peter Views the Body"
+     },
+     "cover_i": 2210487,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Jeanine (Delpech) Teissier",
+       "text": "Jeanine (Delpech) Teissier borrowed Lord Peter Views the Body from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Teissier Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/sayers-lord-peter-views/",
+       "licence": "CC BY 4.0",
+       "fame": 3
+      },
+      {
+       "kind": "borrow",
+       "reader": "Gordon Waterfield",
+       "text": "Gordon Waterfield borrowed Lord Peter Views the Body from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+       "cite": "Sylvia Beach, Gordon Waterfield Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/sayers-lord-peter-views/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "murdermustadvertise|sayers",
+     "title": "Murder Must Advertise",
+     "sub": "",
+     "author": "Dorothy L. Sayers",
+     "reader": "Solita Solano",
+     "verb": "borrowed",
+     "when": "February 1933",
+     "year": 1933,
+     "date": "1933-02-05",
+     "fact": "Solita Solano borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in February 1933.",
+     "also": [
+      "Leon Edel (1937)",
+      "Gordon Waterfield (1937)"
+     ],
+     "cite": "Sylvia Beach, Solita Solano Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/sayers-murder-must-advertise/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $18.99, at Powell's",
+      "as_listed": "Murder Must Advertise: A Lord Peter Wimsey Mystery"
+     },
+     "cover_i": 2394680,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Solita Solano",
+       "text": "Solita Solano borrowed Murder Must Advertise from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, Solita Solano Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/sayers-murder-must-advertise/",
+       "licence": "CC BY 4.0",
+       "fame": 8
+      },
+      {
+       "kind": "borrow",
+       "reader": "Leon Edel",
+       "text": "Leon Edel borrowed Murder Must Advertise from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+       "cite": "Sylvia Beach, Mr and Mrs Leon Edel Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/sayers-murder-must-advertise/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Gordon Waterfield",
+       "text": "Gordon Waterfield borrowed Murder Must Advertise from Sylvia Beach's Shakespeare and Company, Paris, in 1937.",
+       "cite": "Sylvia Beach, Gordon Waterfield Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/sayers-murder-must-advertise/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "bensonmurdercase|vandine",
+     "title": "The Benson Murder Case",
+     "sub": "",
+     "author": "S. S. Van Dine",
+     "reader": "Dolly Wilde",
+     "verb": "borrowed",
+     "when": "December 1930",
+     "year": 1930,
+     "date": "1930-12-09",
+     "fact": "Dolly Wilde borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1930.",
+     "also": [],
+     "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/van-dine-benson-murder-case/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $18.88, at Powell's",
+      "as_listed": "The Benson murder case"
+     },
+     "cover_i": 4761031,
+     "lines": []
+    },
+    {
+     "key": "fashioninshrouds|allingham",
+     "title": "The Fashion in Shrouds",
+     "sub": "",
+     "author": "Margery Allingham",
+     "reader": "Elliot Paul",
+     "verb": "borrowed",
+     "when": "February 1939",
+     "year": 1939,
+     "date": "1939-02-14",
+     "fact": "Elliot Paul borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in February 1939.",
+     "also": [
+      "Jeanine (Delpech) Teissier (1940)"
+     ],
+     "cite": "Sylvia Beach, Elliot Paul Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/allingham-fashion-shrouds/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $26.99, at Powell's",
+      "as_listed": "The Fashion in Shrouds"
+     },
+     "cover_i": 76798,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Elliot Paul",
+       "text": "Elliot Paul borrowed The Fashion in Shrouds from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Elliot Paul Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/allingham-fashion-shrouds/",
+       "licence": "CC BY 4.0",
+       "fame": 3
+      },
+      {
+       "kind": "borrow",
+       "reader": "Jeanine (Delpech) Teissier",
+       "text": "Jeanine (Delpech) Teissier borrowed The Fashion in Shrouds from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Teissier Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/allingham-fashion-shrouds/",
+       "licence": "CC BY 4.0",
+       "fame": 3
+      }
+     ]
+    },
+    {
+     "key": "murderinthemaze|connington",
+     "title": "Murder in the Maze",
+     "sub": "",
+     "author": "J. J. Connington",
+     "reader": "Archibald MacLeish",
+     "verb": "borrowed",
+     "when": "February 1928",
+     "year": 1928,
+     "date": "1928-02-08",
+     "fact": "Archibald MacLeish borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in February 1928.",
+     "also": [],
+     "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/connington-murder-maze/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $16.99, at Powell's",
+      "as_listed": "Murder in the Maze: Annotated Version with Foreword by Paul Di Filippo"
+     },
+     "cover_i": 15138112,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Archibald MacLeish",
+       "text": "Archibald MacLeish borrowed Murder in the Maze from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/connington-murder-maze/",
+       "licence": "CC BY 4.0",
+       "fame": 39
+      }
+     ]
+    },
+    {
+     "key": "12|crofts",
+     "title": "The 12:30 from Croydon",
+     "sub": "",
+     "author": "Freeman Wills Crofts",
+     "reader": "Fanie Eloff",
+     "verb": "borrowed",
+     "when": "June 1934",
+     "year": 1934,
+     "date": "1934-06-09",
+     "fact": "Fanie Eloff borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in June 1934.",
+     "also": [],
+     "cite": "Sylvia Beach, Fanie Eloff Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/crofts-12-30-croydon/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $38.50, at Powell's",
+      "as_listed": "The 12.30 from Croydon [Large Print 16 Pt Edition]"
+     },
+     "cover_i": 14857538,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Fanie Eloff",
+       "text": "Fanie Eloff borrowed The 12:30 from Croydon from Sylvia Beach's Shakespeare and Company, Paris, in 1934.",
+       "cite": "Sylvia Beach, Fanie Eloff Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/crofts-12-30-croydon/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      }
+     ]
+    },
+    {
+     "key": "mysteryofedwindrood|dickens",
+     "title": "The Mystery of Edwin Drood",
+     "sub": "",
+     "author": "Charles Dickens",
+     "reader": "Pierre Leyris",
+     "verb": "borrowed",
+     "when": "July 1935",
+     "year": 1935,
+     "date": "1935-07-26",
+     "fact": "Pierre Leyris borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in July 1935.",
+     "also": [],
+     "cite": "Sylvia Beach, Pierre Leyris Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dickens-mystery-edwin-drood/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $7.50, at Powell's",
+      "as_listed": "The Mystery of Edwin Drood by charles dickens"
+     },
+     "cover_i": 8243336,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Pierre Leyris",
+       "text": "Pierre Leyris borrowed The Mystery of Edwin Drood from Sylvia Beach's Shakespeare and Company, Paris, in 1935.",
+       "cite": "Sylvia Beach, Pierre Leyris Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dickens-mystery-edwin-drood/",
+       "licence": "CC BY 4.0",
+       "fame": 4
+      }
+     ]
+    }
+   ],
+   "in_print": 16
+  }
  }
 }

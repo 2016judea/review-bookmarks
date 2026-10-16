@@ -30,5 +30,662 @@
  "source": {
   "url": "https://bluewillowbookshop.com/book/9781546160182",
   "seen": "2026-10-16"
+ },
+ "library": {
+  "tier": "model",
+  "line": "A Writers' Library table to set beside it: “Growing up: borrowed from Sylvia Beach, Paris 1920–1947.”",
+  "reason": "",
+  "theme": {
+   "id": "growing-up",
+   "kind": "subject",
+   "name": "Growing up",
+   "picked_by": "model",
+   "on_cards": 16,
+   "header": "Growing up: borrowed from Sylvia Beach, Paris 1920–1947",
+   "years": "1920–1947",
+   "titles": [
+    {
+     "key": "portraitoftheartistasayoungman|joyce",
+     "title": "A Portrait of the Artist as a Young Man",
+     "sub": "",
+     "author": "James Joyce",
+     "reader": "James Joyce",
+     "verb": "bought",
+     "when": "March 1933",
+     "year": 1933,
+     "date": "1933-03-30",
+     "fact": "James Joyce bought this book from Sylvia Beach's Shakespeare and Company, Paris, in March 1933.",
+     "also": [
+      "Archibald MacLeish (1924)",
+      "Richard Le Gallienne (1930)",
+      "Leo Stein (1923)"
+     ],
+     "cite": "Sylvia Beach, James Joyce Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/joyce-portrait-artist-young/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $4.99, at Powell's",
+      "as_listed": "Portrait of the Artist as a Young Man James Joyce"
+     },
+     "cover_i": 9328410,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "James Joyce",
+       "text": "James Joyce bought A Portrait of the Artist as a Young Man from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, James Joyce Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/joyce-portrait-artist-young/",
+       "licence": "CC BY 4.0",
+       "fame": 207
+      },
+      {
+       "kind": "borrow",
+       "reader": "Archibald MacLeish",
+       "text": "Archibald MacLeish borrowed A Portrait of the Artist as a Young Man from Sylvia Beach's Shakespeare and Company, Paris, in 1924.",
+       "cite": "Sylvia Beach, Ada and Archibald MacLeish Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/joyce-portrait-artist-young/",
+       "licence": "CC BY 4.0",
+       "fame": 39
+      },
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed A Portrait of the Artist as a Young Man from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/joyce-portrait-artist-young/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "davidcopperfield|dickens",
+     "title": "David Copperfield",
+     "sub": "",
+     "author": "Charles Dickens",
+     "reader": "Nathalie Sarraute",
+     "verb": "borrowed",
+     "when": "September 1940",
+     "year": 1940,
+     "date": "1940-09-05",
+     "fact": "Nathalie Sarraute borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1940.",
+     "also": [
+      "Richard Le Gallienne (1928)",
+      "Leo Stein (1924)"
+     ],
+     "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dickens-david-copperfield/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New hardcover, $30.00, at Powell's",
+      "as_listed": "David Copperfield"
+     },
+     "cover_i": 1048892,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Nathalie Sarraute",
+       "text": "Nathalie Sarraute borrowed David Copperfield from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dickens-david-copperfield/",
+       "licence": "CC BY 4.0",
+       "fame": 52
+      },
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed David Copperfield from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dickens-david-copperfield/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      },
+      {
+       "kind": "borrow",
+       "reader": "Leo Stein",
+       "text": "Leo Stein borrowed David Copperfield from Sylvia Beach's Shakespeare and Company, Paris, in 1924.",
+       "cite": "Sylvia Beach, Leo Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dickens-david-copperfield/",
+       "licence": "CC BY 4.0",
+       "fame": 13
+      }
+     ]
+    },
+    {
+     "key": "greatexpectations|dickens",
+     "title": "Great Expectations",
+     "sub": "",
+     "author": "Charles Dickens",
+     "reader": "Richard Le Gallienne",
+     "verb": "borrowed",
+     "when": "June 1928",
+     "year": 1928,
+     "date": "1928-06-18",
+     "fact": "Richard Le Gallienne borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in June 1928.",
+     "also": [],
+     "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/dickens-great-expectations/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New hardcover, $24.00, at Powell's",
+      "as_listed": "Great Expectations"
+     },
+     "cover_i": 13322313,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Richard Le Gallienne",
+       "text": "Richard Le Gallienne borrowed Great Expectations from Sylvia Beach's Shakespeare and Company, Paris, in 1928.",
+       "cite": "Sylvia Beach, Richard le Gallienne Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/dickens-great-expectations/",
+       "licence": "CC BY 4.0",
+       "fame": 14
+      }
+     ]
+    },
+    {
+     "key": "adventuresofhuckleberryfinn|twain",
+     "title": "The Adventures of Huckleberry Finn",
+     "sub": "",
+     "author": "Mark Twain",
+     "reader": "James Joyce",
+     "verb": "bought",
+     "when": "April 1936",
+     "year": 1936,
+     "date": "1936-04-03",
+     "fact": "James Joyce bought this book from Sylvia Beach's Shakespeare and Company, Paris, in April 1936.",
+     "also": [
+      "Nathalie Sarraute (1939)",
+      "Bravig Imbs (1930)"
+     ],
+     "cite": "Sylvia Beach, James Joyce Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/twain-adventures-huckleberry-finn/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $9.95, at Powell's",
+      "as_listed": "The Adventures of Huckleberry Finn: Tom Sawyer's Comrade"
+     },
+     "cover_i": null,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "James Joyce",
+       "text": "James Joyce bought The Adventures of Huckleberry Finn from Sylvia Beach's Shakespeare and Company, Paris, in 1936.",
+       "cite": "Sylvia Beach, James Joyce Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/twain-adventures-huckleberry-finn/",
+       "licence": "CC BY 4.0",
+       "fame": 207
+      },
+      {
+       "kind": "borrow",
+       "reader": "Nathalie Sarraute",
+       "text": "Nathalie Sarraute bought The Adventures of Huckleberry Finn from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/twain-adventures-huckleberry-finn/",
+       "licence": "CC BY 4.0",
+       "fame": 52
+      },
+      {
+       "kind": "borrow",
+       "reader": "Bravig Imbs",
+       "text": "Bravig Imbs borrowed The Adventures of Huckleberry Finn from Sylvia Beach's Shakespeare and Company, Paris, in 1930.",
+       "cite": "Sylvia Beach, Bravig Imbs Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/twain-adventures-huckleberry-finn/",
+       "licence": "CC BY 4.0",
+       "fame": 1
+      }
+     ]
+    },
+    {
+     "key": "janeeyre|bront",
+     "title": "Jane Eyre",
+     "sub": "",
+     "author": "Charlotte Brontë",
+     "reader": "Dolly Wilde",
+     "verb": "borrowed",
+     "when": "February 1928",
+     "year": 1928,
+     "date": "1928-02-03",
+     "fact": "Dolly Wilde borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in February 1928.",
+     "also": [
+      "Bravig Imbs (1929)",
+      "Catherine Yarrow (1935)"
+     ],
+     "cite": "Sylvia Beach, Dorothy Wilde Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/bronte-jane-eyre/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $19.99, at Powell's",
+      "as_listed": "Jane Eyre: Deluxe Painted Edition"
+     },
+     "cover_i": 8235363,
+     "lines": []
+    },
+    {
+     "key": "sonsandlovers|lawrence",
+     "title": "Sons and Lovers",
+     "sub": "",
+     "author": "D. H. Lawrence",
+     "reader": "George Stevens",
+     "verb": "borrowed",
+     "when": "March 1925",
+     "year": 1925,
+     "date": "1925-03-14",
+     "fact": "George Stevens borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in March 1925.",
+     "also": [
+      "Henri Maspero (1933)",
+      "Madeleine Rolland (1923)",
+      "Edmond Renoir (1927)"
+     ],
+     "cite": "Sylvia Beach, George Stevens Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/lawrence-sons-lovers/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $11.95, at Powell's",
+      "as_listed": "Sons and Lovers"
+     },
+     "cover_i": 8246175,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "George Stevens",
+       "text": "George Stevens borrowed Sons and Lovers from Sylvia Beach's Shakespeare and Company, Paris, in 1925.",
+       "cite": "Sylvia Beach, George Stevens Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lawrence-sons-lovers/",
+       "licence": "CC BY 4.0",
+       "fame": 49
+      },
+      {
+       "kind": "borrow",
+       "reader": "Henri Maspero",
+       "text": "Henri Maspero borrowed Sons and Lovers from Sylvia Beach's Shakespeare and Company, Paris, in 1933.",
+       "cite": "Sylvia Beach, Maspero Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lawrence-sons-lovers/",
+       "licence": "CC BY 4.0",
+       "fame": 23
+      },
+      {
+       "kind": "borrow",
+       "reader": "Madeleine Rolland",
+       "text": "Madeleine Rolland borrowed Sons and Lovers from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Madeleine Rolland Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/lawrence-sons-lovers/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      }
+     ]
+    },
+    {
+     "key": "alicesadventuresinwonderland|carroll",
+     "title": "Alice's Adventures in Wonderland",
+     "sub": "",
+     "author": "Lewis Carroll",
+     "reader": "Thelma Wood",
+     "verb": "borrowed",
+     "when": "September 1923",
+     "year": 1923,
+     "date": "1923-09-07",
+     "fact": "Thelma Wood borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1923.",
+     "also": [
+      "Henry Church (1939)"
+     ],
+     "cite": "Sylvia Beach, Miss Thelma Wood Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/carroll-alices-adventures-wonderland/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $9.95, at Powell's",
+      "as_listed": "Alice's Adventures in Wonderland by Lewis Carroll: (Adapted by Joseph Cowley)"
+     },
+     "cover_i": 10527843,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Thelma Wood",
+       "text": "Thelma Wood borrowed Alice's Adventures in Wonderland from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Miss Thelma Wood Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/carroll-alices-adventures-wonderland/",
+       "licence": "CC BY 4.0",
+       "fame": 6
+      },
+      {
+       "kind": "borrow",
+       "reader": "Henry Church",
+       "text": "Henry Church borrowed Alice's Adventures in Wonderland from Sylvia Beach's Shakespeare and Company, Paris, in 1939.",
+       "cite": "Sylvia Beach, Henry Church Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/carroll-alices-adventures-wonderland/",
+       "licence": "CC BY 4.0",
+       "fame": 2
+      }
+     ]
+    },
+    {
+     "key": "junglebook|kipling",
+     "title": "The Jungle Book",
+     "sub": "",
+     "author": "Rudyard Kipling",
+     "reader": "Lucia Joyce",
+     "verb": "borrowed",
+     "when": "November 1922",
+     "year": 1922,
+     "date": "1922-11-28",
+     "fact": "Lucia Joyce borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in November 1922.",
+     "also": [],
+     "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/kipling-jungle-book/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $6.99, at Powell's",
+      "as_listed": "The Jungle Book"
+     },
+     "cover_i": 3344204,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Lucia Joyce",
+       "text": "Lucia Joyce borrowed The Jungle Book from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/kipling-jungle-book/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      }
+     ]
+    },
+    {
+     "key": "treasureisland|stevenson",
+     "title": "Treasure Island",
+     "sub": "",
+     "author": "Robert Louis Stevenson",
+     "reader": "Nathalie Sarraute",
+     "verb": "borrowed",
+     "when": "September 1940",
+     "year": 1940,
+     "date": "1940-09-25",
+     "fact": "Nathalie Sarraute borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in September 1940.",
+     "also": [],
+     "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/stevenson-treasure-island/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $10.50, at Powell's",
+      "as_listed": "Treasure Island: By Robert Louis Stevenson Adapted for the Stage By Vernon Morris In Collaboration With B H Barry"
+     },
+     "cover_i": 13859660,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Nathalie Sarraute",
+       "text": "Nathalie Sarraute borrowed Treasure Island from Sylvia Beach's Shakespeare and Company, Paris, in 1940.",
+       "cite": "Sylvia Beach, Natalie Sarraute Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/stevenson-treasure-island/",
+       "licence": "CC BY 4.0",
+       "fame": 52
+      }
+     ]
+    },
+    {
+     "key": "kidnapped|stevenson",
+     "title": "Kidnapped",
+     "sub": "",
+     "author": "Robert Louis Stevenson",
+     "reader": "Lucia Joyce",
+     "verb": "borrowed",
+     "when": "October 1922",
+     "year": 1922,
+     "date": "1922-10-09",
+     "fact": "Lucia Joyce borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in October 1922.",
+     "also": [],
+     "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/stevenson-kidnapped/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $7.50, at Powell's",
+      "as_listed": "Kidnapped by Robert Louis Stevenson"
+     },
+     "cover_i": 8267822,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Lucia Joyce",
+       "text": "Lucia Joyce borrowed Kidnapped from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Lucia Joyce's lending library cards are part of the James Joyce Collection at the University at Buffalo. For more information, visit: https://library.buffalo.edu/jamesjoyce/catalog/xx/. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/stevenson-kidnapped/",
+       "licence": "CC BY 4.0",
+       "fame": 11
+      }
+     ]
+    },
+    {
+     "key": "blackboy|wright",
+     "title": "Black Boy",
+     "sub": "",
+     "author": "Richard Wright",
+     "reader": "Anne Yeats",
+     "verb": "borrowed",
+     "when": "May 1947",
+     "year": 1947,
+     "date": "1947-05",
+     "fact": "Anne Yeats borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in May 1947.",
+     "also": [],
+     "cite": "Sylvia Beach, Miss Anne Yeats Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/wright-black-boy/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $24.95, at Powell's",
+      "as_listed": "Black Boy A Record of Childhood and Youth"
+     },
+     "cover_i": 12707931,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Anne Yeats",
+       "text": "Anne Yeats borrowed Black Boy from Sylvia Beach's Shakespeare and Company, Paris, in 1947.",
+       "cite": "Sylvia Beach, Miss Anne Yeats Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/wright-black-boy/",
+       "licence": "CC BY 4.0",
+       "fame": 7
+      }
+     ]
+    },
+    {
+     "key": "myantonia|cather",
+     "title": "My Antonia",
+     "sub": "",
+     "author": "Willa Cather",
+     "reader": "Gertrude Stein",
+     "verb": "borrowed",
+     "when": "January 1922",
+     "year": 1922,
+     "date": "1922-01-04",
+     "fact": "Gertrude Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in January 1922.",
+     "also": [
+      "Pierre Auger (1941)"
+     ],
+     "cite": "Sylvia Beach, Gertrude Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/cather-antonia/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $7.99, at Powell's",
+      "as_listed": "My Antonia"
+     },
+     "cover_i": 8369013,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Gertrude Stein",
+       "text": "Gertrude Stein borrowed My Antonia from Sylvia Beach's Shakespeare and Company, Paris, in 1922.",
+       "cite": "Sylvia Beach, Gertrude Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/cather-antonia/",
+       "licence": "CC BY 4.0",
+       "fame": 84
+      },
+      {
+       "kind": "borrow",
+       "reader": "Pierre Auger",
+       "text": "Pierre Auger borrowed My Antonia from Sylvia Beach's Shakespeare and Company, Paris, in 1941.",
+       "cite": "Sylvia Beach, Pierre Auger Lending Library Card, Box 43, Sylvia Beach Papers, Department of Rare Books and Special Collections, Princeton Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/cather-antonia/",
+       "licence": "CC BY 4.0",
+       "fame": 25
+      }
+     ]
+    },
+    {
+     "key": "reveriesoverchildhoodandyouth|yeats",
+     "title": "Reveries over Childhood and Youth",
+     "sub": "",
+     "author": "William Butler Yeats",
+     "reader": "Jacques Mercanton",
+     "verb": "borrowed",
+     "when": "April 1938",
+     "year": 1938,
+     "date": "1938-04-05",
+     "fact": "Jacques Mercanton borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in April 1938.",
+     "also": [],
+     "cite": "Sylvia Beach, Jacques Mercanton Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/yeats-reveries-childhood-youth/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $19.50, at Powell's",
+      "as_listed": "Reveries Over Childhood and Youth"
+     },
+     "cover_i": 5604742,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Jacques Mercanton",
+       "text": "Jacques Mercanton borrowed Reveries over Childhood and Youth from Sylvia Beach's Shakespeare and Company, Paris, in 1938.",
+       "cite": "Sylvia Beach, Jacques Mercanton Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/yeats-reveries-childhood-youth/",
+       "licence": "CC BY 4.0",
+       "fame": 0
+      }
+     ]
+    },
+    {
+     "key": "loomofyouth|waugh",
+     "title": "The Loom of Youth",
+     "sub": "",
+     "author": "Alec Waugh",
+     "reader": "Gertrude Stein",
+     "verb": "borrowed",
+     "when": "November 1920",
+     "year": 1920,
+     "date": "1920-11-30",
+     "fact": "Gertrude Stein borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in November 1920.",
+     "also": [
+      "Edmond Renoir (1923)"
+     ],
+     "cite": "Sylvia Beach, Gertrude Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/waugh-loom-youth/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $20.50, at Powell's",
+      "as_listed": "The Loom of Youth"
+     },
+     "cover_i": 1847008,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Gertrude Stein",
+       "text": "Gertrude Stein borrowed The Loom of Youth from Sylvia Beach's Shakespeare and Company, Paris, in 1920.",
+       "cite": "Sylvia Beach, Gertrude Stein Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/waugh-loom-youth/",
+       "licence": "CC BY 4.0",
+       "fame": 84
+      },
+      {
+       "kind": "borrow",
+       "reader": "Edmond Renoir",
+       "text": "Edmond Renoir borrowed The Loom of Youth from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Edmond Renoir Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/waugh-loom-youth/",
+       "licence": "CC BY 4.0",
+       "fame": 0
+      }
+     ]
+    },
+    {
+     "key": "nationalvelvet|bagnold",
+     "title": "National Velvet",
+     "sub": "",
+     "author": "Enid Bagnold",
+     "reader": "Henry Church",
+     "verb": "borrowed",
+     "when": "December 1935",
+     "year": 1935,
+     "date": "1935-12-14",
+     "fact": "Henry Church borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in December 1935.",
+     "also": [],
+     "cite": "Sylvia Beach, Henry Church Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/bagnold-national-velvet/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New hardcover, $21.95, at Powell's",
+      "as_listed": "National Velvet"
+     },
+     "cover_i": 444715,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Henry Church",
+       "text": "Henry Church borrowed National Velvet from Sylvia Beach's Shakespeare and Company, Paris, in 1935.",
+       "cite": "Sylvia Beach, Henry Church Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/bagnold-national-velvet/",
+       "licence": "CC BY 4.0",
+       "fame": 2
+      }
+     ]
+    },
+    {
+     "key": "seventeen|tarkington",
+     "title": "Seventeen",
+     "sub": "A Tale of Youth and Summer Time and the Baxter Family Especially William",
+     "author": "Booth Tarkington",
+     "reader": "Steele Savage",
+     "verb": "borrowed",
+     "when": "July 1923",
+     "year": 1923,
+     "date": "1923-07-21",
+     "fact": "Steele Savage borrowed this book from Sylvia Beach's lending library, Shakespeare and Company, Paris, in July 1923.",
+     "also": [],
+     "cite": "Sylvia Beach, Steele Savage Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Shakespeare and Company Project, Princeton University Library, CC BY 4.0.",
+     "url": "https://shakespeareandco.princeton.edu/books/tarkington-seventeen-tale-youth/",
+     "in_print": {
+      "status": "in_print",
+      "checked": "2026-10-16",
+      "listing": "New trade paperback, $15.95, at Powell's",
+      "as_listed": "Seventeen by Booth Tarkington, Fiction, Political, Literary, Classics"
+     },
+     "cover_i": 6839290,
+     "lines": [
+      {
+       "kind": "borrow",
+       "reader": "Steele Savage",
+       "text": "Steele Savage borrowed Seventeen: A Tale of Youth and Summer Time and the Baxter Family Especially William from Sylvia Beach's Shakespeare and Company, Paris, in 1923.",
+       "cite": "Sylvia Beach, Steele Savage Lending Library Card, Box 43, Sylvia Beach Papers, Department of Special Collections, Princeton University Library. Via the Shakespeare and Company Project, Princeton University (CC BY 4.0).",
+       "url": "https://shakespeareandco.princeton.edu/books/tarkington-seventeen-tale-youth/",
+       "licence": "CC BY 4.0",
+       "fame": 2
+      }
+     ]
+    }
+   ],
+   "in_print": 16
+  }
  }
 }

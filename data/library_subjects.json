@@ -1,0 +1,15 @@
+{
+ "_note": "Subject tables for the Writers' Library. The NAME is ours (it is the table's name, printed as such); the titles under it are a model's pick from the borrow records, and every card states only the record. scripts/build_library.py.",
+ "subjects": [
+  {"id": "the-sea", "name": "The sea", "brief": "books about the sea, ships, sailors, voyages by water"},
+  {"id": "the-russians", "name": "The Russians", "brief": "books by Russian writers"},
+  {"id": "the-uncanny", "name": "Ghosts and the uncanny", "brief": "ghost stories, horror, the supernatural, the uncanny"},
+  {"id": "crime", "name": "Crime and detection", "brief": "detective novels, mysteries, thrillers, crime"},
+  {"id": "poets", "name": "Poets", "brief": "books of poetry"},
+  {"id": "novels-by-women", "name": "Novels by women", "brief": "novels written by women"},
+  {"id": "far-places", "name": "Far places", "brief": "travel, exploration, distant lands, journeys"},
+  {"id": "growing-up", "name": "Growing up", "brief": "books about childhood, youth and coming of age"},
+  {"id": "american-novels", "name": "American novels", "brief": "novels by American writers"},
+  {"id": "irish-writers", "name": "Irish writers", "brief": "books by Irish writers"}
+ ]
+}

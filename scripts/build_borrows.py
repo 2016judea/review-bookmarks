@@ -86,9 +86,10 @@ def main():
             if not re.fullmatch(r"19[1-4]\d", year):
                 continue
             last, _, first = b["author"].partition(", ")
-            author = f"{first} {last}".strip() if first else last
+            # "Grimm, Jacob;Grimm, Wilhelm" -> "Jacob Grimm and Wilhelm Grimm"
+            author = " and ".join(" ".join(reversed([x.strip() for x in a.split(", ", 1)])) for a in b["author"].split(";"))
             key = norm(b["title"]) + "|" + norm(last.split(";")[0])
-            rec = out.setdefault(key, {"title": b["title"], "author": author, "year": b["year"], "uri": b["uri"], "borrows": []})
+            rec = out.setdefault(key, {"title": b["title"], "author": author, "year": b["year"], "uri": b["uri"], "events": int(b["event_count"] or 0), "borrows": []})
             rec["borrows"].append({
                 "reader": name, "reader_uri": uri, "fame": fame.get(wt[uri], 0),
                 "verb": "bought" if e["event_type"] == "Purchase" else "borrowed",
