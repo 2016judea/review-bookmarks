@@ -50,7 +50,14 @@ def collect():
         rel = path.relative_to(ROOT)
         if any(part in SKIP_DIRS for part in rel.parts) or rel.name in SKIP_FILES or "_full" in rel.parts:
             continue
-        yield rel, path
+        # Only public/ is served statically (outputDirectory). With "." every uploaded file was a
+        # URL, the paid bundle included: /api/%5Ffull/full.json.gz answered 200 until 2026-10-19.
+        if rel.parts[0] == "api" or rel.name == "vercel.json":
+            yield rel, path
+        else:
+            yield Path("public") / rel, path
+        if rel.name == "offer.json":
+            yield rel, path  # api/_lib.js requires ../offer.json
     for path in sorted(BUNDLE.rglob("*")):
         if path.is_file():
             yield Path("api/_full") / path.relative_to(BUNDLE), path
@@ -80,7 +87,7 @@ def main():
     payload = json.dumps({
         "name": PROJECT, "project": PROJECT, "target": "production",
         "files": files,
-        "projectSettings": {"framework": None, "buildCommand": "echo build", "outputDirectory": ".", "installCommand": "echo skip"},
+        "projectSettings": {"framework": None, "buildCommand": "echo build", "outputDirectory": "public", "installCommand": "echo skip"},
     }).encode()
     code, out = request(
         f"https://api.vercel.com/v13/deployments?teamId={TEAM}&skipAutoDetectionConfirmation=1",
