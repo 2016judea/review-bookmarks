@@ -90,6 +90,7 @@ Lost password: `python3 scripts/fulfil.py <session>`.
     python3 scripts/reader_occupations.py   # Wikidata occupations -> cache/reader_occupations.json
     python3 scripts/build_library.py   # tables -> bundle + site/data/library/ + "library" on each /for/ page
     VERCEL_TOKEN=... python3 scripts/deploy.py
+    node --test test/*.test.js        # the paywall functions, Stripe stubbed
 
 `build_borrows.py` reads the Shakespeare and Company CSVs from
 `~/Desktop/marginalia-corpus/cache/shakeco/`; `build_index.py` reads Aidan's

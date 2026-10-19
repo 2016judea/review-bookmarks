@@ -7,9 +7,12 @@ module.exports = async (req, res) => {
   if (req.method !== "POST") return res.status(405).json({ error: "POST only" });
   try {
     const { nonce, password } = newPassword();
-    // Back to the page they bought from: / or their own /for/<token>/.
+    // Back to the page they bought from: /, /library/, /library/<theme>/, or their own
+    // /for/<token>/ and /for/<token>/library/. Anything else returns to /. (Until 2026-10-18
+    // only / and /for/<token>/ passed, so a store buying from a Writers' Library table was
+    // sent back to the bookmark page, off the table it was buying.)
     const from = String((req.body && req.body.path) || "/");
-    const back = /^\/(for\/[a-z0-9]{6,16}\/?)?$/.test(from) ? from : "/";
+    const back = /^\/(for\/[a-z0-9]{6,16}\/?)?(library(\/[a-z0-9-]{1,80})?\/?)?$/.test(from) ? from : "/";
     const s = await stripe("checkout/sessions", {
       method: "POST",
       form: {
