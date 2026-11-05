@@ -4,7 +4,7 @@
 //   node scripts/find_picks.js [name-filter]
 const fs = require("fs");
 const path = require("path");
-const { chromium } = require(process.env.PLAYWRIGHT || (process.env.HOME + "/Desktop/pricing-vintage-baseball-cards/node_modules/playwright"));
+const { chromium } = require(process.env.PLAYWRIGHT || (process.env.HOME + "/Desktop/workspace/pricing-vintage-baseball-cards/node_modules/playwright"));
 const ROOT = path.resolve(__dirname, "..");
 const OUT = path.join(ROOT, "outreach/round1/picks.jsonl");
 const today = new Date().toISOString().slice(0, 10);

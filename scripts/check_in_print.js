@@ -5,7 +5,7 @@
 // Reads private/borrows.json, appends to cache/in_print.jsonl (resumable; one line per title key).
 const fs = require("fs");
 const path = require("path");
-const { chromium } = require(process.env.PLAYWRIGHT || (process.env.HOME + "/Desktop/pricing-vintage-baseball-cards/node_modules/playwright"));
+const { chromium } = require(process.env.PLAYWRIGHT || (process.env.HOME + "/Desktop/workspace/pricing-vintage-baseball-cards/node_modules/playwright"));
 const ROOT = path.resolve(__dirname, "..");
 const OUT = path.join(ROOT, "cache/in_print.jsonl");
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36";

@@ -93,8 +93,8 @@ Lost password: `python3 scripts/fulfil.py <session>`.
     node --test test/*.test.js        # the paywall functions, Stripe stubbed
 
 `build_borrows.py` reads the Shakespeare and Company CSVs from
-`~/Desktop/marginalia-corpus/cache/shakeco/`; `build_index.py` reads Aidan's
-reviews from `~/Desktop/writing-topology`.
+`~/Desktop/workspace/marginalia-corpus/cache/shakeco/`; `build_index.py` reads Aidan's
+reviews from `~/Desktop/workspace/writing-topology`.
 
 MIT for the code. The data keeps its own licences, above.
 

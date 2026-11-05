@@ -6,7 +6,7 @@ import csv, json, time, urllib.parse, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = Path.home() / "Desktop/marginalia-corpus/cache/shakeco"
+SRC = Path.home() / "Desktop/workspace/marginalia-corpus/cache/shakeco"
 OUT = ROOT / "cache/reader_occupations.json"
 UA = {"User-Agent": "review-bookmarks/0.1 (aidan@brickandmortar.dev)"}
 

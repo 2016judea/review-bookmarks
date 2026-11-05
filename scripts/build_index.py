@@ -16,7 +16,7 @@ import gzip, json, re, sys, unicodedata, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-INV = Path.home() / "Desktop/writing-topology/data/personal_corpus/book_review_inventory.json"
+INV = Path.home() / "Desktop/workspace/writing-topology/data/personal_corpus/book_review_inventory.json"
 EXAMPLE = ("mobydick", "melville")
 EXAMPLE_COVER = 11510691  # Open Library cover id, picked by eye
 CC = "Shakespeare and Company Project, Princeton University (CC BY 4.0)"
